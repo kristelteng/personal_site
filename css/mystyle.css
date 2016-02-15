@@ -142,3 +142,11 @@ a:hover, a:focus {
     width: 100%;
     padding: 30px 0px;
 }
+
+.project-info.overflow {
+    padding-bottom: 20px;   
+}
+
+.portfolio-thumb.picture {
+    padding-bottom: 20px;
+}
