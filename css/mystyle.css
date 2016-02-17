@@ -150,3 +150,10 @@ a:hover, a:focus {
 .portfolio-thumb.picture {
     padding-bottom: 20px;
 }
+
+
+/*Product Design*/
+
+.portfolio-single.product-design {
+    display: inline-block;
+}
