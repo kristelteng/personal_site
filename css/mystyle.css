@@ -157,3 +157,8 @@ a:hover, a:focus {
 .portfolio-single.product-design {
     display: inline-block;
 }
+
+
+.portfolio-single.image-section {
+    padding: 30px 0px;
+}
