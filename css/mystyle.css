@@ -164,10 +164,7 @@ a:hover, a:focus {
 }
 
 
-/*INTRODUCTION */
-
-
-
+/*INDEX PAGE */
 .social-icons ul li a:hover .fa-github {
     color: #2AA7DC;
 }
@@ -205,4 +202,19 @@ i {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+
+
+/*MORE WORK */
+
+.left.team-carousel-control {
+    left: -50px;
+    background-image: url("../images/slides/left.png");
+}
+
+
+.right.team-carousel-control {
+    right: -50px;
+    background-image: url("../images/slides/right.png");
 }
