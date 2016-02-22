@@ -163,6 +163,46 @@ a:hover, a:focus {
     padding: 30px 0px;
 }
 
+
+/*INTRODUCTION */
+
+
+
+.social-icons ul li a:hover .fa-github {
+    color: #2AA7DC;
+}
+
+
 i {
     font-weight: 400;
+}
+
+
+.typing-element {
+    color: #0ADCD5;
+}
+
+
+.typed-cursor {
+    color: #0ADCD5;
+    display: inline;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
