@@ -164,6 +164,10 @@ a:hover, a:focus {
 }
 
 
+
+
+
+
 /**************** INDEX PAGE ****************/
 
 .social-icons ul li a:hover .fa-github {
@@ -208,11 +212,20 @@ i {
 }
 
 
+/**************** FOOTER ****************/
+#footer {
+    padding-top: 10px;
+}
 
-
-
+.copyright {
+    font-size: 13px;
+}
 
 /**************** PORTFOLIO DETAILS ****************/
+
+.main-image {
+    padding-bottom: 30px;
+}
 
 /*MORE WORK */
 
