@@ -164,21 +164,24 @@ a:hover, a:focus {
 }
 
 
-/*INDEX PAGE */
+/**************** INDEX PAGE ****************/
+
 .social-icons ul li a:hover .fa-github {
     color: #2AA7DC;
 }
-
 
 i {
     font-weight: 400;
 }
 
+.about-me {
+    font-size: 19px;
+    line-height: 1.4;
 
+}
 .typing-element {
     color: #0ADCD5;
 }
-
 
 .typed-cursor {
     color: #0ADCD5;
@@ -206,13 +209,17 @@ i {
 
 
 
+
+
+
+/**************** PORTFOLIO DETAILS ****************/
+
 /*MORE WORK */
 
 .left.team-carousel-control {
     left: -50px;
     background-image: url("../images/slides/left.png");
 }
-
 
 .right.team-carousel-control {
     right: -50px;
