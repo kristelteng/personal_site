@@ -237,3 +237,13 @@ i {
 .portfolio-info h2 {
     font-size: 14px;
 }
+
+.fa.fa-tag.subsection, .fa.fa-clock-o.subsection {
+    padding-right: 5px;
+}
+
+.subsection-icon {
+    font-size: 12px;
+    padding: 0px 15px 0px 0px;
+    color: #9B9B9B;
+}
