@@ -16,6 +16,13 @@ a:hover, a:focus {
     margin-right: -57px;
 }
 
+.portfolio-view .nav-pills li a:hover {
+    color: #00AEEF;
+    border-color: #00AEEF;
+}
+
+
+
 .page-title {
     padding: 50px 0px;
 }
