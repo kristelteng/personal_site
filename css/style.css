@@ -227,6 +227,15 @@ i {
     padding-bottom: 30px;
 }
 
+.project-title {
+    color: #3B3B3B;
+}
+
+
+.fa.fa-angle-right {
+    color: #0884D5;
+}
+
 /*MORE WORK */
 
 .left.team-carousel-control {
