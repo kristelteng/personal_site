@@ -231,10 +231,14 @@ i {
     color: #3B3B3B;
 }
 
-
 .fa.fa-angle-right {
     color: #0884D5;
 }
+
+.col-xs-3.col-sm-2.tools {
+    padding-bottom: 30px;
+}
+
 
 /*MORE WORK */
 
