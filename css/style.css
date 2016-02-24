@@ -51,6 +51,13 @@ a:hover, a:focus {
     padding-left: 15px;
 }
 
+#header {
+    padding: 30px 0px 0px;
+}
+
+.portfolio-filter {
+    margin: 25px 0px;
+}
 
 /**************** INDEX PAGE ****************/
 
