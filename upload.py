@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import os
 import time
 import hashlib
 import boto
@@ -39,7 +40,7 @@ def get_s3_headers():
 
 
 def get_paths():
-    local_dir = Path(".")
+    local_dir = Path("./_site")
     paths = []
     for pattern in GLOB_PATTERNS:
         paths.extend([p
@@ -56,8 +57,10 @@ def upload_to_s3(bucket_name, file_paths):
 
     for path in file_paths:
         dir_path = path.as_posix()
+        parts = dir_path.split('/')
+        key_name = os.path.join(*parts[1:]) # skip jekyll's _site directory name
 
-        k = bucket.get_key(dir_path)
+        k = bucket.get_key(key_name)
         if k is not None:
             # file exists on S3
             md5_hash = hashlib.md5(path.open("rb").read()).hexdigest()
@@ -77,7 +80,7 @@ def upload_to_s3(bucket_name, file_paths):
         headers['Content-Type'] = mime_type
 
         k = Key(bucket)
-        k.name = dir_path
+        k.name = key_name
         k.set_contents_from_filename(dir_path, headers=headers)
         k.set_acl("public-read")
         upload_count += 1
