@@ -71,7 +71,7 @@ def upload_to_s3(bucket_name, file_paths):
                 continue
 
         print "uploading {}".format(dir_path)
-        mime_type = magic.detect_from_filename(dir_path)
+        mime_type = magic.detect_from_filename(dir_path).mime_type
         if dir_path.endswith(".css"):
             # libmagic doesn't set this correctly. set manually
             mime_type = "text/css"
