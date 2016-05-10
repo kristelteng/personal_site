@@ -1,0 +1,37 @@
+---
+layout: default
+title: Blog
+---
+
+<section id="blog" class="padding-top">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-9 col-sm-7">
+				<div class="row">
+					{% for post in paginator.posts %}
+					<div class="col-sm-10 col-md-12">
+						<!-- <div class="single-blog single-column"> -->
+							<span class="post-meta"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+
+							<div class="post-content overflow">
+								<h2 class="post-title bold uppercase"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+								<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
+								<a href="{{ post.url }}" class="read-more">View More...</a>
+								<hr>
+							</div>
+						<!-- </div> -->
+					</div>
+					{% endfor %}
+				</div>
+
+			    <div class="blog-pagination">
+                    {% include pagination.html %}
+                </div>
+			</div>
+
+			{% include sidemenu.html %}
+		</div>
+	</div>
+</section>
