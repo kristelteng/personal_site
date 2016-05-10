@@ -21,8 +21,6 @@ a:hover, a:focus {
     border-color: #00AEEF;
 }
 
-
-
 .page-title {
     padding: 50px 0px;
 }
@@ -201,7 +199,7 @@ i {
 }
 
 .project-title {
-   font-size: 20px; 
+   font-size: 20px;
    font-weight: 400;
 }
 
@@ -211,7 +209,7 @@ i {
 }
 
 .project-info.overflow {
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
 }
 
 .portfolio-thumb.picture {
@@ -248,7 +246,49 @@ i {
     color: #9B9B9B;
 }
 
-
 .portfolio-single.image-section.finasafe {
     padding: 40px 0px 0px 0px;
+}
+
+
+/**************** BLOG - DETAILS PAGE ****************/
+.article-title {
+    text-transform: uppercase;
+    padding-top: 45px;
+}
+
+.author-profile .col-sm-2 img {
+    border-left: none;
+}
+
+
+/**************** ARCHIVES PAGE ****************/
+.archive-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+}
+
+.archive {
+    padding: 12px 0;
+}
+
+.section {
+    border-block-end: 1px solid #e9e6e6;
+    padding: 30px 0;
+}
+
+.article-section {
+    padding: 12px 0;
+}
+
+.article-title {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.article-date {
+    color: rgb(189, 184, 184);
+    text-transform: uppercase;
 }
