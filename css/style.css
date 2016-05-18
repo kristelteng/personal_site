@@ -5,11 +5,19 @@ body {
 
 /*navigation*/
 a {
-    color: #818181;
+    color: #00AEEF;
 }
 
-a:hover, a:focus {
-    color: #00AEEF;
+a:hover {
+    color:#000;
+}
+
+.current {
+   color: #000;
+}
+
+.nav > li > a:hover {
+    background-color: transparent;
 }
 
 .navbar-right.modify {
@@ -64,6 +72,10 @@ a:hover, a:focus {
     margin: 25px 0px;
 }
 
+.container > .navbar-collapse {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 /**************** INDEX PAGE ****************/
 
 .social-icons ul li a:hover .fa-github {
@@ -199,8 +211,8 @@ i {
 }
 
 .project-title {
-   font-size: 20px;
-   font-weight: 400;
+ font-size: 20px;
+ font-weight: 400;
 }
 
 .portfolio-single.layout {
@@ -261,6 +273,14 @@ i {
     border-left: none;
 }
 
+.post-meta {
+    color: rgb(180, 180, 180);
+    font-size: 16px;
+}
+
+.article-content {
+    font-size: 100px;
+}
 
 /**************** ARCHIVES PAGE ****************/
 .archive-title {
@@ -285,10 +305,13 @@ i {
 
 .article-title {
     text-transform: capitalize;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .article-date {
     color: rgb(189, 184, 184);
     text-transform: uppercase;
 }
+
