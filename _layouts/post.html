@@ -7,24 +7,19 @@ layout: default
 
 			<div class="col-md-9 col-sm-7">
 				<div class="row">
-					 <div class="col-md-11 col-sm-12">
+					<div class="col-md-11 col-sm-12">
 
 					 	<!-- Blog Details Column -->
 						<div class="single-blog blog-details two-column">
-							<img src="/images/home/image1.png" class="img-responsive" alt="">
-
-							<!-- {% for tag in page.tags %} -->
-							<h1 class="article-title">{{ page.title }}</h1>
-								<p>
-									<span class="post-meta">
-										{{ page.date | date_to_string }}
-									</span>
-									{% unless forloop.last %}{% endunless %}
-								</p>
-							<!-- {% endfor %} -->
+							<p>
+								<span class="post-meta">
+									{{ page.date | date_to_string }}
+								</span>
+							</p>
+							<h1 class="article-title ">{{ page.title }}</h1>
 
 							<div class="post-content overflow">
-								<p>{{ content }}</p>
+								<p class="article-content">{{ content }}</p>
 							</div>
 							<hr>
 
@@ -32,7 +27,7 @@ layout: default
 							<div class="author-profile padding">
 								<div class="row">
 									<div class="col-sm-2">
-										<img src="/images/home/icon1.png" alt="">
+										<img src="/images/profile/profile.jpg" alt="">
 									</div>
 									<div class="col-sm-10">
 										<h3>{{site.title}}</h3>
