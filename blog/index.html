@@ -2,7 +2,6 @@
 layout: default
 title: Blog
 ---
-
 <section id="blog" class="padding-top">
 	<div class="container">
 		<div class="row">
@@ -17,7 +16,7 @@ title: Blog
 							<div class="post-content overflow">
 								<h2 class="post-title bold uppercase"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
-								<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
+								<p>{{ post.excerpt | strip_html | strip_newlines | truncatewords: 160 }}</p>
 								<a href="{{ post.url }}" class="read-more">View More...</a>
 								<hr>
 							</div>
