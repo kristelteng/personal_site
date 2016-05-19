@@ -13,7 +13,8 @@
             {% endfor %}
         </div>
 
-       <!--  <div class="sidebar-item tag-cloud">
+        <!-- TAGS -->
+        <!-- <div class="sidebar-item tag-cloud">
             <h3>All Tags</h3>
             {% for tag in site.tags %}
             <span class="nav nav-pills">
@@ -21,13 +22,16 @@
                 {% unless forloop.last %}{% endunless %}
             </span>
             {% endfor %}
+
+            ({{tag | size }})
         </div> -->
 
+        <!-- CATEGORIES | ARCHIVES -->
         <div class="sidebar-item categories">
             <h3>Archives</h3>
             {% for category in site.categories %}
             <ul class="nav navbar-stacked">
-                <li><a href="{{ site.baseurl }}/archives.html">{{ category | first }}<span class="pull-right archives">( {{category | size}} )</span></a></li>
+                <li><a href="{{ site.baseurl }}/archives.html">{{ category | first }}<span class="pull-right archives">( {{ category | last | size }}  )</span></a></li>
                 {% unless forloop.last %}{% endunless %}
             </ul>
             {% endfor %}
