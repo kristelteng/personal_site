@@ -1,0 +1,32 @@
+---
+layout: default
+title: Archives
+permalink: /blog/archives
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <h1 class="archive uppercase">Archives</h1>
+
+            {% for category in site.categories %}
+                {% assign first_category = category | first %}
+                {% assign last_category = category | last %}
+
+            <div class="section">
+                <span class="archive-title">{{ first_category }}</span>
+                <br>
+                {% for post in last_category %}
+                    {% if post.categories contains first_category %}
+                    <div class="article-section">
+                        <a class="article-title" href="{{ post.url }}">{{post.title}} - </a><small class="article-date">{{post.date | date_to_string }}</small><br>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- End Row -->
+</div>
+<!-- End Container -->
