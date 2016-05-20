@@ -7,7 +7,12 @@ permalink: /blog/archives
 <div class="container">
     <div class="row">
         <div class="col-md-12 col-sm-12">
-            <h1 class="archive uppercase">Archives</h1>
+            <!-- <h1 class="archive uppercase">Archives</h1> -->
+            <div class="intro-section">
+                <h2 class="intro-title uppercase">Archives</h2>
+                <hr>
+            </div>
+
 
             {% for category in site.categories %}
                 {% assign first_category = category | first %}
