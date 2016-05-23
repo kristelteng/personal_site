@@ -2,6 +2,7 @@
 layout: post
 title:  For people considering Outreachy
 categories: [May 2016]
+permalink: /blog/:title/
 ---
 
 A month ago, I applied to an internship program named Outreachy, an initiative from Software Freedom Conservancy.
