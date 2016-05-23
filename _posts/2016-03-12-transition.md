@@ -2,7 +2,7 @@
 layout: post
 title:  Transistion from Designer to Developer
 categories: [March 2016]
-permalink: /blog/:title/
+permalink: /blog/:month-:day-:year/:title.html
 ---
 
 
