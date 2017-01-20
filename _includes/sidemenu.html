@@ -1,10 +1,21 @@
-<div class="col-md-3 col-sm-5">
-    <div class="sidebar blog-sidebar">
-        <div class="sidebar-item  recent">
-            <h3>Recent Posts</h3>
+<div class="col-md-3 col-sm-4">
+    <div class="sidebar portfolio-sidebar">
+        <div class="sidebar-item categories">
+            <h3>More Projects</h3>
 
+            <ul class="nav navbar-stacked">
+                <li><a href="/portfolio/"><i class="fa fa-angle-right"></i>  All Projects</a></li>
+                <li><a href="/recent/"><i class="fa fa-angle-right"></i>  Recent Projects</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-item recent">
+            <h3>Recent Posts</h3>
             {% for post in site.posts limit:3 %}
             <div class="media">
+                <!-- <div class="pull-left">
+                    <a href="#"><img src="{{site.baseurl}}/images/portfolio/popular2.jpg" class="img-responsive" alt="privacyshell_portfolio"></a>
+                </div> -->
                 <div class="media-body">
                     <h4 class="titleize"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
                     <p>posted on {{post.date | date_to_string }}</p>
@@ -27,7 +38,7 @@
         </div> -->
 
         <!-- CATEGORIES | ARCHIVES -->
-        <div class="sidebar-item categories">
+       <!--  <div class="sidebar-item categories">
             <h3>Archives</h3>
             {% for category in site.categories %}
             <ul class="nav navbar-stacked">
@@ -35,7 +46,6 @@
                 {% unless forloop.last %}{% endunless %}
             </ul>
             {% endfor %}
-        </div>
-
+        </div> -->
     </div>
 </div>
