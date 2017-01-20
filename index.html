@@ -4,25 +4,43 @@ title: Kristel Teng
 ---
 
 <!--Introduction -->
-<div class="page-title">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
+<div class="padding-bottom">
+    <div class="page-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
 
-                <h1 class="introduce-me">Hi, I'm <span class="typing-element"> Kristel </span></h1>
-            </div>
+                    <h1 class="introduce-me">Hi, I'm <span class="typing-element"> Kristel </span></h1>
+                </div>
 
-            <!-- <div class="col-md-7 col-xs-12"> -->
-            <div class="col-md-8">
-                <p class="about-me">
-                    I believe that design and coding complement each other. In order to create a meaningful design, <br>you need to understand the essence of the product. And doing both allows me to turn complex problems into <span class="theme-color"><i>simple, beautiful </i></span> and <span class="theme-color"><i>intuitive</i></span> user interfaces.
-                </p>
+                <div class="col-md-8">
+                    <p class="about-me">
+                        I believe that design and coding complement each other. In order to create a meaningful design, <br>you need to understand the essence of the product. And doing both allows me to turn complex problems into <span class="theme-color"><i>simple, beautiful </i></span> and <span class="theme-color"><i>intuitive</i></span> user interfaces.
+                    </p>
+                </div>
+
             </div>
-        <!-- End Row -->
+            <!-- End Row -->
         </div>
-    <!-- End Container -->
+        <!-- End Container -->
     </div>
+
+    <!--Recent Work -->
+    <section id="related-work">
+        <div class="container">
+            <div class="row">
+
+                <div class="intro-section">
+                    <h2 class="intro-title uppercase">Some of my latest work</h2>
+                    <hr>
+                </div>
+
+                {% include recent-work.html %}
+
+            </div>
+        </div>
+    </section>
+    <!--End Recent Work -->
+
 </div>
 <!--End Introduction -->
-
-{% include recent-work.html %}
