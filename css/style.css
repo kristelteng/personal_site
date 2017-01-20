@@ -49,6 +49,10 @@ body {
     margin-left: 0px;
 }
 
+.padding-bottom {
+    padding-bottom: 150px;
+}
+
 
 /*NAVIGATION*/
 a {
@@ -74,6 +78,18 @@ a:hover {
 .portfolio-view .nav-pills li a:hover {
     color: #00AEEF;
     border-color: #00AEEF;
+}
+
+.tile-view{
+    display: block;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.tile-view:hover {
+    opacity: .5;
+    background-color: rgba(242, 242, 242, 0.85);
 }
 
 
@@ -142,10 +158,6 @@ i {
 
 .introductory-text {
     padding: 30px 0;
-}
-
-#related-work {
-    padding-bottom: 100px;
 }
 
 /**************** FOOTER ****************/
