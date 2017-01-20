@@ -5,7 +5,7 @@ permalink: /portfolio/
 ---
 
 <!--Portfolio Section-->
-<section id="portfolio">
+<section id="portfolio" class="padding-bottom">
 	<div class="container">
 		<div class="row">
 
@@ -16,50 +16,24 @@ permalink: /portfolio/
 
 			<ul class="portfolio-filter">
 				<li><a class="btn btn-default active" href="#" data-filter="*">All</a></li>
+				<li><a class="btn btn-default" href="#" data-filter=".recent">Recent Work</a></li>
 				<li><a class="btn btn-default" href="#" data-filter=".web">Web Dev</a></li>
 				<li><a class="btn btn-default" href="#" data-filter=".ux">UX Design</a></li>
 				<li><a class="btn btn-default" href="#" data-filter=".branded">Branding</a></li>
-				<li><a class="btn btn-default" href="#" data-filter=".product">Product Design</a></li>
 			</ul>
 
 			<!--Porfolio Items -->
 			<div class="portfolio-items">
-
-				<!--Privacyshell -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web branded ux">
-				  	<div class="portfolio-wrapper">
-						<div class="portfolio-single">
-					  		<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-03.jpg" class="img-responsive" alt="privacyshell_portfolio">
-					  		</div>
-
-					  		<div class="portfolio-view">
-								<ul class="nav nav-pills">
-						  			<li><a href="{{site.baseurl}}/portfolio/privacyshell.html"><i class="fa fa-eye"></i></a></li>
-						  			<!-- <li><a href="images/portfolio/portfolio-pic-no-border-03.jpg"  data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
-					  		</div>
-						</div>
-
-						<div class="portfolio-info ">
-					  		<h2>Privacy Shell Inc.</h2>
-						</div>
-				  	</div>
-				</div>
+				{% include recent-work.html %}
 
 				<!--Aanari Hotel -->
 				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
 				  	<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 					  		<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-02.jpg" class="img-responsive" alt="aanari_portfolio">
-					  		</div>
-
-					  		<div class="portfolio-view">
-								<ul class="nav nav-pills">
-						  			<li><a href="{{site.baseurl}}/portfolio/aanari.html"><i class="fa fa-eye"></i></a></li>
-						  			<!-- <li><a href="images/portfolio/portfolio-pic-no-border-02.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
+					  			<div class="tile-view">
+									<a href="{{site.baseurl}}/portfolio/aanari.html"><img src="{{site.baseurl}}/images/portfolio/portfolio-pic-02.jpg" class="img-responsive" alt="aanari_portfolio"></a>
+								</div>
 					  		</div>
 						</div>
 
@@ -69,20 +43,34 @@ permalink: /portfolio/
 				  	</div>
 				</div>
 
+				<!-- App Privacy Snapper -->
+				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web ux">
+				  	<div class="portfolio-wrapper">
+						<div class="portfolio-single">
+					  		<div class="portfolio-thumb">
+					  			<div class="tile-view">
+									<a href="{{site.baseurl}}/portfolio/appsnapper.html"><img src="{{site.baseurl}}/images/portfolio/portfolio-pic-18.png" class="img-responsive" alt="app_privacysnapper_portfolio"></a>
+								</div>
+					  		</div>
+						</div>
+
+						<div class="portfolio-info ">
+					  		<h2>Privacy Snapper - User Dashboard</h2>
+						</div>
+				  	</div>
+				</div>
+
 				<!--Privacy Snapper -->
 				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web branded ux">
 				  	<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 					  		<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-05.jpg" class="img-responsive" alt="privacysnapper_portfolio">
+					  			<div class="tile-view">
+									<a href="{{site.baseurl}}/portfolio/privacysnapper.html"><img src="{{site.baseurl}}/images/portfolio/portfolio-pic-22.png" class="img-responsive" alt="privacysnapper_portfolio"></a>
+								</div>
 					  		</div>
-						  	<div class="portfolio-view">
-								<ul class="nav nav-pills">
-							  		<li><a href="{{site.baseurl}}/portfolio/psnapper.html"><i class="fa fa-eye"></i></a></li>
-							  		<!-- <li><a href="images/portfolio/portfolio-pic-no-border-05.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
-						  	</div>
 						</div>
+
 						<div class="portfolio-info ">
 					  		<h2>Privacy Snapper</h2>
 						</div>
@@ -90,18 +78,13 @@ permalink: /portfolio/
 				</div>
 
 				<!--Finasafe -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web branded">
+				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web">
 					<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 							<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-01.jpg" class="img-responsive" alt="finasafe_portfolio">
-					  		</div>
-
-					  		<div class="portfolio-view">
-								<ul class="nav nav-pills">
-								  	<li><a href="{{site.baseurl}}/portfolio/finasafe.html"><i class="fa fa-eye"></i></a></li>
-								  	<!-- <li><a href="images/portfolio/portfolio-pic-no-border-01.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a> -->
-								</ul>
+								<div class="tile-view">
+									<a href="{{site.baseurl}}/portfolio/finasafe.html"><img src="{{site.baseurl}}/images/portfolio/portfolio-pic-01.jpg" class="img-responsive" alt="finasafe_portfolio"></a>
+								</div>
 					  		</div>
 						</div>
 
@@ -111,18 +94,64 @@ permalink: /portfolio/
 				  	</div>
 				</div>
 
-				<!--Topsecret -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web branded">
+				<!--Ask -->
+				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web">
+					<div class="portfolio-wrapper">
+						<div class="portfolio-single">
+							<div class="portfolio-thumb">
+								<div class="tile-view">
+									<a href="{{site.baseurl}}/portfolio/ask.html"><img src="{{site.baseurl}}/images/portfolio/portfolio-pic-20.png" class="img-responsive" alt="ask_portfolio"></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="portfolio-info ">
+							<h2>Ask</h2>
+						</div>
+					</div>
+				</div>
+
+				<!--Privacyshell -->
+				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web ux branded">
 				  	<div class="portfolio-wrapper">
 						<div class="portfolio-single">
 					  		<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-04.jpg" class="img-responsive" alt="topsecret_portfolio">
+					  			<div class="tile-view">
+									<a href="{{site.baseurl}}/portfolio/privacyshell.html"><img src="{{site.baseurl}}/images/portfolio/portfolio-pic-27.png" class="img-responsive" alt="privacyshell_portfolio"></a>
+								</div>
 					  		</div>
-					  		<div class="portfolio-view">
-								<ul class="nav nav-pills">
-						  			<li><a href="{{site.baseurl}}/portfolio/topsecret.html"><i class="fa fa-eye"></i></a></li>
-						  			<!-- <li><a href="images/portfolio/portfolio-pic-no-border-04.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
+						</div>
+
+						<div class="portfolio-info ">
+					  		<h2>Privacy Shell Inc.</h2>
+						</div>
+				  	</div>
+				</div>
+
+				<!--CaptureShot -->
+				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+				  	<div class="portfolio-wrapper">
+						<div class="portfolio-single">
+					  		<div class="portfolio-thumb">
+					  			<div class="tile-view">
+									<a href="{{site.baseurl}}/portfolio/captureshot.html"><img src="{{site.baseurl}}/images/portfolio/portfolio-pic-23.png" class="img-responsive" alt="captureshot_portfolio"></a>
+								</div>
+					  		</div>
+						</div>
+						<div class="portfolio-info ">
+					  		<h2>CaptureShot</h2>
+						</div>
+				  	</div>
+				</div>
+
+				<!--Topsecret -->
+				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web">
+				  	<div class="portfolio-wrapper">
+						<div class="portfolio-single">
+					  		<div class="portfolio-thumb">
+					  			<div class="tile-view">
+									<a href="{{site.baseurl}}/portfolio/topsecret.html"><img src="{{site.baseurl}}/images/portfolio/portfolio-pic-04.jpg" class="img-responsive" alt="topsecret_portfolio"></a>
+								</div>
 					  		</div>
 						</div>
 
@@ -132,155 +161,11 @@ permalink: /portfolio/
 				  	</div>
 				</div>
 
-
-				<!--Elastics Ball -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item product">
-				  	<div class="portfolio-wrapper">
-						<div class="portfolio-single">
-					  		<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-08.jpg" class="img-responsive" alt="elastics-balls_portfolio">
-					  		</div>
-					  		<div class="portfolio-view">
-								<ul class="nav nav-pills">
-						  			<li><a href="{{site.baseurl}}/portfolio/elastics-ball.html"><i class="fa fa-eye"></i></a></li>
-						  			<!-- <li><a href="images/portfolio/portfolio-pic-no-border-08.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
-					  		</div>
-						</div>
-						<div class="portfolio-info ">
-					  		<h2>Elastics Ball</h2>
-						</div>
-				  	</div>
-				</div>
-
-
-				<!--CaptureShot -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web branded">
-				  	<div class="portfolio-wrapper">
-						<div class="portfolio-single">
-					  		<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-07.jpg" class="img-responsive" alt="captureshot_portfolio">
-					  		</div>
-					  		<div class="portfolio-view">
-								<ul class="nav nav-pills">
-						  			<li><a href="{{site.baseurl}}/portfolio/captureshot.html"><i class="fa fa-eye"></i></a></li>
-						  			<!-- <li><a href="images/portfolio/portfolio-pic-no-border-07.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
-					  		</div>
-						</div>
-						<div class="portfolio-info ">
-					  		<h2>CaptureShot</h2>
-						</div>
-				  	</div>
-				</div>
-
-				<!--Hosiery -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item product">
-					<div class="portfolio-wrapper">
-						<div class="portfolio-single">
-						  	<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-09.jpg" class="img-responsive" alt="hosiery">
-						  	</div>
-						  	<div class="portfolio-view">
-								<ul class="nav nav-pills">
-							  		<li><a href="{{site.baseurl}}/portfolio/hosiery.html"><i class="fa fa-eye"></i></a></li>
-								</ul>
-						  	</div>
-						</div>
-						<div class="portfolio-info ">
-						 	<h2>Hosiery</h2>
-						</div>
-				  	</div>
-				</div>
-
-				<!--Headwear -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item product">
-					<div class="portfolio-wrapper">
-						<div class="portfolio-single">
-							<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-11.jpg" class="img-responsive" alt="headwear_portfolio">
-							</div>
-							<div class="portfolio-view">
-								<ul class="nav nav-pills">
-							  		<li><a href="{{site.baseurl}}/portfolio/headwear.html"><i class="fa fa-eye"></i></a></li>
-							  		<!-- <li><a href="images/portfolio/portfolio-pic-no-border-11.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
-							</div>
-						</div>
-						<div class="portfolio-info ">
-							<h2>Headwear</h2>
-						</div>
-					</div>
-				</div>
-
-				<!--Precious Dreams -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item product">
-					<div class="portfolio-wrapper">
-						<div class="portfolio-single">
-							<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-13.jpg" class="img-responsive" alt="precious_dreams_portfolio">
-							</div>
-							<div class="portfolio-view">
-								<ul class="nav nav-pills">
-									<li><a href="{{site.baseurl}}/portfolio/precious-dreams.html"><i class="fa fa-eye"></i></a></li>
-									<!-- <li><a href="images/portfolio/portfolio-pic-no-border-13.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
-							</div>
-						</div>
-						<div class="portfolio-info ">
-							<h2>Precious Dreams</h2>
-						</div>
-					</div>
-				</div>
-
-
-				<!--Ask -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item web branded">
-					<div class="portfolio-wrapper">
-						<div class="portfolio-single">
-							<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-06.jpg" class="img-responsive" alt="ask_portfolio">
-							</div>
-							<div class="portfolio-view">
-								<ul class="nav nav-pills">
-									<li><a href="{{site.baseurl}}/portfolio/ask.html"><i class="fa fa-eye"></i></a></li>
-									<!-- <li><a href="images/portfolio/portfolio-pic-no-border-06.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
-							</div>
-						</div>
-						<div class="portfolio-info ">
-							<h2>Ask</h2>
-						</div>
-					</div>
-				</div>
-
-
-				<!--Gift Sets -->
-				<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item product">
-				  	<div class="portfolio-wrapper">
-						<div class="portfolio-single">
-						  	<div class="portfolio-thumb">
-								<img src="{{site.baseurl}}/images/portfolio/portfolio-pic-12.jpg" class="img-responsive" alt="giftsets_portfolio">
-						  	</div>
-						  	<div class="portfolio-view">
-								<ul class="nav nav-pills">
-							  		<li><a href="{{site.baseurl}}/portfolio/gift-set.html"><i class="fa fa-eye"></i></a></li>
-							  		<!-- <li><a href="images/portfolio/portfolio-pic-no-border-12.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li> -->
-								</ul>
-						  	</div>
-						</div>
-						<div class="portfolio-info ">
-					  		<h2>Gift Sets</h2>
-						</div>
-				  	</div>
-				</div>
-
-			<!--End Portfolio Items -->
 			</div>
-
-		<!--End Row -->
+			<!--End Portfolio Items -->
 		</div>
-	<!--End Container -->
+		<!--End Row -->
   	</div>
+  	<!--End Container -->
 </section>
 <!--End portfolio-->
