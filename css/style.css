@@ -160,6 +160,7 @@ i {
     padding: 30px 0;
 }
 
+
 /**************** FOOTER ****************/
 .footer-nav {
     display: inline-block;
@@ -218,6 +219,14 @@ body {
 
 .img-responsive.main-image {
     padding-bottom: 25px;
+}
+
+.project-desc {
+    padding: 10px 0px 0px 0px;
+}
+
+li.work-detail {
+    list-style-type: circle;
 }
 
 /*MORE WORK */
