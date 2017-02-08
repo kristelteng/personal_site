@@ -1,12 +1,14 @@
 #!/usr/bin/env python
 import os
+import sys
 import time
+import mimetypes
 import hashlib
 import boto
 from boto.s3.connection import OrdinaryCallingFormat
 from boto.s3.key import Key
 from pathlib import Path
-import magic
+
 
 BUCKET_NAME = "www.kristelteng.com"
 
@@ -49,7 +51,7 @@ def get_paths():
     return paths
 
 
-def upload_to_s3(bucket_name, file_paths):
+def upload_to_s3(bucket_name, file_paths, force=False):
     bucket = s3.get_bucket(bucket_name)
 
     skip_count = 0
@@ -61,7 +63,7 @@ def upload_to_s3(bucket_name, file_paths):
         key_name = os.path.join(*parts[1:]) # skip jekyll's _site directory name
 
         k = bucket.get_key(key_name)
-        if k is not None:
+        if not force and (k is not None):
             # file exists on S3
             md5_hash = hashlib.md5(path.open("rb").read()).hexdigest()
             if md5_hash == k.etag[1:-1]:
@@ -70,11 +72,12 @@ def upload_to_s3(bucket_name, file_paths):
                 skip_count += 1
                 continue
 
-        print "uploading {}".format(dir_path)
-        mime_type = magic.detect_from_filename(dir_path).mime_type
-        if dir_path.endswith(".css"):
-            # libmagic doesn't set this correctly. set manually
-            mime_type = "text/css"
+        mime_type = mimetypes.guess_type(dir_path)[0]
+
+        if mime_type is None:
+            mime_type = "text/plain"
+
+        print "uploading {} as {}".format(dir_path, mime_type)
 
         headers = get_s3_headers()
         headers['Content-Type'] = mime_type
@@ -91,8 +94,13 @@ def upload_to_s3(bucket_name, file_paths):
 def main():
     start = time.time()
 
+    force_upload = False
+
+    if len(sys.argv) > 1:
+        force_upload = (sys.argv[1] == "--force")
+
     file_paths = get_paths()
-    results = upload_to_s3(BUCKET_NAME, file_paths)
+    results = upload_to_s3(BUCKET_NAME, file_paths, force_upload)
     end = time.time()
 
     time_taken = int(end-start)
