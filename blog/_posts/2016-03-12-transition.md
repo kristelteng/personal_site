@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  Transistion from Designer to Developer
+title:  Transition from Designer to Developer
 categories: [March 2016]
 permalink: /blog/:month-:day-:year/:title.html
+image: /assets/images/blog/transition.png
+image_thumb: /assets/images/blog/thumb/transition-thumb.jpg
 ---
 
 
