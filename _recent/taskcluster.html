@@ -15,40 +15,35 @@ image_popular: /assets/images/thumbnail/popular/popular_04.png
   </ul>
 
   <h3 class="project-title">Tools used</h3>
-  <div class="col-sm-3">
+  <div class="col-md-3 col-xs-6">
     <ul class="elements">
       <li><i class="fa fa-angle-right"></i> Javascript</li>
       <li><i class="fa fa-angle-right"></i> React.js</li>
+      <li><i class="fa fa-angle-right"></i> JSX</li>
     </ul>
   </div>
 
-  <div class="col-sm-3">
+  <div class="col-md-3 col-xs-6">
     <ul class="elements">
-      <li><i class="fa fa-angle-right"></i> JSX</li>
+      <li><i class="fa fa-angle-right"></i> localStorage</li>
       <li><i class="fa fa-angle-right"></i> CSS</li>
     </ul>
   </div>
 
-  <div class="col-sm-3">
-    <ul class="elements">
-      <li><i class="fa fa-angle-right"></i> localStorage</li>
-    </ul>
-  </div>
-</div>
-
-<div class="portfolio-wrapper">
-  <div class="portfolio-single image-section">
-    {% for image in site.static_files %}
+  <div class="portfolio-wrapper">
+    <div class="portfolio-single image-section">
+      {% for image in site.static_files %}
       {% if image.path contains 'images/portfolio-details/taskcluster-tool'%}
-        <img src="{{site.baseurl}}{{image.path}}" class="img-responsive" alt="{{page.title}}">
+      <img src="{{site.baseurl}}{{image.path}}" class="img-responsive padding-bottom" alt="{{page.title}}">
       {% endif %}
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
-</div>
 
-<div class="col-sm-12 col-xs-12 cta-button text-center padding-top padding-bottom">
-  <div class="live-preview">
-    <a href="https://tools.taskcluster.net/task-inspector/" class="btn btn-common" target="_blank">Live Preview</a>
-    <a href="https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300" class="btn btn-common" target="_blank">View Source</a>
+  <div class="col-sm-12 text-center padding-bottom">
+    <div class="live-preview">
+      <a href="https://tools.taskcluster.net/task-inspector/" class="btn btn-common" target="_blank">Live Preview</a>
+      <a href="https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300" class="btn btn-common" target="_blank">View Source</a>
+    </div>
   </div>
 </div>
