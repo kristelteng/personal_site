@@ -6,7 +6,7 @@ image: /assets/images/thumbnail/recent/recent_01.png
 image_popular: /assets/images/thumbnail/popular/popular_03.png
 ---
 
-<div class="project-name overflow padding-bottom">
+<div class="project-name overflow">
   <h2 class="bold">{{page.title}}</h2>
 
   <p class="project-description">Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations.</p>
@@ -16,27 +16,21 @@ image_popular: /assets/images/thumbnail/popular/popular_03.png
   </ul>
 
   <h3 class="project-title">Tools used</h3>
-
-    <div class="col-sm-3">
-      <ul class="elements">
-        <li><i class="fa fa-angle-right"></i> Jekyll</li>
-        <li><i class="fa fa-angle-right"></i> Ruby</li>
-      </ul>
-    </div>
-    <div class="col-sm-3">
-      <ul class="elements">
-        <li><i class="fa fa-angle-right"></i> Javascript</li>
-        <li><i class="fa fa-angle-right"></i> CSS3</li>
-        <li><i class="fa fa-angle-right"></i> HTML5</li>
-      </ul>
-    </div>
-
-    <div class="col-sm-3">
-      <ul class="elements">
-        <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
-        <li><i class="fa fa-angle-right"></i> Google Analytics</li>
-      </ul>
-    </div>
+  <div class="col-md-3 col-xs-6">
+    <ul class="elements">
+      <li><i class="fa fa-angle-right"></i> Jekyll</li>
+      <li><i class="fa fa-angle-right"></i> Ruby</li>
+      <li><i class="fa fa-angle-right"></i> Javascript</li>
+      <li><i class="fa fa-angle-right"></i> HTML5</li>
+    </ul>
+  </div>
+  <div class="col-md-3 col-xs-6">
+    <ul class="elements">
+      <li><i class="fa fa-angle-right"></i> CSS3</li>
+      <li><i class="fa fa-angle-right"></i> Google Analytics</li>
+      <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
+    </ul>
+  </div>
 
   <div class="portfolio-wrapper">
     <div class="portfolio-single image-section">
@@ -50,17 +44,17 @@ image_popular: /assets/images/thumbnail/popular/popular_03.png
       <a href="https://github.com/kristelteng/medleycuisine" class="btn btn-common" target="_blank">View Source</a>
     </div>
   </div>
+</div>
 
-  <h3 class="project-title">Medley design</h3>
-  <p class="project-description">Created the overall visual design for Medley's multiple brands - Delibake and Mbake. Implemented a design specification as a guideline for brand consistency. Designed, developed, and oversaw production of all packaging (Mbake &amp; Delibake brands).</p>
+<h3 class="project-title">Medley design</h3>
+<p class="project-description">Created the overall visual design for Medley's multiple brands - Delibake and Mbake. Implemented a design specification as a guideline for brand consistency. Designed, developed, and oversaw production of all packaging (Mbake &amp; Delibake brands).</p>
 
-  <div class="portfolio-wrapper">
-    <div class="portfolio-single image-section">
-      {% for image in site.static_files %}
-        {% if image.path contains 'images/portfolio-details/medley/body'%}
-          <img src="{{site.baseurl}}{{image.path}}" class="img-responsive padding-bottom" alt="{{page.title}}">
-        {% endif %}
-      {% endfor %}
-    </div>
+<div class="portfolio-wrapper padding-top padding-bottom">
+  <div class="portfolio-single image-section">
+    {% for image in site.static_files %}
+    {% if image.path contains 'images/portfolio-details/medley/body'%}
+    <img src="{{site.baseurl}}{{image.path}}" class="img-responsive padding-bottom" alt="{{page.title}}">
+    {% endif %}
+    {% endfor %}
   </div>
 </div>
