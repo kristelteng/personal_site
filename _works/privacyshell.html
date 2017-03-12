@@ -1,0 +1,71 @@
+---
+layout: work_details
+title: Privacy Shell Inc.
+permalink: /work/privacyshell.html
+image: /assets/images/thumbnail/work/work_01.png
+image_popular: /assets/images/thumbnail/popular/popular_05.png
+---
+
+<div class="project-name overflow padding-bottom">
+  <h2 class="bold">{{page.title}}</h2>
+  <p class="project-desc">Privacy Shell is a platform that brings awareness about online privacy. Users learn about privacy news, connect with privacy experts and install the privacy products that best suit their needs to protect their online privacy.</p>
+
+  <ul>
+    <li class="work-detail">Worked closely with the CEO to architect Privacy Shell's site, which was then built in Wordpress for third-party users to easily update the content</li>
+  </ul>
+
+  <h3 class="project-title">Tools used</h3>
+  <div class="col-sm-3">
+    <ul class="elements">
+      <li><i class="fa fa-angle-right"></i> HTML5</li>
+      <li><i class="fa fa-angle-right"></i> CSS3</li>
+    </ul>
+  </div>
+
+  <div class="col-sm-3">
+    <ul class="elements">
+      <li><i class="fa fa-angle-right"></i> Javascript</li>
+      <li><i class="fa fa-angle-right"></i> Wordpress</li>
+    </ul>
+  </div>
+
+  <div class="col-sm-3">
+    <ul class="elements">
+      <li><i class="fa fa-angle-right"></i> Google Analytics</li>
+      <li><i class="fa fa-angle-right"></i> Optimizely</li>
+    </ul>
+  </div>
+
+  <div class="col-sm-3">
+    <ul class="elements">
+      <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
+    </ul>
+  </div>
+
+  <div class="portfolio-wrapper">
+    <div class="portfolio-single image-section">
+      <img src="/assets/images/portfolio-details/privacyshell/pshell_04.png" class="img-responsive" alt="{{page.title}}" target="_blank">
+    </div>
+  </div>
+
+  <!-- UI/X -->
+  <h3 class="project-title">UI/X Design</h3>
+  <p class="project-description">As lead UI/X designer, my role was to communicate the design ideas through wireframes, user flows and share the research findings to team members before implementing the site. Implemented analytics tracking and SEO techniques on the site. Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site.</p>
+
+  <h3 class="project-title">Tools used</h3>
+  <div class="col-sm-3 tools">
+    <ul class="elements">
+      <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
+    </ul>
+  </div>
+
+  <div class="portfolio-wrapper">
+    <div class="portfolio-single image-section">
+      {% for image in site.static_files %}
+        {% if image.path contains 'images/portfolio-details/privacyshell/ux'%}
+          <img src="{{site.baseurl}}{{image.path}}" class="img-responsive padding-bottom" alt="{{page.title}}" target="_blank">
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
