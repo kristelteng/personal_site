@@ -10,46 +10,36 @@ image: /assets/images/thumbnail/work/work_02.png
   <p class="project-description">Built a Ruby on Rails application that allows users to view questions and answers. A user needs to be registered to ask questions, post an answer or add any comments. The application is using MySql to store its data, and is deployed on Heroku.</p>
 
   <h3 class="project-title">Tools used</h3>
-  <div class="col-sm-3">
+  <div class="col-md-3 col-xs-6">
     <ul class="elements">
       <li><i class="fa fa-angle-right"></i> Ruby</li>
       <li><i class="fa fa-angle-right"></i> Rails </li>
-    </ul>
-  </div>
-
-  <div class="col-sm-3">
-    <ul class="elements">
       <li><i class="fa fa-angle-right"></i> Heroku</li>
       <li><i class="fa fa-angle-right"></i> MySQL</li>
     </ul>
   </div>
 
-  <div class="col-sm-3">
+  <div class="col-md-3 col-xs-6">
     <ul class="elements">
-      <li><i class="fa fa-angle-right"></i> HTML</li>
-      <li><i class="fa fa-angle-right"></i> CSS</li>
-    </ul>
-  </div>
-
-  <div class="col-sm-3">
-    <ul class="elements">
+      <li><i class="fa fa-angle-right"></i> HTML5</li>
+      <li><i class="fa fa-angle-right"></i> CSS3</li>
       <li><i class="fa fa-angle-right"></i> Javascript</li>
       <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
     </ul>
   </div>
-</div>
 
-<div class="portfolio-wrapper">
-  <div class="portfolio-single image-section">
-    {% for image in site.static_files %}
-      {% if image.path contains 'images/portfolio-details/ask'%}
-        <img src="{{site.baseurl}}{{image.path}}" class="img-responsive" alt="{{page.title}}">
-      {% endif %}
-    {% endfor %}
+  <div class="portfolio-wrapper">
+    <div class="portfolio-single image-section">
+      {% for image in site.static_files %}
+        {% if image.path contains 'images/portfolio-details/ask'%}
+          <img src="{{site.baseurl}}{{image.path}}" class="img-responsive" alt="{{page.title}}">
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
-<div class="col-sm-12 col-xs-12 cta-button text-center padding-top padding-bottom">
+<div class="col-sm-12 text-center padding-bottom">
   <div class="live-preview">
     <a href="https://desolate-sands-6873.herokuapp.com/" class="btn btn-common" target="_blank">Live Preview</a>
     <a href="https://github.com/kristelteng/askme" class="btn btn-common" target="_blank">View Source</a>
