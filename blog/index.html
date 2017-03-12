@@ -3,40 +3,35 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-<section id="blog" class="padding-top">
+
+<section id="blog" class="padding-top padding-bottom">
 	<div class="container">
 		<div class="row">
-
 			<div class="col-md-9 col-sm-7">
 				<div class="row">
 					{% for post in paginator.posts %}
-					<!-- <div class="col-sm-10 col-md-12"> -->
-					<!-- <div class="col-sm-12"> -->
-					<!-- <div class="col-sm-12 col-md-12">
-						<a href="blogdetails.html"><img src="{{site.baseurl}}/images/portfolio/1.jpg" class="img-responsive" alt="aanari_portfolio"></a> -->
-						<!-- <div class="single-blog single-column"> -->
-							<span class="post-meta"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+					<div class="col-sm-12 col-md-12">
+						<div class="single-blog single-column">
+							<div class="post-thumb">
+								<a href="{{ post.url | prepend: site.baseurl }}"><img src="{{ post.image }}" class="img-responsive" alt="{{ post.title }}"></a>
+							</div>
 
 							<div class="post-content overflow">
-								<h2 class="post-title bold uppercase"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-
+								<h2 class="post-title bold"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 								<span class="post-meta"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
 
 								<p>{{ post.excerpt | strip_html | strip_newlines | truncatewords: 160 }}</p>
-								<a href="{{ post.url }}" class="read-more">View More...</a>
-								<hr>
+								<a href="{{ post.url }}" class="read-more">view more...</a>
 							</div>
-						<!-- </div> -->
-					<!-- </div> -->
+						</div>
+					</div>
 					{% endfor %}
 				</div>
-
-			    <div class="blog-pagination">
-                    {% include pagination.html %}
-                </div>
+				<!-- <div class="blog-pagination">
+					{% include pagination.html %}
+				</div> -->
 			</div>
-
-			{% include sidemenu.html %}
+			{% include side.html %}
 		</div>
 	</div>
 </section>
