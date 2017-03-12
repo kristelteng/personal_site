@@ -8,12 +8,14 @@
 # Site settings
 name: Kristel
 email: kristelteng@gmail.com
-title: Full Stack Developer | UX Designer
+title: Full Stack Developer | UI/X Designer
+description: Graphic Designer turned Developer. Has a sweet tooth.
 
 url: "https://kristelteng.com" # the base hostname & protocol for your site
 
-twitter: kristelthv
-github:  kristelteng
+twitter_username: kristelthv
+github_username:  kristelteng
+linkedin_username: kristelteng
 
 # Build settings
 markdown: kramdown
@@ -23,3 +25,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 paginate: 5
 paginate_path: "blog/page:num/"
 gems: [jekyll-paginate]
+
+collections:
+  works:
+    output: true
+  recent:
+    output: true
