@@ -8,6 +8,7 @@ image_popular: /assets/images/thumbnail/popular/popular_01.png
 
 <div class="project-name overflow">
   <h2 class="bold">{{page.title}}</h2>
+
   <p class="project-description">Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
   </p>
 
@@ -16,50 +17,39 @@ image_popular: /assets/images/thumbnail/popular/popular_01.png
   </ul>
 
   <h3 class="project-title">Tools used</h3>
-  <div class="col-sm-3">
+
+  <div class="col-md-3 col-xs-6">
     <ul class="elements">
       <li><i class="fa fa-angle-right"></i> Django</li>
       <li><i class="fa fa-angle-right"></i> Python</li>
-    </ul>
-  </div>
-
-  <div class="col-sm-3">
-    <ul class="elements">
       <li><i class="fa fa-angle-right"></i> HTML5</li>
-      <li><i class="fa fa-angle-right"></i> Javascript</li>
     </ul>
   </div>
 
-  <div class="col-sm-3">
+  <div class="col-md-3 col-xs-6">
     <ul class="elements">
       <li><i class="fa fa-angle-right"></i> CSS3</li>
+      <li><i class="fa fa-angle-right"></i> Javascript</li>
       <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
     </ul>
   </div>
 
   <div class="portfolio-wrapper">
     <div class="portfolio-single image-section">
-      <img src="/assets/images/portfolio-details/delibake/intro/delibake.png" class="img-responsive" alt="{{page.title}}">
+      <img src="/assets/images/portfolio-details/delibake/intro/delibake.png" class="img-responsive" alt="{{page.title}} padding-bottom">
     </div>
   </div>
-
- <!--  <div class="col-sm-12 col-xs-12 cta-button text-center padding-top padding-bottom">
-    <div class="live-preview">
-      <a href="http://www.medleycuisine.com/" class="btn btn-common" target="_blank">Live Preview</a>
-      <a href="https://github.com/kristelteng/medleycuisine" class="btn btn-common" target="_blank">View Source</a>
-    </div>
-  </div> -->
-
-  <h3 class="project-title">Delibake design</h3>
-  <p class="project-description">My other responsibilities were to build the brand for Delibake - Handcrafted delicious moments. Created the visual elements including logo, menu, posters, signage, shop interiors and packaging.</p>
 </div>
 
-<div class="portfolio-wrapper padding-top">
+<h3 class="project-title">Delibake design</h3>
+<p class="project-description">My other responsibilities were to build the brand for Delibake - Handcrafted delicious moments. Created the visual elements including logo, menu, posters, signage, shop interiors and packaging.</p>
+
+<div class="portfolio-wrapper padding-top padding-bottom">
   <div class="portfolio-single image-section">
     {% for image in site.static_files %}
-      {% if image.path contains 'images/portfolio-details/delibake/body'%}
-        <img src="{{site.baseurl}}{{image.path}}" class="img-responsive padding-bottom" alt="{{page.title}}">
-      {% endif %}
+    {% if image.path contains 'images/portfolio-details/delibake/body'%}
+    <img src="{{site.baseurl}}{{image.path}}" class="img-responsive padding-bottom" alt="{{page.title}}">
+    {% endif %}
     {% endfor %}
   </div>
 </div>
