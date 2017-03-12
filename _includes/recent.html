@@ -1,0 +1,17 @@
+{% for rwork in site.recent %}
+<div class="col-sm-3">
+  <div class="portfolio-wrapper">
+    <div class="portfolio-single">
+      <div class="portfolio-thumb">
+        <div class="tile-view">
+          <a href="{{ rwork.url }}"><img src="{{ rwork.image }}" class="img-responsive" alt="{{ rwork.title }}" /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-info ">
+      <h2><a href="{{ rwork.url }}">{{ rwork.title }}</a></h2>
+    </div>
+  </div>
+</div>
+{% endfor %}
