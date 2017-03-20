@@ -28,5 +28,7 @@ gems: [jekyll-paginate]
 collections:
   works:
     output: true
+    permalink: /work/:title/
   recent:
     output: true
+    permalink: /recent/:title/
