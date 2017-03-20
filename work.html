@@ -3,54 +3,55 @@ layout: default
 title: Work
 permalink: /work/
 ---
+<div class="content">
+  <section id="portfolio" class="padding-top padding-bottom">
+    <div class="container">
+      <div class="row">
 
-<section id="portfolio" class="padding-top padding-bottom">
-  <div class="container">
-    <div class="row">
+        <div class="col-sm-12 intro-section">
+          <h2 class="intro-title">More Work!</h2>
+          <span class="underline"></span>
+        </div>
 
-      <div class="col-sm-12 intro-section">
-        <h2 class="intro-title">More Work!</h2>
-        <span class="underline"></span>
-      </div>
-
-      {% for rwork in site.recent %}
-      <div class="portfolio-items">
-        <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item">
-          <div class="portfolio-wrapper">
-            <div class="portfolio-single">
-              <div class="portfolio-thumb">
-                <div class="tile-view">
-                  <a href="{{ rwork.url }}"><img src="{{ rwork.image }}" class="img-responsive" alt="{{ rwork.title }}" /></a>
+        {% for rwork in site.recent %}
+        <div class="portfolio-items">
+          <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item">
+            <div class="portfolio-wrapper">
+              <div class="portfolio-single">
+                <div class="portfolio-thumb">
+                  <div class="tile-view">
+                    <a href="{{ rwork.url }}"><img src="{{ rwork.image }}" class="img-responsive" alt="{{ rwork.title }}" /></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="portfolio-info ">
-              <h2><a href="{{ rwork.url }}"> {{ rwork.title }}</a></h2>
+              <div class="portfolio-info ">
+                <h2><a href="{{ rwork.url }}"> {{ rwork.title }}</a></h2>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      {% endfor %}
+        {% endfor %}
 
-      {% for work in site.works %}
-      <div class="portfolio-items">
-        <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item">
-          <div class="portfolio-wrapper">
-            <div class="portfolio-single">
-              <div class="portfolio-thumb">
-                <div class="tile-view">
-                  <a href="{{ work.url }}"><img src="{{ work.image }}" class="img-responsive" alt="{{ work.title }}" /></a>
+        {% for work in site.works %}
+        <div class="portfolio-items">
+          <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item">
+            <div class="portfolio-wrapper">
+              <div class="portfolio-single">
+                <div class="portfolio-thumb">
+                  <div class="tile-view">
+                    <a href="{{ work.url }}"><img src="{{ work.image }}" class="img-responsive" alt="{{ work.title }}" /></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="portfolio-info ">
-              <h2><a href="{{ work.url }}"> {{ work.title }}</a></h2>
+              <div class="portfolio-info ">
+                <h2><a href="{{ work.url }}"> {{ work.title }}</a></h2>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      {% endfor %}
+        {% endfor %}
 
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
