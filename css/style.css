@@ -4,7 +4,6 @@
 
 
 /*********** BASE ***********/
-
 html{
   height: 100%;
 }
@@ -13,16 +12,18 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: normal;
-  height: auto !important;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  min-height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
+  min-height: 100%;
 }
 .content {
   flex: 1;
-  /*margin-top: auto;*/
 }
 
 /*********** NAVIGATION ***********/
@@ -49,8 +50,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
-
-/* maybe need to remove*/
 h1{
   color: #686868;
 }
@@ -63,7 +62,6 @@ h3{
 }
 
 .padding-bottom {
-  /*padding-bottom: 90px;*/
   padding-bottom: 65px;
 }
 .padding-top {
@@ -79,7 +77,6 @@ h3{
 /******** HEADER ********/
 #header{
   margin-bottom: 0;
-  /*padding: 30px 0 60px 0;*/
   padding: 30px 0;
 }
 #header .navbar {
@@ -356,15 +353,6 @@ ul.elements {
   position: relative;
   overflow: hidden;
 }
-
-/*.post-thumb img:hover{
-  transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  opacity: .5;
-  background-color: #ddd;
-}*/
 .post-content{
   padding: 20px 0;
 }
@@ -426,18 +414,16 @@ a.read-more:hover{
 footer {
   color: #000;
   border-top: 1px solid #f5f5f5;
-  /*padding-bottom: 10px;*/
-  /*padding: 20px;*/
 }
-.footer-below {
-  padding: 20px 0;
+footer .footer-below {
+  padding: 10px 0;
   background-color: #fff;
 }
-.copyright {
+footer .copyright {
   color: #666666;
   font-size: 14px;
 }
-.social {
+footer .social {
   font-size: 20px;
   padding-left: 5px;
   padding-right: 5px;
