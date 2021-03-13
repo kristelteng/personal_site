@@ -7,7 +7,7 @@ permalink: /work/delibake
 {% for project in site.data.work %}
 {% if project.title == 'delibake' %}
 <div class="project-name overflow">
-  <h2 class="bold">{{ project.title }}</h2>
+  <h2 class="bold">{{ page.title }}</h2>
   <p class="project-description">{{ project.intro }}</p>
 
   {% for work in project.work %}

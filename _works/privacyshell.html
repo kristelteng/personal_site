@@ -3,31 +3,27 @@ layout: work_details
 title: Privacy Shell Inc.
 image: /assets/images/thumbnail/work/work_01.png
 image_popular: /assets/images/thumbnail/popular/popular_05.png
+permalink: /work/privacyshell
 ---
 
+{% for project in site.data.work %}
+{% if project.title == 'privacyshell' %}
 <div class="project-name overflow">
-  <h2 class="bold">{{page.title}}</h2>
-  <p class="project-desc">Privacy Shell is a platform that raises awareness about online privacy. Users learn about privacy news, connect with privacy experts and install the privacy products that best suit their needs to protect their online privacy.</p>
+  <h2 class="bold">{{ page.title }}</h2>
+  <p class="project-description">{{ project.intro }}</p>
 
-  <ul>
-    <li class="work-detail">Worked closely with the CEO to architect Privacy Shell's site, which was then built in Wordpress for third-party users to easily update the content</li>
-  </ul>
+  {% for work in project.work %}
+  {% if work.category == 'code' %}
+  <p class="project-description">{{ work.detail }}</p>
+  {% endif %}
+  {% endfor %}
 
   <h3 class="project-title">Tools used</h3>
   <div class="col-md-3 col-xs-6">
     <ul class="elements">
-      <li><i class="fa fa-angle-right"></i> HTML5</li>
-      <li><i class="fa fa-angle-right"></i> CSS3</li>
-      <li><i class="fa fa-angle-right"></i> Javascript</li>
-      <li><i class="fa fa-angle-right"></i> Wordpress</li>
-    </ul>
-  </div>
-
-  <div class="col-md-3 col-xs-6">
-    <ul class="elements">
-      <li><i class="fa fa-angle-right"></i> Google Analytics</li>
-      <li><i class="fa fa-angle-right"></i> Optimizely</li>
-      <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
+    {% for tool in project.tools_used %}
+    <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
+    {% endfor %}
     </ul>
   </div>
 
@@ -36,11 +32,21 @@ image_popular: /assets/images/thumbnail/popular/popular_05.png
       <img src="/assets/images/portfolio-details/privacyshell/pshell_04.png" class="img-responsive" alt="{{page.title}}" target="_blank">
     </div>
   </div>
+
+  <!-- <div class="col-sm-12 text-center padding-bottom">
+    <div class="live-preview">
+      <a href="http://www.medleycuisine.com/" class="btn btn-common" target="_blank">Live Preview</a>
+      <a href="https://github.com/kristelteng/medleycuisine" class="btn btn-common" target="_blank">View Source</a>
+    </div>
+  </div> -->
 </div>
 
-<!-- UI/X -->
-<h3 class="project-title">UI/X Design</h3>
-<p class="project-description">As lead UI/X designer, my role was to communicate the design ideas through wireframes, user flows and share the research findings to team members before implementing the site. Implemented analytics tracking and SEO techniques on the site. Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site.</p>
+{% for category in project.work %}
+{% if category.category == 'design' %}
+<h3 class="project-title">{{ category.title }}</h3>
+<p class="project-description">{{ category.detail }}</p>
+{% endif %}
+{% endfor %}
 
 <div class="portfolio-wrapper padding-top padding-bottom">
   <div class="portfolio-single image-section">
@@ -51,3 +57,5 @@ image_popular: /assets/images/thumbnail/popular/popular_05.png
     {% endfor %}
   </div>
 </div>
+{% endif %}
+{% endfor %}
