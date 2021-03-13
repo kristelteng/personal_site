@@ -1,29 +1,21 @@
 ---
 layout: work_details
 title: Ask
-image: /assets/images/thumbnail/work/work_02.png
+permalink: /work/ask
 ---
 
+{% for project in site.data.work %}
+{% if project.title == 'ask' %}
 <div class="project-name overflow">
-  <h2 class="bold">{{page.title}}</h2>
-  <p class="project-description">Built a Ruby on Rails application that allows users to view questions and answers. A user needs to be registered to ask questions, post an answer or add any comments. The application is using MySql to store its data, and is deployed on Heroku.</p>
+  <h2 class="bold">{{ project.title }}</h2>
+  <p class="project-description">{{ project.intro }}</p>
 
   <h3 class="project-title">Tools used</h3>
   <div class="col-md-3 col-xs-6">
     <ul class="elements">
-      <li><i class="fa fa-angle-right"></i> Ruby</li>
-      <li><i class="fa fa-angle-right"></i> Rails </li>
-      <li><i class="fa fa-angle-right"></i> Heroku</li>
-      <li><i class="fa fa-angle-right"></i> MySQL</li>
-    </ul>
-  </div>
-
-  <div class="col-md-3 col-xs-6">
-    <ul class="elements">
-      <li><i class="fa fa-angle-right"></i> HTML5</li>
-      <li><i class="fa fa-angle-right"></i> CSS3</li>
-      <li><i class="fa fa-angle-right"></i> Javascript</li>
-      <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
+    {% for tool in project.tools_used %}
+    <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
+    {% endfor %}
     </ul>
   </div>
 
@@ -44,3 +36,5 @@ image: /assets/images/thumbnail/work/work_02.png
     <a href="https://github.com/kristelteng/askme" class="btn btn-common" target="_blank">View Source</a>
   </div>
 </div>
+{% endif %}
+{% endfor %}
