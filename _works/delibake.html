@@ -1,0 +1,57 @@
+---
+layout: work_details
+title: Delibake
+permalink: /work/delibake
+---
+
+{% for project in site.data.work %}
+{% if project.title == 'delibake' %}
+<div class="project-name overflow">
+  <h2 class="bold">{{ project.title }}</h2>
+  <p class="project-description">{{ project.intro }}</p>
+
+  {% for work in project.work %}
+  {% if work.category == 'code' %}
+  <p class="project-description">{{ work.detail }}</p>
+  {% endif %}
+  {% endfor %}
+
+  <h3 class="project-title">Tools used</h3>
+  <div class="col-md-3 col-xs-6">
+    <ul class="elements">
+    {% for tool in project.tools_used %}
+    <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="portfolio-wrapper">
+    <div class="portfolio-single image-section">
+      <img src="/assets/images/portfolio-details/delibake/intro/delibake.png" class="img-responsive padding-bottom" alt="{{ work.title }}">
+    </div>
+  </div>
+
+  <!-- <div class="col-sm-12 text-center padding-bottom">
+    <div class="live-preview">
+      <a href="http://www.medleycuisine.com/" class="btn btn-common" target="_blank">Live Preview</a>
+      <a href="https://github.com/kristelteng/medleycuisine" class="btn btn-common" target="_blank">View Source</a>
+    </div>
+  </div> -->
+</div>
+
+{% for category in project.work %}
+{% if category.category == 'design' %}
+<h3 class="project-title">{{ category.title }}</h3>
+<p class="project-description">{{ category.detail }}</p>
+{% endif %}
+{% endfor %}
+
+<div class="portfolio-wrapper padding-top padding-bottom">
+  <div class="portfolio-single image-section">
+    {% for image in project.media_details %}
+      <img src="{{ image.img | prepend: site.baseurl }}" class="img-responsive padding-bottom" alt="{{ image.alt }}">
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+{% endfor %}
