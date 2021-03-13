@@ -16,7 +16,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 paginate: 5
 paginate_path: "blog/page:num/"
-gems: [jekyll-paginate]
 
 permalink: pretty
 
@@ -24,6 +23,9 @@ collections:
   works:
     output: true
     permalink: /work/:title/
-  recent:
-    output: true
-    permalink: /recent/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
