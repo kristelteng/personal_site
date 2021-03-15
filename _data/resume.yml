@@ -1,0 +1,98 @@
+- section: Experience
+  company: 
+    - name: Medley Cuisine
+      timeline: September 2016 - <br>Present
+      title: Contract Web Developer &amp; UX Designer
+
+      project:
+        - name: Medley Cuisine
+          description: is a supplier for a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels.
+          link: /work/medley
+          work-detail:
+            - list: Developed the company's informational website in Jekyll using CSS3, HTML5 and JS 
+            - list: Designed the overall visual design for Medley Cuisine and its multiple brands (Delibake &amp; Mbake), including shop interiors and packaging that are placed in 15 grocery stores
+          tools-used: Jekyll, Ruby, Javascript, CSS3, HTML5, Google Analytics, Adobe Suite, SEO
+
+        - name: Delibake
+          description: is a bakery shop that carries Medley Cuisine's finest bakeries and pastries.
+          link: /work/delibake
+          work-detail:
+            - list: Built Delibake's e-commerce site using Django. Features include ordering products, a photo gallery for inventory goods, user registration and career page functionality
+            - list: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for 3 branded retail location
+          tools-used: Django, Python, Javascript, CSS3, HTML5, Google Analytics, Adobe Suite
+
+    - name: Mozilla Corporation
+      timeline: April 2016 - <br>September 2016
+      title: Software Developer Intern
+
+      project:
+        - name: Taskcluster Tool
+          description: is the build system that powers Mozilla's automated builds and tests. It consists of many small services like Taskcluster Tool.
+          link: /work/taskcluster
+          work-detail:
+            - list: Redesigned a UI feature for the Taskcluster tool, allowing developers to easily access, sort and filter through their most recent tasks. Used localStorage as primary data store for tasks
+          tools-used: React.js, Javascript, JSX, CSS3, localStorage
+        
+        - name: Taskcluster Documentation
+          description: is the documentation resource for all Taskcluster sub-systems. 
+          link: /work/taskclusterdocs
+          work-detail:
+            - list: Implemented an automated doc generation system, where each Taskcluster component updates triggers a new version of the static site to be generated. It allows all developers on Taskcluster to have an automatic way to publish documentation when deploying new features
+          tools-used: Node.js, ES6 Javascript, Babel, Gulp, S3, CSS3, React
+
+    - name: Privacy Shell Inc.
+      timeline: April 2015 - <br>March 2016
+      title: Web Developer &amp; Lead UX Designer
+
+      project:
+        - name: Privacy Shell
+          description: a platform that raises awareness about online privacy to users.
+          link: /work/privacyshell
+          work-detail:
+            - list: Collaborated with the CEO to architect the website. Implemented Privacy Shell using Wordpress. Worked closely with other developers to maintain the website
+            - list: Tracked analysis with Google Analytics to measure the impact of design changes on users and implemented SEO techniques. Responsible in monitoring and reporting on website traffic and performance to the internal team
+            - list: Designed the visual elements including logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the website
+          tools-used: Wordpress, CSS3, HTML5, Optimizely, Google Analytics, Adobe Suite
+        
+        - name: Privacy Snapper
+          description: is a browser extension that collects privacy policies of the site that users visit.
+          link: 
+          work-detail:
+            - list: Redesigned and improved the user dashboard with responsive front-end design and a powerful UI to sort and filter data. Built the user interface for the user registration, profile and subscription page in Laravel. Developed a web scraping backend for legal documents using Scrapy
+            - list: Conducted user surveys, user research and organized multiple usability tests. Tracked analysis with Google Analytics to measure the impact of design changes on users and implemented SEO techniques. Responsible for monitoring and reporting on website traffic and performance to the internal team
+            - list: Designed the visual elements including graphic elements, logo, marketing materials and all branding.  Created design specification to ensure brand consistency throughout the site and the product
+          tools-used: Python, Scrapy, PHP, Laravel, Wordpress, Javascript, CSS3, HTML5, Optimizely, Google Analytics, Adobe Suite
+
+        - name: Topsecret
+          description: is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop.
+          link: 
+          work-detail:
+            - list: Implemented the landing pages for Topsecret in Wordpress, tracked analysis with Google Analytics and conducted A/B testing in Optimizely
+            - list: Designed the user flows and layouts for the chat system. Created the visual elements including graphic elements, marketing materials and all branding
+          tools-used: Wordpress, Javascript, CSS3, HTML5, Optimizely, Google Analytics, Adobe Suite
+
+- section: Education 
+  company: 
+    - name: Bitmaker Labs 
+      timeline: October 2014 – <br>December 2014
+      title: Web Development
+
+      project:
+        - name:
+          description: Completed Bitmaker Lab’s 9-week intensive web development program. The goal is to launch full-stack development careers using Ruby and Rails
+
+    - name: Bitmaker Labs 
+      timeline: January 2015 – <br>May 2015
+      title: UX Design
+
+      project:
+        - name:
+          description: Completed Bitmaker Lab’s User Experience Design program on UX design principles to web and mobile designs
+    
+    - name: Ontario College of Art &amp; Design
+      timeline: September 2003 – <br>July 2007
+      title: Bachelor of Design
+
+      project:
+        - name:
+          description: Completed Bitmaker Lab’s User Experience Design program on UX design principles to web and mobile designs

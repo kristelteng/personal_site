@@ -1,58 +1,25 @@
-- title: delibake
-  tag: design 
-  intro: Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
-  image_thumb: /assets/images/thumbnail/popular/popular_01.png
-  
-  work: 
-    - category: code
-      title: Delibake code
-      detail: Built Delibake site using Django.  Some of the features include a photo gallery of Delibake's products, user registration and career page functionality. The site is currently in the making. Below is a sneak peek of the career page I am working on.
-    
-    - category: design
-      title: Delibake design
-      detail: Built Delibake site using Django.  Some of the features include a photo gallery of Delibake's products, user registration and career page functionality. The site is currently in the making. Below is a sneak peek of the career page I am working on.
-      
-  tools_used: 
-    - name: Django
-    - name: Python
-    - name: HTML5
-    - name: CSS3
-    - name: Javascript
-    - name: Adobe Suite
+- category: code
+  project:
+    - title: Ask
+      image_thumb: /assets/images/thumbnail/work/work_02.png
+      link: /work/ask.html
 
-- title: ask
-  tag: codea 
-  intro: Built a Ruby on Rails application that allows users to view questions and answers. A user needs to be registered to ask questions, post an answer or add any comments. The application is using MySql to store its data, and is deployed on Heroku.
-  image_thumb: /assets/images/thumbnail/work/work_02.png
-      
-  tools_used: 
-    - name: Ruby
-    - name: Rails
-    - name: Heroku
-    - name: MySQL
-    - name: HTML5
-    - name: CSS3
-    - name: Javascript
-    - name: Adobe Suite
+    - title: Ask
+      image_thumb: /assets/images/thumbnail/work/work_02.png
+      link: /work/ask.html
 
-- title: Privacy Shell Inc.
-  tag: code  
-  intro: Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
-  image_thumb: /assets/images/thumbnail/popular/popular_01.png
-  
-  work: 
-    - category: code
-      title: Delibake code
-      detail: Built Delibake site using Django.  Some of the features include a photo gallery of Delibake's products, user registration and career page functionality. The site is currently in the making. Below is a sneak peek of the career page I am working on.
-    
-    - category: design
-      title: Delibake design
-      detail: Built Delibake site using Django.  Some of the features include a photo gallery of Delibake's products, user registration and career page functionality. The site is currently in the making. Below is a sneak peek of the career page I am working on.
-      
-  tools_used: 
-    - name: Django
-    - name: Python
-    - name: HTML5
-    - name: CSS3
-    - name: Javascript
-    - name: Adobe Suite
+    - title: Ask
+      image_thumb: /assets/images/thumbnail/work/work_02.png
+      link: /work/ask.html
+
+- category: branding
+  project:
+    - title: Delibake
+      image_thumb: /assets/images/thumbnail/popular/popular_01.png
+      link: /work/delibake.html
+
+- category: ux-design
+  project:
+    - title: Delibake
+      image_thumb: /assets/images/thumbnail/popular/popular_01.png
+      link: /work/delibake.html

@@ -1,9 +1,11 @@
+- title: Ask
+  image_thumb: /assets/images/thumbnail/work/work_02.png
+  link: /work/ask.html
+
 - title: Delibake
-  category: design 
   image_thumb: /assets/images/thumbnail/popular/popular_01.png
   link: /work/delibake.html
 
-- title: Ask
-  category: code 
-  image_thumb: /assets/images/thumbnail/work/work_02.png
-  link: /work/ask.html
+- title: Delibake
+  image_thumb: /assets/images/thumbnail/popular/popular_01.png
+  link: /work/delibake.html

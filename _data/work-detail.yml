@@ -1,0 +1,59 @@
+- title: delibake
+  tag: design 
+  intro: Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
+  image_thumb: /assets/images/thumbnail/popular/popular_01.png
+  
+  work: 
+    - category: code
+      title: Delibake code
+      detail: Built Delibake site using Django.  Some of the features include a photo gallery of Delibake's products, user registration and career page functionality. The site is currently in the making. Below is a sneak peek of the career page I am working on.
+    
+    - category: design
+      title: Delibake design
+      detail: Built Delibake site using Django.  Some of the features include a photo gallery of Delibake's products, user registration and career page functionality. The site is currently in the making. Below is a sneak peek of the career page I am working on.
+      
+  tools_used: 
+    - name: Django
+    - name: Python
+    - name: HTML5
+    - name: CSS3
+    - name: Javascript
+    - name: Adobe Suite
+
+- title: ask
+  tag: code
+  intro: Built a Ruby on Rails application that allows users to view questions and answers. A user needs to be registered to ask questions, post an answer or add any comments. The application is using MySql to store its data, and is deployed on Heroku.
+  image_thumb: /assets/images/thumbnail/work/work_02.png
+      
+  tools_used: 
+    - name: Ruby
+    - name: Rails
+    - name: Heroku
+    - name: MySQL
+    - name: HTML5
+    - name: CSS3
+    - name: Javascript
+    - name: Adobe Suite
+
+- title: privacyshell
+  tag: code  
+  intro: Privacy Shell is a platform that raises awareness about online privacy. Users learn about privacy news, connect with privacy experts and install the privacy products that best suit their needs to protect their online privacy.
+  image_thumb: /assets/images/thumbnail/work/work_01.png
+  
+  work: 
+    - category: code
+      title: Delibake code
+      detail: Worked closely with the CEO to architect Privacy Shell's site, which was then built in Wordpress for third-party users to easily update the content.
+    
+    - category: design
+      title: UI/X Design
+      detail: As lead UI/X designer, my role was to communicate the design ideas through wireframes, user flows and share the research findings to team members before implementing the site. Implemented analytics tracking and SEO techniques on the site. Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site.
+      
+  tools_used: 
+    - name: HTML5
+    - name: CSS3
+    - name: Javascript
+    - name: Wordpress
+    - name: Google Analytics
+    - name: Optimizely
+    - name: Adobe Suite
