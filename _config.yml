@@ -29,3 +29,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+
+sass:
+  sass_dir: _sass
