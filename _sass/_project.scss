@@ -1,0 +1,96 @@
+.project-name {
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        color: #3B3B3B;
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 30px;
+    }
+
+    .project-description {
+        padding-top: 10px;
+    }
+}
+  
+.work-detail {
+    list-style-type: circle;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #3B3B3B;
+}
+
+.elements {
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
+  
+.fa.fa-angle-right {
+    color: #0884D5;
+    padding-right: 5px;
+}
+
+.btn-common {
+    font-size: 14px;
+    color: #00AEEF;
+    border: 1px solid #00AEEF;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    padding: 10px 25px;
+
+    &:focus {
+        color: #00AEEF;
+        border-color: #00AEEF;
+    }
+
+    &:hover {
+        color: #FFF;
+        background-color: #00AEEF;
+        border-color: #00AEEF;
+    }
+}
+
+.current {
+   color: #000;
+}
+
+
+.portfolio-single {
+    position: relative;
+}
+  
+.portfolio-thumb {
+    position: relative;
+    border: 1px solid #ddd;
+
+    img {
+        width: 100%;
+    }
+}
+  
+.portfolio-info {
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    h2 {
+        font-size: 14px;
+        margin: 15px 0 0;
+    }
+}
+
+.tile-view { 
+    display: block;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        opacity: .5;
+        background-color: rgba(242, 242, 242, 0.85);
+    }
+}
+  
+  
