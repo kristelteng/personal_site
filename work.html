@@ -1,56 +1,67 @@
 ---
 layout: default
 title: Work
-permalink: /work/
+permalink: /work
 ---
 
 <section id="portfolio" class="padding-top padding-bottom">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-sm-12 intro-section">
-        <h2 class="intro-title">More Work!</h2>
-        <span class="underline"></span>
-      </div>
-
-      {% for rwork in site.recent %}
-      <div class="portfolio-items">
-        <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item">
-          <div class="portfolio-wrapper">
-            <div class="portfolio-single">
-              <div class="portfolio-thumb">
-                <div class="tile-view">
-                  <a href="{{ rwork.url }}"><img src="{{ rwork.image }}" class="img-responsive" alt="{{ rwork.title }}" /></a>
+	<div class="container">
+		<div class="row">		
+			<div class="col-sm-9">
+        <ul class="nav nav-pills">
+          <li class="active">
+            <a href="#code" data-toggle="tab">UI/X Coding</a>
+          </li>
+          <li><a href="#branding" data-toggle="tab">Branding</a>
+          </li>
+        </ul>
+        
+        <div class="tab-content clearfix">
+          <div class="tab-pane active" id="code"> 
+            {% for detail in site.data.work-code.code %}
+            <div class="col-sm-3">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-single">
+                  <div class="portfolio-thumb">
+                    <div class="tile-view">
+                      <a href="{{ detail.link }}">
+                        <img src="{{ detail.image_thumb }}" class="img-responsive" alt="{{ detail.title }}" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h2><a href="{{ detail.link }}">{{ detail.title }}</a></h2>
                 </div>
               </div>
             </div>
-            <div class="portfolio-info ">
-              <h2><a href="{{ rwork.url }}"> {{ rwork.title }}</a></h2>
-            </div>
+            {% endfor %}
           </div>
-        </div>
-      </div>
-      {% endfor %}
 
-      {% for work in site.works %}
-      <div class="portfolio-items">
-        <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item">
-          <div class="portfolio-wrapper">
-            <div class="portfolio-single">
-              <div class="portfolio-thumb">
-                <div class="tile-view">
-                  <a href="{{ work.url }}"><img src="{{ work.image }}" class="img-responsive" alt="{{ work.title }}" /></a>
+          <div class="tab-pane" id="branding">
+            {% for detail in site.data.work-design.design %}
+            <div class="col-sm-3">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-single">
+                  <div class="portfolio-thumb">
+                    <div class="tile-view">
+                      <a href="{{ detail.link }}"><img src="{{ detail.image_thumb }}" class="img-responsive" alt="{{ detail.title }}" /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h2><a href="{{ detail.link }}">{{ detail.title }}</a></h2>
                 </div>
               </div>
             </div>
-            <div class="portfolio-info ">
-              <h2><a href="{{ work.url }}"> {{ work.title }}</a></h2>
-            </div>
+            {% endfor %}
           </div>
         </div>
       </div>
-      {% endfor %}
 
-    </div>
-  </div>
+			<div class="col-sm-3">
+				{% include side.html %}
+			</div>
+		</div>
+	</div>
 </section>
