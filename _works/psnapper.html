@@ -1,102 +1,49 @@
 ---
 layout: work_details
 title: Privacy Snapper
-image: /assets/images/thumbnail/work/work_03.png
-image_popular: /assets/images/thumbnail/popular/popular_06.png
 ---
 
+{% for project in site.data.work-code.code %}
+{% if project.title == 'privacysnapper' %}
 <div class="project-name overflow">
-  <h2 class="bold">{{page.title}}</h2>
-  <p class="project-description">Privacy Snapper is a browser extension that collects privacy policies of the sites users visit. The data is displayed on a dashboard for users to review any updates. It is one of Privacy Shell's multiple products.</p>
+  <h2 class="bold">{{ page.title }}</h2>
+  <p class="project-description">{{ project.intro }}</p>
 
-  <ul>
-    <li class="work-detail">Redesigned and improved the user dashboard with responsive front-end design and a powerful UI to sort and filter data. Implemented the UI for the registration, profile and subscriptions pages in Laravel. Worked closely with other developers to maintain the site. Developed a web scraping backend for legal documents using Scrapy</li>
-
-    <li class="work-detail">Conducted user research and user surveys at the beginning of the project. Organized multiple usability tests across different phases of the product development to test user interfaces and communicated findings to team members to iterate on the UI</li>
-  </ul>
+  {% for i in project.detail %}
+  <p class="project-description">{{ i.info }}</p>
+  {% endfor %}
 
   <h3 class="project-title">Tools used</h3>
-  <div class="col-md-3 col-xs-6">
+  <div class="col-md-6 col-xs-6">
     <ul class="elements">
-      <li><i class="fa fa-angle-right"></i> PHP</li>
-      <li><i class="fa fa-angle-right"></i> Laravel</li>
-      <li><i class="fa fa-angle-right"></i> Javascript</li>
+    {% for tool in project.tools_used.left %}
+    <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="col-md-6 col-xs-6">
+    <ul class="elements">
+    {% for tool in project.tools_used.right %}
+    <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
+    {% endfor %}
     </ul>
   </div>
 
-  <div class="col-md-3 col-xs-6">
-    <ul class="elements">
-      <li><i class="fa fa-angle-right"></i> HTML5</li>
-      <li><i class="fa fa-angle-right"></i> CSS3</li>
-      <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
-    </ul>
-  </div>
-
-  <div class="portfolio-wrapper">
+  <div class="portfolio-detail-wrapper">
+    {% for image in project.images %}
     <div class="portfolio-single image-section">
-      {% for image in site.static_files %}
-        {% if image.path contains 'images/portfolio-details/psnapper/dashboard'%}
-          <img src="{{site.baseurl}}{{image.path}}" class="img-responsive padding-bottom" alt="{{page.title}}" target="_blank">
-        {% endif %}
-      {% endfor %}
+      <img src="{{ image.location }}" class="img-responsive" alt="{{ image.title }}" />
     </div>
-  </div>
-
-  <div class="ol-sm-12 text-center padding-bottom">
-    <div class="live-preview">
-      <a href="http://app.privacysnapper.com/auth/login" class="btn btn-common" target="_blank">Live Preview</a>
-    </div>
-  </div>
-</div>
-
-  <!-- WEBSITE -->
-  <h3 class="project-title">Privacy Snapper - Website</h3>
-  <p class="project-description">Designed the UI/X flow for the main website using Wordpress. Implemented different landing pages for Privacy Snapper, tracked analysis with Google Analytics and conducted A/B testing in Optimizely to measure the impact of the design changes on the users. Responsible for monitoring and reporting on website traffic and performance to internal team.</p>
-
-<h3 class="project-title">Tools used</h3>
-<div class="col-md-3 col-xs-6">
-  <ul class="elements">
-    <li><i class="fa fa-angle-right"></i> Wordpress</li>
-    <li><i class="fa fa-angle-right"></i> Optimizely</li>
-  </ul>
-</div>
-
-<div class="col-md-3 col-xs-6">
-  <ul class="elements">
-    <li><i class="fa fa-angle-right"></i> Google Analytics</li>
-    <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
-  </ul>
-</div>
-
-<div class="portfolio-wrapper">
-  <div class="portfolio-single image-section">
-    <img src="/assets/images/portfolio-details/psnapper/web/psnapper-web.png" class="img-responsive padding-bottom" alt="{{page.title}}" target="_blank">
-  </div>
-</div>
-
-<!-- DESIGN -->
-<h3 class="project-title">Design</h3>
-<p class="project-description">Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site and the product.</p>
-
-<h3 class="project-title">Tools used</h3>
-<div class="col-md-3 col-xs-6">
-  <ul class="elements">
-    <li><i class="fa fa-angle-right"></i> Adobe Suite</li>
-  </ul>
-</div>
-
-<div class="portfolio-wrapper">
-  <div class="portfolio-single image-section">
-    {% for image in site.static_files %}
-      {% if image.path contains 'images/portfolio-details/psnapper/design'%}
-        <img src="{{site.baseurl}}{{image.path}}" class="img-responsive padding-bottom" alt="{{page.title}}">
-      {% endif %}
     {% endfor %}
   </div>
 </div>
 
 <div class="col-sm-12 text-center padding-bottom">
   <div class="live-preview">
-    <a href="https://privacysnapper.com/" class="btn btn-common uppercase" target="_blank">Live Preview</a>
+    {% for btn in project.buttons %}
+    <a href="{{ btn.link }}" class="btn btn-common" target="_blank">{{ btn.label }}</a>
+    {% endfor %}
   </div>
 </div>
+{% endif %}
+{% endfor %}
