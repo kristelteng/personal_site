@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<section id="blog-details" class="padding-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-9">
+				<!-- Blog Details Column -->
+				<div class="single-blog blog-details">
+					<div class="post-thumb">
+						<img src="{{ page.image | prepend: site.baseurl }}" class="img-responsive" alt="{{ page.title }}">
+					</div>
+
+					<p class="padding-top">
+						<span class="post-meta">
+							{{ page.date | date_to_string }}
+						</span>
+					</p> 
+				
+					<h1 class="post-title bold">{{ page.title }}</h1>
+
+					<div class="post-content overflow">
+						<p class="article-content">{{ content }}</p>
+					</div>
+
+					<!-- about me -->
+					<div class="author-profile padding">
+						<div class="row">
+							<div class="col-sm-2">
+								<img src="/assets/images/profile/kristelteng.png" alt="profile">
+							</div>
+							<div class="col-sm-10">
+								<h3>{{site.name}}</h3>
+								<p>{{site.title}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+			{% include side.html %}
+			</div>
+		</div>
+	</div>
+</section>
