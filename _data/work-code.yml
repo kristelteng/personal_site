@@ -1,0 +1,246 @@
+code:
+  - title: ask
+    image_thumb: /assets/images/portfolio-details/ask/thumbnail.png
+    link: /work/ask
+    tag: code
+    intro: Built a Ruby on Rails application that allows users to view questions and answers. A user needs to be registered to ask questions, post an answer or add any comments. The application is using MySql to store its data, and is deployed on Heroku.
+    buttons:
+      - label: Live Preview
+        link: https://desolate-sands-6873.herokuapp.com/
+      - label: View Source
+        link: https://github.com/kristelteng/askme
+    tools_used: 
+      left:
+        - name: Ruby
+        - name: Rails
+        - name: Heroku
+        - name: MySQL
+      right:
+        - name: HTML5
+        - name: CSS3
+        - name: Javascript
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/ask/ask_01.png
+        title: Ask
+      - location: /assets/images/portfolio-details/ask/ask_02.png
+        title: Ask
+    
+  - title: medley
+    image_thumb: /assets/images/portfolio-details/medley/thumbnail.png
+    link: /work/medley
+    tag: code
+    intro: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations. Built Medley's site using a static site generator - Jekyll
+    buttons:
+      - label: Live Preview
+        link: http://www.medleycuisine.com/
+      - label: View Source
+        link: https://github.com/kristelteng/medleycuisine
+    tools_used:
+      left:
+        - name: Jekyll
+        - name: Ruby
+        - name: Javascript
+        - name: HTML5
+      right:
+        - name: CSS3
+        - name: Google Analytics
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/medley/medley_01.jpg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/medley/medley_02.png
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/medley/medley_03.png
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/medley/medley_04.jpg
+        title: Medley Cuisine
+
+  - title: delibake
+    image_thumb: /assets/images/portfolio-details/delibake/thumbnail.png
+    link: /work/delibake
+    tag: code
+    intro: Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
+    detail: Built Delibake site using Django.  Some of the features include a photo gallery of Delibake's products, user registration and career page functionality. The site is currently in the making. Below is a sneak peek of the career page I am working on.
+    buttons:
+      - label: Live Preview
+        link: http://www.medleycuisine.com/
+      - label: View Source
+        link: https://github.com/kristelteng/medleycuisine
+    tools_used:
+      left:
+        - name: Django
+        - name: Python
+        - name: HTML5
+      right:
+        - name: CSS3
+        - name: Javascript
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/delibake/delibake_01.jpg
+        title: Delibake
+      - location: /assets/images/portfolio-details/delibake/delibake_02.jpg
+        title: Delibake
+      - location: /assets/images/portfolio-details/delibake/delibake_03.jpg
+        title: Delibake
+      - location: /assets/images/portfolio-details/delibake/delibake_04.jpg
+        title: Delibake
+
+  - title: privacyshell
+    image_thumb: /assets/images/portfolio-details/privacyshell/thumbnail.png
+    link: /work/privacyshell
+    tag: code
+    intro: Privacy Shell is a platform that raises awareness about online privacy. Users learn about privacy news, connect with privacy experts and install the privacy products that best suit their needs to protect their online privacy.
+    detail: 
+      - info: Worked closely with the CEO to architect Privacy Shell's site, which was then built in Wordpress for third-party users to easily update the content.
+      - info: As lead UI/X designer, my role was to communicate the design ideas through wireframes, user flows and share the research findings to team members before implementing the site. Implemented analytics tracking and SEO techniques on the site. Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site.
+    buttons:
+      - label: Live Preview
+        link: 
+      - label: View Source
+        link: 
+    tools_used:
+      left:
+        - name: HTML5
+        - name: CSS3
+        - name: Javascript
+        - name: Wordpress
+      right:
+        - name: Google Analytics
+        - name: Optimizely
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/privacyshell/pshell_01.png
+        title: PrivacyShell
+      - location: /assets/images/portfolio-details/privacyshell/pshell_02.png
+        title: PrivacyShell
+      - location: /assets/images/portfolio-details/privacyshell/pshell_03.png
+        title: PrivacyShell
+      - location: /assets/images/portfolio-details/privacyshell/pshell_04.png
+        title: PrivacyShell
+      - location: /assets/images/portfolio-details/privacyshell/pshell_04.png
+        title: PrivacyShell
+      - location: /assets/images/portfolio-details/privacyshell/pshell_05.png
+        title: PrivacyShell
+
+  - title: privacysnapper
+    image_thumb: /assets/images/portfolio-details/psnapper/thumbnail.png
+    link: /work/psnapper
+    tag: code
+    intro: Privacy Snapper is a browser extension that collects privacy policies of the sites users visit. The data is displayed on a dashboard for users to review any updates. It is one of Privacy Shell's multiple products.
+    detail: 
+      - info: Redesigned and improved the user dashboard with responsive front-end design and a powerful UI to sort and filter data. Implemented the UI for the registration, profile and subscriptions pages in Laravel. Worked closely with other developers to maintain the site. Developed a web scraping backend for legal documents using Scrapy.
+        title: Design
+      - info: Conducted user research and user surveys at the beginning of the project. Organized multiple usability tests across different phases of the product development to test user interfaces and communicated findings to team members to iterate on the UI.
+        title: Design
+      - info: Designed the UI/X flow for the main website using Wordpress. Implemented different landing pages for Privacy Snapper, tracked analysis with Google Analytics and conducted A/B testing in Optimizely to measure the impact of the design changes on the users. Responsible for monitoring and reporting on website traffic and performance to internal team.
+        title: Design
+      - info: Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site and the product.
+        title: Design
+    buttons:
+      - label: Live Preview
+        link: http://app.privacysnapper.com/auth/login
+    tools_used:
+      left:
+        - name: PHP
+        - name: Laravel
+        - name: Javascript
+        - name: Wordpress
+        - name: Optimizely
+      right:
+        - name: HTML5
+        - name: CSS3
+        - name: Adobe Suite
+        - name: Google Analytics
+    images:
+      - location: /assets/images/portfolio-details/psnapper/psnapper_01.png
+        title: Privacy Snapper
+      - location: /assets/images/portfolio-details/psnapper/psnapper_02.png
+        title: Privacy Snapper
+      - location: /assets/images/portfolio-details/psnapper/psnapper_03.png
+        title: Privacy Snapper
+      - location: /assets/images/portfolio-details/psnapper/psnapper_04.png
+        title: Privacy Snapper
+      - location: /assets/images/portfolio-details/psnapper/psnapper_04.png
+        title: Privacy Snapper
+      - location: /assets/images/portfolio-details/psnapper/psnapper_05.png
+        title: Privacy Snapper
+  
+  - title: topsecret
+    image_thumb: /assets/images/portfolio-details/topsecret/thumbnail.png
+    link: /work/topsecret
+    tag: code
+    intro: Topsecret is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop. Topsecret is one of Privacy Shell's multiple products.
+    detail: 
+      - info: Implemented a few landing pages for Topsecret in Wordpress, tracked analysis with Google Analytics and conducted A/B testing in Optimizely to measure the impact of the design changes on the users. Responsible for monitoring and reporting on website traffic and performance to internal team
+        title: code
+      - info: Created the user flows and layouts for Topsecret chat system in Adobe. Developed prototypes using Invision to present to potential clients. Conducted user testing and report the findings to team members.
+        title: Design
+    tools_used:
+      left:
+        - name: Javascript
+        - name: CSS3
+        - name: HTML5
+        - name: Wordpress
+      right:
+        - name: Google Analytics
+        - name: Optimizely
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/topsecret/topsecret_01.png
+        title: Topsecret
+      - location: /assets/images/portfolio-details/topsecret/topsecret_02.png
+        title: Topsecret
+      - location: /assets/images/portfolio-details/topsecret/topsecret_03.png
+        title: Topsecret
+
+  - title: taskcluster
+    image_thumb: /assets/images/portfolio-details/taskcluster-tool/thumbnail.png
+    link: /work/taskcluster
+    tag: code
+    intro: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.
+    detail: 
+      - info: Redesigned a UI feature for the Taskcluster tool allowing developers to easily access, sort and filter through their most recent tasks. Used localStorage as primary data store for tasks
+        title: code
+    buttons:
+      - label: Live Preview
+        link: https://tools.taskcluster.net/task-inspector/
+      - label: View Source
+        link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
+    tools_used:
+      left:
+        - name: Javascript
+        - name: React.js
+        - name: JSX
+      right:
+        - name: localStorage
+        - name: CSS
+    images:
+      - location: /assets/images/portfolio-details/taskcluster-tool/taskcluster_01.png
+        title: Mozilla, Taskcluster Tool
+      - location: /assets/images/portfolio-details/taskcluster-tool/taskcluster_02.png
+        title: Mozilla, Taskcluster Tool
+
+  - title: taskclusterdocs
+    image_thumb: /assets/images/portfolio-details/taskclusterdocs/thumbnail.png
+    link: /work/taskclusterdocs
+    tag: code
+    intro: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.
+    detail: 
+      - info: Implemented an automated doc generation system, where each Taskcluster component updates triggers a new version of the static site to be generated.
+        title: code
+      - info: It allows all developers on Taskcluster to have an automatic way to publish documentation when deploying new features.
+        title: code
+    buttons:
+      - label: Live Preview
+        link: https://tools.taskcluster.net/task-inspector/
+      - label: View Source
+        link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
+    tools_used:
+      left:
+        - name: Node.js
+        - name: ES6 Javascript
+        - name: Babel
+      right:
+        - name: Gulp
+        - name: S3
