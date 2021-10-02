@@ -6,23 +6,32 @@
     font-weight: 500;
     margin-top: 0;
     font-size: 16px;
-    color: #333;
+    color: $dark-grey-color;
+    font-family: $franklin-gothic-medium;
+}
+
+.project-description {
+    a {
+        color: $link-color;
+        text-decoration: none;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
 }
   
 .company-name {
     margin-top: -3px;
-    // padding-left: 5px;
     font-size: 16px;
     padding-right: 5px;
     margin-bottom: 6px;
     font-weight: 500;
-    color: #333;
+    color: $dark-grey-color;
 }
 
 .timeline {
-    // font-style: italic;
     font-size: 16px;
-    // padding-left: 5px;
 }
   
 .work-detail {
@@ -32,9 +41,13 @@
   
 .resume-tools {
     font-size: 15px;
+    font-family: $franklin-gothic-book;
+    font-style: italic;
+    margin-top: 10px;
 }
 
 .tools-title {
-    font-weight: 400;
+    font-family: $franklin-gothic-medium;
+    font-style: italic;
 }
   
