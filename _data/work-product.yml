@@ -4,41 +4,44 @@ product:
     image_thumb: /assets/images/portfolio-details/product/elasticball/elasticball-1.jpg
     link: /work/product/elastic-ball
     tag: product
-    intro: The lollipop concept was inspired from the name Eyecandy. I packaged the elastic ball as a lollipop candy. The customers went crazy over the "cute" item as they grabbed it. 
+    detail:
+      - info: The ball is made by tying elastics into a knot and then wrapping more elastics around it. It eas of the fashion item that we carried at Eyecandy Accessories Inc. 
+      - info: This particular item increased the sales enormously at Eyecandy. It helped place the brand in stores like Bed Bath and Beyond. The moment it was manufactured in China, it was already sold out in Canada.
     clients: Walgreens, Shopko, Fields, Bed Bath and Beyond
     images:
       - location: /assets/images/portfolio-details/product/elasticball/elasticball-1.jpg
         title: Kristel | Product - Elastic Ball
-      - location: /assets/images/portfolio-details/product/elasticball/elasticball-2.jpg
-        title: Kristel | Product - Elastic Ball
-
-  - title: giftset
-    name: Gift set
-    image_thumb: /assets/images/portfolio-details/product/giftset/thumbnail.jpg
-    link: /work/product/giftset
-    tag: product
-    intro: The gift sets were a new product line that I incepted and designed. I designed the whole line for a proposal to add up to our line. The artwork was then presented to some potential customers. 
-    clients: Walgreens, Shoppers Drug Mart, Shopko, Fields, Winners
-    images:
-      - location: /assets/images/portfolio-details/product/giftset/giftset-1.jpg
-        title: Kristel | Product - Giftset
 
   - title: elasticToGo
     name: Elastic To Go
     image_thumb: /assets/images/portfolio-details/product/elastic-to-go/elastic-to-go.jpg
     link: /work/product/elastic-to-go
     tag: product
-    intro: Elastic To Go was inspired by gum packaging. A new product line that I designed at Eyecandy. It was an easy way to carry elastics around in your purse, to avoid losing them. 
+    detail: 
+      - info: A new concept for carrying elastics that I designed at Eyecandy. It was an easy way to carry elastics around and not ending up losing them. It was designed in a gum packaging concept. 
     images:
       - location: /assets/images/portfolio-details/product/elastic-to-go/elastic-to-go.jpg
         title: Kristel | Product - Elastic to go 
+
+  - title: giftset
+    name: Gift set
+    image_thumb: /assets/images/portfolio-details/product/giftset/thumbnail.jpg
+    link: /work/product/giftset
+    tag: product
+    detail: 
+      - info: The gift sets were a new product line that I incepted and designed. I designed the whole line as a new addition to our product line.
+    clients: Walgreens, Shoppers Drug Mart, Shopko, Fields, Winners
+    images:
+      - location: /assets/images/portfolio-details/product/giftset/giftset-1.jpg
+        title: Kristel | Product - Giftset
 
   - title: dressup
     name: Dress up 
     image_thumb: /assets/images/portfolio-details/product/dressup/thumbnail.jpg
     link: /work/product/dressup
     tag: product
-    intro: Elastic To Go was inspired by gum packaging. A new product line that I designed at Eyecandy. It was an easy way to carry elastics around in your purse, to avoid losing them. 
+    detail: 
+      - info: Designed a dress-up line for kids.
     images:
       - location: /assets/images/portfolio-details/product/dressup/dressup-1.jpg
         title: Kristel | Product - dress up 
@@ -48,3 +51,22 @@ product:
         title: Kristel | Product - dress up
       - location: /assets/images/portfolio-details/product/dressup/dressup-4.jpg
         title: Kristel | Product - dress up
+
+  - title: hosiery
+    name: Hosiery
+    image_thumb: /assets/images/portfolio-details/product/headwear/thumbnail.jpg
+    link: /work/product/hosiery
+    tag: product
+    detail: 
+      - info: Designed licensed products from known brands such as Mattel, Nickolodeon.
+    images:
+      - location: /assets/images/portfolio-details/product/headwear/headwear-1.jpg
+        title: Kristel | Product - headwear
+      - location: /assets/images/portfolio-details/product/headwear/headwear-2.jpg
+        title: Kristel | Product - headwear
+      - location: /assets/images/portfolio-details/product/socks/socks-1.jpg
+        title: Kristel | Product - socks
+      - location: /assets/images/portfolio-details/product/socks/socks-2.jpg
+        title: Kristel | Product - socks
+      - location: /assets/images/portfolio-details/product/socks/socks-3.jpg
+        title: Kristel | Product - socks
