@@ -4,8 +4,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/user-tagging/thumbnail.png
     link: /work/code/user-tagging
     tag: code
-    intro: Allow users to tag multiple Instagram accounts in bulk instead of manually tagging 1 account at a time on every Instagram Post. And avoid any overlap of accounts on the image when tagging.
     detail: 
+      - info: Allow users to tag multiple Instagram accounts in bulk instead of manually tagging 1 account at a time on every Instagram Post. And avoid any overlap of accounts on the image when tagging.
       - info: Built the Frontend UI in Backbone.js and Symfony. Allowed users to practice the CRUD operations. Implemented a collision algorithm to avoid any users' names to overlap with one another.
     tools_used: 
       left:
@@ -32,8 +32,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/fbtw/thumbnail.png
     link: /work/code/fbtw-customization
     tag: code
-    intro: Allow users to post different content on each social media platform. This evolved the posting user experience from being Instagram focused to being cross-platform.. 
     detail: 
+      - info: Allow users to post different content on each social media platform. This evolved the posting user experience from being Instagram focused to being cross-platform.
       - info: ReFactored the legacy frontend to support customized media on different platforms. Allowing Users to swap images, create different captions, adding and removing hashtags on demand, along with a detailed user experience when a Facebook and Twitter Post has been customized.
     tools_used: 
       left:
@@ -60,7 +60,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/sellit-coupon/thumbnail.png
     link: /work/code/sellit-coupon
     tag: code
-    intro: to create promo codes that a social media manager can create, manage, and track in sellit. The feature creates the ability to offer discounts to their customers.
+    detail: 
+      - info: To create promo codes that a social media manager can create, manage, and track in sellit. The feature creates the ability to offer discounts to their customers.
     tools_used: 
       left:
         - name: Symfony
@@ -88,7 +89,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/calendar-note/thumbnail.png
     link: /work/code/calendar-note
     tag: code
-    intro: Allow users to create notes for themselves or a team member about potential ideas as a calendar entry. The notes can be one-offs or on a repeating schedule. 
+    detail: 
+      - info: Allow users to create notes for themselves or a team member about potential ideas as a calendar entry. The notes can be one-offs or on a repeating schedule. 
     tools_used: 
       left:
         - name: Symfony
@@ -120,7 +122,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/pin-planner/thumbnail.png
     link: /work/code/pin-extension
     tag: code
-    intro: Implemented the core "Plan It" feature. Giving users the ability to upload one or multiple images while browsing online and scheduling them to their pinterest account. 
+    detail: 
+      - info: Implemented the core "Plan It" feature. Giving users the ability to upload one or multiple images while browsing online and scheduling them to their pinterest account. 
     tools_used: 
       left:
         - name: Stencil.js
@@ -149,7 +152,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/ask/thumbnail.png
     link: /work/code/ask
     tag: code
-    intro: Built a Ruby on Rails application that allows users to view questions and answers. A user needs to be registered to ask questions, post an answer or add any comments. The application is using MySql to store its data, and is deployed on Heroku.
+    detail: 
+      - info: Built a Ruby on Rails application that allows users to view questions and answers. A user needs to be registered to ask questions, post an answer or add any comments. The application is using MySql to store its data, and is deployed on Heroku.
     tools_used: 
       left:
         - name: Ruby
@@ -175,8 +179,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/privacyshell/thumbnail.png
     link: /work/code/privacyshell
     tag: code
-    intro: Privacy Shell is a platform that raises awareness about online privacy. Users learn about privacy news, connect with privacy experts and install the privacy products that best suit their needs to protect their online privacy.
     detail: 
+      - info: Privacy Shell is a platform that raises awareness about online privacy. Users learn about privacy news, connect with privacy experts and install the privacy products that best suit their needs to protect their online privacy.
       - info: Worked closely with the CEO to architect Privacy Shell's site, which was then built in Wordpress for third-party users to easily update the content.
       - info: As lead UI/X designer, my role was to communicate the design ideas through wireframes, user flows and share the research findings to team members before implementing the site. Implemented analytics tracking and SEO techniques on the site. Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site.
     tools_used:
@@ -202,8 +206,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/psnapper/thumbnail.png
     link: /work/code/psnapper
     tag: code
-    intro: Privacy Snapper is a browser extension that collects privacy policies of the sites users visit. The data is displayed on a dashboard for users to review any updates. It is one of Privacy Shell's multiple products.
     detail: 
+      - info: Privacy Snapper is a browser extension that collects privacy policies of the sites users visit. The data is displayed on a dashboard for users to review any updates. It is one of Privacy Shell's multiple products.
       - info: Redesigned and improved the user dashboard with responsive front-end design and a powerful UI to sort and filter data. Implemented the UI for the registration, profile and subscriptions pages in Laravel. Worked closely with other developers to maintain the site. Developed a web scraping backend for legal documents using Scrapy.
         title: Design
       - info: Conducted user research and user surveys at the beginning of the project. Organized multiple usability tests across different phases of the product development to test user interfaces and communicated findings to team members to iterate on the UI.
@@ -241,8 +245,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/topsecret/thumbnail.png
     link: /work/code/topsecret
     tag: code
-    intro: Topsecret is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop. Topsecret is one of Privacy Shell's multiple products.
     detail: 
+      - info: Topsecret is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop. Topsecret is one of Privacy Shell's multiple products.
       - info: Implemented a few landing pages for Topsecret in Wordpress, tracked analysis with Google Analytics and conducted A/B testing in Optimizely to measure the impact of the design changes on the users. Responsible for monitoring and reporting on website traffic and performance to internal team
         title: code
       - info: Created the user flows and layouts for Topsecret chat system in Adobe. Developed prototypes using Invision to present to potential clients. Conducted user testing and report the findings to team members.
@@ -270,8 +274,8 @@ code:
     image_thumb: /assets/images/portfolio-details/code/taskcluster-tool/thumbnail.png
     link: /work/code/taskcluster
     tag: code
-    intro: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.
     detail: 
+      - info: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.
       - info: Redesigned a UI feature for the Taskcluster tool allowing developers to easily access, sort and filter through their most recent tasks. Used localStorage as primary data store for tasks
         title: code
     tools_used:
@@ -283,23 +287,23 @@ code:
         - name: localStorage
         - name: CSS
     images:
-      - location: /assets/images/portfolio-details/code/taskcluster-tool/taskcluster-1.png
+      - location: /assets/images/portfolio-details/code/taskcluster-tool/taskcluster-1.gif
         title: Mozilla, Taskcluster Tool
-      - location: /assets/images/portfolio-details/code/taskcluster-tool/taskcluster-2.png
+      - location: /assets/images/portfolio-details/code/taskcluster-tool/taskcluster-2.gif
         title: Mozilla, Taskcluster Tool
-    buttons:
-      - label: Live Preview
-        link: https://tools.taskcluster.net/task-inspector/
-      - label: View Source
-        link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
+    # buttons:
+    #   - label: Live Preview
+    #     link: https://tools.taskcluster.net/task-inspector/
+    #   - label: View Source
+    #     link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
 
   - title: taskclusterdocs
     name: TaskCluster Docs
     image_thumb: /assets/images/portfolio-details/code/taskclusterdocs/thumbnail.png
     link: /work/code/taskclusterdocs
     tag: code
-    intro: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.
     detail: 
+      - info: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.
       - info: Implemented an automated doc generation system, where each Taskcluster component updates triggers a new version of the static site to be generated.
         title: code
       - info: It allows all developers on Taskcluster to have an automatic way to publish documentation when deploying new features.
@@ -312,8 +316,8 @@ code:
       right:
         - name: Gulp
         - name: S3
-    buttons:
-      - label: Live Preview
-        link: https://tools.taskcluster.net/task-inspector/
-      - label: View Source
-        link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
+    # buttons:
+    #   - label: Live Preview
+    #     link: https://tools.taskcluster.net/task-inspector/
+    #   - label: View Source
+    #     link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
