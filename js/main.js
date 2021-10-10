@@ -6,19 +6,22 @@ document.addEventListener('DOMContentLoaded', function() {
 		designPg = window.location.pathname.includes('/work/design/');
 	
 	if (codePg || productPg || designPg) {
-
 		for (let i = 0; i < mainNav.length; i++) {
 			if (mainNav[i].innerHTML === 'work') {
 				mainNav[i].classList.add('current');
 			}
-
-			if (codePg && subNav[i].innerHTML === 'coding') {
-				subNav[i].classList.add('current');
-			} else if (productPg && subNav[i].innerHTML === 'product &amp; packaging design') {
-				subNav[i].classList.add('current');
-			} else if (designPg && subNav[i].innerHTML === 'branding') {
-				subNav[i].classList.add('current');
-			}
 		}
+
+		subNav.forEach(nav => {
+			if (codePg && nav.innerHTML === 'coding') {
+				nav.classList.add('current');
+
+			} else if (productPg && nav.innerHTML === 'product &amp; packaging') {
+				nav.classList.add('current');
+
+			} else if (designPg && nav.innerHTML === 'branding') {
+				nav.classList.add('current');
+			}
+		});
 	}
 }, false);
