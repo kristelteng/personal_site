@@ -43,6 +43,8 @@ product:
     images:
       - location: /assets/images/portfolio-details/product/giftset/giftset-1.jpg
         title: Kristel | Product - Giftset
+      - location: /assets/images/portfolio-details/product/giftset/giftset-2.png
+        title: Kristel | Product - Giftset
 
   - title: dressup
     name: Dress up 
@@ -64,13 +66,31 @@ product:
       - location: /assets/images/portfolio-details/product/dressup/dressup-4.jpg
         title: Kristel | Product - dress up
 
+  - title: accessories
+    name: Hair Accessories
+    image_thumb: /assets/images/portfolio-details/product/accessories/thumbnail.png
+    link: /work/product/accessories
+    tag: product
+    detail: 
+      - info: Designed licensed products and packaging from known brands such as Mattel, Nickolodeon.
+    clients: Walgreens, Walmart, Sears
+    tools_used:
+      left:
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/product/accessories/accessories-1.png
+        title: Kristel | Product - Hair Accessories
+      - location: /assets/images/portfolio-details/product/accessories/accessories-2.jpg
+        title: Kristel | Product - Hair Accessories
+
   - title: hosiery
     name: Hosiery
     image_thumb: /assets/images/portfolio-details/product/headwear/thumbnail.jpg
     link: /work/product/hosiery
     tag: product
     detail: 
-      - info: Designed licensed products from known brands such as Mattel, Nickolodeon.
+      - info: Designed licensed products from known brands such as Mattel, Nickolodeon, Hasbro.
+    clients: Mattel, Nickolodeon, Hasbro
     tools_used:
       left:
         - name: Adobe Suite

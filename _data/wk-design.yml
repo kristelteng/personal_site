@@ -60,6 +60,8 @@ design:
     images:
       - location: /assets/images/portfolio-details/design/mbake/mbake-1.jpg
         title: Medley Cuisine | Mbake Image
+      - location: /assets/images/portfolio-details/design/mbake/mbake-2.jpg
+        title: Medley Cuisine | Mbake Image
   
   - title: foodmarket
     name: FoodMarket

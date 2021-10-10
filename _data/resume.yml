@@ -180,11 +180,16 @@
             - list: Designed a dress-up line for kids.
           link: /work/product/dressup
           tools-used: Adobe Suite
+        
+        - name: Hair accessories
+          work-detail: 
+            - list: Designed licensed products from known brands such as Mattel, Nickelodeon.
+          link: /work/product/accessories
+          tools-used: Adobe Suite
 
     - name: Gertex Hosiery
       timeline: Apr 2015 - Mar 2016
       title: Product &amp; Packaging Designer
-
       project:
         - name: Hosiery
           work-detail: 

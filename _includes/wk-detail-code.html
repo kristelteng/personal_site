@@ -33,4 +33,15 @@
       </div>
       {% endfor %}
     </div>
+
+    <!-- FEEDBACK -->
+    {% if project.feedback %}
+    <div class="portfolio-feedback-wrapper">
+      {% for image in project.feedback %}
+      <div class="portfolio-image">
+        <img src="{{ image.location }}" class="img-responsive" alt="{{ image.title }}" />
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
 </div>
