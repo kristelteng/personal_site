@@ -28,7 +28,8 @@ design:
     image_thumb: /assets/images/portfolio-details/design/delibake/thumbnail.png
     link: /work/design/delibake
     tag: design
-    intro: Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
+    detail: 
+      - info: Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
     tools_used:
       left:
         - name: Wordpress
@@ -51,12 +52,13 @@ design:
     image_thumb: /assets/images/portfolio-details/design/mbake/thumbnail.png
     link: /work/design/mbake
     tag: design
-    intro: Designed the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for a retail bakery chain. 
+    detail: 
+      - info: Designed the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for a retail bakery chain. 
     tools_used:
       left:
         - name: Adobe Suite
     images:
-      - location: /assets/images/portfolio-details/design/mbake/medley-4.jpg
+      - location: /assets/images/portfolio-details/design/mbake/mbake-1.jpg
         title: Medley Cuisine | Mbake Image
   
   - title: foodmarket
@@ -64,14 +66,15 @@ design:
     image_thumb: /assets/images/portfolio-details/design/foodmarket/thumbnail.png
     link: /work/design/foodmarket
     tag: design
-    intro: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for a food court style restaurant
+    detail: 
+      - info: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for a food court style restaurant
     tools_used:
       left:
         - name: Adobe Suite
     images:
-      - location: /assets/images/portfolio-details/design/foodmarket/foodmarket-1.jpeg
+      - location: /assets/images/portfolio-details/design/foodmarket/foodmarket-1.jpg
         title: Medley Cuisine | FoodMarket Image
-      - location: /assets/images/portfolio-details/design/foodmarket/foodmarket-2.jpeg
+      - location: /assets/images/portfolio-details/design/foodmarket/foodmarket-2.jpg
         title: Medley Cuisine | FoodMarket Image
 
   - title: aanari
