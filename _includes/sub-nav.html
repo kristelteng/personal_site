@@ -1,7 +1,13 @@
 <ul class="nav sub-nav">
-    {% for menu in site.data.submenu-nav %}
-    <li class="nav-item">
-        <a href="{{ menu.url }}">{{ menu.name }}</a>
+    {% for menu in site.data.sub-nav %}
+    {% assign url = page.url %}
+    <li>
+        <a {% if url == menu.url %} 
+            class="current sub-link" 
+        {% else %}
+            class="sub-link" 
+        {% endif %}
+        href="{{ menu.url }}">{{ menu.name }}</a>
     </li>
     {% endfor %}
 </ul>
