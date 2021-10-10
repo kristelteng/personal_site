@@ -1,0 +1,10 @@
+---
+layout: work_details
+title: Hair Accessories
+---
+
+{% for project in site.data.wk-product.product %}
+  {% if project.title == 'accessories' %}
+    {% include wk-detail-product.html %}
+  {% endif %}
+{% endfor %}
