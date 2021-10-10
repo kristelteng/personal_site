@@ -78,7 +78,8 @@ design:
     image_thumb: /assets/images/portfolio-details/design/aanari/thumbnail.png
     link: /work/design/aanari
     tag: design
-    intro: Created the hotel brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging. 
+    detail:
+      - info: Created the hotel brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging. 
     tools_used:
       left:
         - name: Adobe Suite
