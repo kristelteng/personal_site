@@ -110,4 +110,10 @@ jQuery(function($) {'use strict';
 		});
 	}
 
+	//set submenu navigation
+	$('.sub-nav > .nav-item').on('click', function() {
+		$('.nav-item').addClass('active');
+	});
+
+	$('.nav-item').removeClass('active');
 });

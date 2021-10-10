@@ -4,7 +4,7 @@
 
 
 /*********** BASE ***********/
-html{
+/* html{
   height: 100%;
 }
 
@@ -24,9 +24,9 @@ body {
 }
 .content {
   flex: 1;
-}
+} */
 
-/*********** NAVIGATION ***********/
+/* ********** NAVIGATION **********
 a {
   color: #00AEEF;
 }
@@ -72,9 +72,9 @@ h3{
 }
 .overflow{
   overflow: hidden;
-}
+} */
 
-/******** HEADER ********/
+/* ******* HEADER *******
 #header{
   margin-bottom: 0;
   padding: 30px 0;
@@ -102,7 +102,7 @@ h3{
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
-}
+} */
 
 /******** INDEX PAGE - INTRODUCTION ********/
 #introduction {
@@ -204,8 +204,8 @@ h3{
   background-color: rgba(242, 242, 242, 0.85);
 }
 
-/*********** SIDEBAR ***********/
-.sidebar h3 {
+/* ********** SIDEBAR ********** */
+/* .sidebar h3 {
   color: #404040;
   margin-top: 0;
   border-bottom: 3px solid #ececec;
@@ -215,9 +215,9 @@ h3{
 
 .sidebar-item{
   margin-bottom: 48px;
-}
+} */
 /* Popular work */
-.popular ul.gallery {
+/* .popular ul.gallery {
   padding: 0;
   list-style: none;
   margin-top: 10px;
@@ -247,10 +247,10 @@ h3{
 .popular ul.gallery li a img:hover {
   opacity: .5;
   background-color: rgba(242, 242, 242, 0.85);
-}
+} */
 
 /* Recent posts */
-.sidebar-item .media{
+/* .sidebar-item .media{
   border-bottom: 1px solid #ececec;
   padding-bottom: 10px;
   padding-top: 21px;
@@ -292,10 +292,10 @@ h3{
 .sidebar-item .media .media-body p {
   color: #b4b4b4;
   font-size: 12px;
-}
+} */
 
 /*********** PORTFOLIO DETAILS ***********/
-.project-name h2 {
+/* .project-name h2 {
   margin-top: 0px;
   margin-bottom: 15px;
   color: #3B3B3B;
@@ -341,10 +341,10 @@ ul.elements {
 }
 .current {
  color: #000;
-}
+} */
 
-/*********** BLOG LAYOUT ***********/
-.single-blog{
+/* ********** BLOG LAYOUT ********** */
+/* .single-blog{
   padding-bottom: 30px;
 }
 
@@ -381,10 +381,10 @@ a.read-more{
 a.read-more:hover{
   opacity: .8;
   text-decoration: none;
-}
+} */
 
 /*********** BLOG DETAILS - POST ***********/
-.blog-pagination {
+/* .blog-pagination {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 55px;
@@ -408,10 +408,10 @@ a.read-more:hover{
 .author-profile p{
   color: #3a424c;
   font-weight: 400;
-}
+} */
 
 /*********** FOOTER ***********/
-footer {
+/* footer {
   color: #000;
   border-top: 1px solid #f5f5f5;
 }
@@ -427,11 +427,10 @@ footer .social {
   font-size: 20px;
   padding-left: 5px;
   padding-right: 5px;
-}
+} */
 
 /*********** RESUME ***********/
-
-.resume_section {
+/* .resume_section {
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -463,8 +462,17 @@ p.resume-tools {
 }
 span.tools-title {
   font-weight: 400;
-}
+} */
 
+
+/*********** Highlighting syntax ***********/
+.highlight pre {
+  padding: 20px 30px;
+  margin: 0, 0, 10px, 0;
+  display: block;
+  line-height: 1.8;
+  border: none;
+  border-radius: 4px;}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .introduce-me .typing-element {

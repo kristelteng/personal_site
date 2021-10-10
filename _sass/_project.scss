@@ -6,20 +6,26 @@
         font-family: $franklin-gothic-medium;
 
         li {
+            a {
+                padding: 0;
+            }
+            
+            a::after {
+                content: '|';
+                font-family: $franklin-gothic-book;
+                color: $light-grey-color;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
             a:hover, a:focus {
                 background-color: transparent;
             }
-        }
-
-        .separator {
-            font-family: $franklin-gothic-book;
-            color: $light-grey-color;
         }
     }
 
     .portfolio-single {
         position: relative;
-        width: 250px;
         display: block;
         cursor: pointer;
         background: $global-white;
@@ -99,7 +105,7 @@
         font-family: $franklin-gothic-book;
         color: $dark-grey-color;
         line-height: 1.4;
-        margin-bottom: 5px;
+        // margin-bottom: 5px;
     }
 
     .work-detail {

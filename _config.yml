@@ -1,7 +1,14 @@
 # Site settings
-name: Kristel
+
+name: Kristel | Frontend Developer | UI/X Designer
 email: kristelteng@gmail.com
 title: Developer | UI/X Designer
+description: >- # this means to ignore newlines until "baseurl:"
+  Fifty rooms of all styles in a two-wings complex ideally located in the heart of the village of Flic en Flac on the West
+  coast of Mauritius. Right across one of the best beaches of the island with center stage to the stunning Mauritian
+  sunset. Mei Yan, The Colonial Bar, The Colonial Garden serving Food &amp; Drinks all around, private dining rooms and
+  event spaces. Amrita Spa for your most relaxing vacation, full gym, outdoor swimming pool on a two-tiered sundeck.
+
 
 url: "https://kristelteng.com" # the base hostname & protocol for your site
 
@@ -12,10 +19,7 @@ linkedin_username: kristelteng
 # Build settings
 markdown: kramdown
 
-baseurl: "" # the subpath of your site, e.g. /blog
-
-# paginate: 5
-# paginate_path: "blog/page:num/"
+baseurl: "" 
 
 permalink: pretty
 
@@ -23,7 +27,16 @@ collections:
   works:
     output: true
     permalink: /work/:title
-
+  wk-design: 
+    output: true
+    permalink: /work/design/:title
+  wk-code: 
+    output: true
+    permalink: /work/code/:title
+  wk-product: 
+    output: true
+    permalink: /work/product/:title
+  
 plugins:
   - jekyll-feed
   - jekyll-sitemap

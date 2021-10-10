@@ -4,12 +4,8 @@
 
     .navbar {
         background: #fff;
-        border-bottom: 1px solid rgba(247, 247, 247, 0.38);
         min-height: 0;
-    }
-
-    .navbar-toggle {
-        // margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 3px 0px;
     }
 
     .navbar-right {
@@ -21,10 +17,11 @@
             a {
                 letter-spacing: 0.8px;
                 font-size: 11px;
-                // padding: 20px;
                 text-transform: uppercase;
-                font-weight: 500;
-                color: #00AEEF;
+                // font-weight: 500;
+                color: $primary-color;
+                font-family: $franklin-gothic-medium;
+
                 -webkit-transition: 300ms;
                 -moz-transition: 300ms;
                 -o-transition: 300ms;
@@ -36,12 +33,13 @@
                     border: 0;
                     outline: none;
                     outline-offset: 0;
+                    color: $link-color;
                 }
 
                 &:active,
                 &:hover,
                 &.current {
-                    color: #000;
+                    color: $link-color;
                 }
             }
         }

@@ -1,119 +1,139 @@
-.sidebar h3 {
-    color: #404040;
-    margin-top: 0;
-    border-bottom: 3px solid #ececec;
-    margin-bottom: 6px;
-    padding-bottom: 8px;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-}
+.sidebar {
 
-/* Popular work */
-.popular {
-    ul {
+    h3 {
+        border-bottom: 3px solid $light-grey-color;
+        margin-top: 0;
+        color: $dark-grey-color;
+    }
+
+    .sub-nav {
         padding: 0;
         list-style: none;
-        margin-top: 10px;
-        margin-left: -8px;
-        margin-right: -8px;
-        margin-bottom: 230px;
+        font-family: $franklin-gothic-medium;
 
-        li {
-            display: block;
-            width: 33.33%;
-            float: left;
-            padding: 8px;
-
-            a {
-                display: block;
-            }
-
-            img {
-                width: 100%;
-                display: block;
-                opacity: 1;
-                -webkit-transition: .3s ease-in-out;
-                transition: .3s ease-in-out;
-                border: 1px solid #ddd;
-
-                &:hover {
-                    opacity: .5;
-                    background-color: rgba(242, 242, 242, 0.85);
-                }
-            }
-        }
-    }
-
-    .gallery {
-        margin-bottom: 120px;
-    }
-}
- 
-/* Recent posts */
-.sidebar-item {
-    margin-bottom: 48px;
-
-    .media {
-        border-bottom: 1px solid #ececec;
-        padding-bottom: 10px;
-        padding-top: 21px;
-        margin-top: 0;
-        transition: all 0.3s ease 0s;
-        -moz-transition: all 0.3s ease 0s;
-        -webkit-transition: all 0.3s ease 0s;
-        -o-transition: all 0.3s ease 0s;
-
-        &:last-child {
-            border-bottom: 0px solid #ececec;
-            padding-bottom: 0;
-        }
-
-        &:hover {
-            border-left: 2px solid #00AEEF;
-            padding-left: 5px;
-            transition: all 0.3s ease 0s;
-            -moz-transition: all 0.3s ease 0s;
-            -webkit-transition: all 0.3s ease 0s;
-            -o-transition: all 0.3s ease 0s;
-        }
-    }
-
-    .media-body {
         a {
-            
-
-            // color: #7d7d7d;
-            // font-size: 16px;
-            // text-decoration: none;
-
-            &:hover {
-                color: #00AEEF;
-                transition: all 0.3s ease 0s;
-                -moz-transition: all 0.3s ease 0s;
-                -webkit-transition: all 0.3s ease 0s;
-                -o-transition: all 0.3s ease 0s;
-                text-decoration: none;
-            }
+            padding: 5px 0px;
+            line-height: 1.5;
         }
 
-        h4 {
-            text-transform: capitalize;
-            margin-top: 0;
-            margin-bottom: 8px;
-            color: #7d7d7d;
-            font-size: 16px;
-            text-decoration: none;
-            line-height: 1.2;
+        .nav-item a:hover {
+            background: transparent;
 
-            &:hover {
-                color: #00AEEF;
-            }
-        }
-
-
-        p {
-            color: #b4b4b4;
-            font-size: 12px;
         }
     }
 }
+
+// .sidebar h3 {
+//     color: #404040;
+//     margin-top: 0;
+//     border-bottom: 3px solid #ececec;
+//     margin-bottom: 6px;
+//     padding-bottom: 8px;
+//     font-size: 16px;
+//     letter-spacing: 0.5px;
+// }
+
+// /* Popular work */
+// .popular {
+//     ul {
+//         padding: 0;
+//         list-style: none;
+//         margin-top: 10px;
+//         margin-left: -8px;
+//         margin-right: -8px;
+//         margin-bottom: 230px;
+
+//         li {
+//             display: block;
+//             width: 33.33%;
+//             float: left;
+//             padding: 8px;
+
+//             a {
+//                 display: block;
+//             }
+
+//             img {
+//                 width: 100%;
+//                 display: block;
+//                 opacity: 1;
+//                 -webkit-transition: .3s ease-in-out;
+//                 transition: .3s ease-in-out;
+//                 border: 1px solid #ddd;
+
+//                 &:hover {
+//                     opacity: .5;
+//                     background-color: rgba(242, 242, 242, 0.85);
+//                 }
+//             }
+//         }
+//     }
+
+//     .gallery {
+//         margin-bottom: 120px;
+//     }
+// }
+ 
+// /* Recent posts */
+// .sidebar-item {
+//     margin-bottom: 48px;
+
+//     .media {
+//         border-bottom: 1px solid #ececec;
+//         padding-bottom: 10px;
+//         padding-top: 21px;
+//         margin-top: 0;
+//         transition: all 0.3s ease 0s;
+//         -moz-transition: all 0.3s ease 0s;
+//         -webkit-transition: all 0.3s ease 0s;
+//         -o-transition: all 0.3s ease 0s;
+
+//         &:last-child {
+//             border-bottom: 0px solid #ececec;
+//             padding-bottom: 0;
+//         }
+
+//         &:hover {
+//             border-left: 2px solid $link-color;
+//             padding-left: 5px;
+//             transition: all 0.3s ease 0s;
+//             -moz-transition: all 0.3s ease 0s;
+//             -webkit-transition: all 0.3s ease 0s;
+//             -o-transition: all 0.3s ease 0s;
+//         }
+//     }
+
+//     .media-body {
+//         a {
+//             &:hover {
+//                 color: $link-color;
+//                 transition: all 0.3s ease 0s;
+//                 -moz-transition: all 0.3s ease 0s;
+//                 -webkit-transition: all 0.3s ease 0s;
+//                 -o-transition: all 0.3s ease 0s;
+//                 text-decoration: none;
+//             }
+//         }
+
+//         h4 {
+//             text-transform: capitalize;
+//             margin-top: 0;
+//             margin-bottom: 5px;
+//             color: #7d7d7d;
+//             font-size: 14px;
+//             text-decoration: none;
+//             // line-height: 1.2;
+//             // font-family: $franklin-gothic-book;
+
+//             &:hover {
+//                 color: $link-color;
+//             }
+//         }
+
+//         p {
+//             color: #b4b4b4;
+//             font-size: 10px;
+//             font-family: $franklin-gothic-medium;
+//         }
+//     }
+// }

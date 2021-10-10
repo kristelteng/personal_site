@@ -5,28 +5,28 @@ permalink: /blog/tags
 ---
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-12 col-sm-12">
-            <h1 class="archive uppercase">Tags</h1>
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <h1 class="archive uppercase">Tags</h1>
 
-            {% for tag in site.tags %}
-                {% assign first_tag = tag | first %}
-                {% assign last_tag = tag | last %}
+      {% for tag in site.tags %}
+      {% assign first_tag = tag | first %}
+      {% assign last_tag = tag | last %}
 
-            <div class="section">
-                <span class="archive-title">{{ first_tag }}</span>
-                <br>
-                {% for post in last_tag %}
-                    {% if post.tags contains first_tag %}
-                    <div class="article-section">
-                        <a class="article-title" href="{{ post.url }}">{{post.title}} - </a><small class="article-date">{{post.date | date_to_string }}</small><br>
-                    </div>
-                    {% endif %}
-                {% endfor %}
-            </div>
-            {% endfor %}
+      <div class="section">
+        <span class="archive-title">{{ first_tag }}</span>
+        <br>
+        {% for post in last_tag %}
+        {% if post.tags contains first_tag %}
+        <div class="article-section">
+          <a class="article-title" href="{{ post.url }}">{{post.title}} - </a><small class="article-date">{{post.date | date_to_string }}</small><br>
         </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+      {% endfor %}
     </div>
-    <!-- End Row -->
+  </div>
+  <!-- End Row -->
 </div>
 <!-- End Container -->

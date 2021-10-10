@@ -1,67 +1,122 @@
 ---
 layout: default
-title: Work
-permalink: /work
+title: Kristel Teng | Work
+permalink: /work/
 ---
 
-<section id="portfolio" class="padding-top padding-bottom">
+<section class="main-tiles-wrapper">
 	<div class="container">
 		<div class="row">		
-			<div class="col-sm-9">
-        <ul class="nav nav-pills">
-          <li class="active">
-            <a href="#code" data-toggle="tab">UI/X Coding</a>
-          </li>
-          <li><a href="#branding" data-toggle="tab">Branding</a>
-          </li>
-        </ul>
+            <div class="col-sm-12">
+                {% include sub-nav.html %}
         
-        <div class="tab-content clearfix">
-          <div class="tab-pane active" id="code"> 
-            {% for detail in site.data.work-code.code %}
-            <div class="col-sm-3">
-              <div class="portfolio-wrapper">
-                <div class="portfolio-single">
-                  <div class="portfolio-thumb">
-                    <div class="tile-view">
-                      <a href="{{ detail.link }}">
-                        <img src="{{ detail.image_thumb }}" class="img-responsive" alt="{{ detail.title }}" />
-                      </a>
+                <div class="content-wrapper">
+                    <div id="code">
+                        {% include subwk-code.html %}
                     </div>
-                  </div>
-                </div>
-                <div class="portfolio-info">
-                  <h2><a href="{{ detail.link }}">{{ detail.title }}</a></h2>
-                </div>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
 
-          <div class="tab-pane" id="branding">
-            {% for detail in site.data.work-design.design %}
-            <div class="col-sm-3">
-              <div class="portfolio-wrapper">
-                <div class="portfolio-single">
-                  <div class="portfolio-thumb">
-                    <div class="tile-view">
-                      <a href="{{ detail.link }}"><img src="{{ detail.image_thumb }}" class="img-responsive" alt="{{ detail.title }}" /></a>
+                    <div id="branding">
+                        {% include subwk-design.html %}
                     </div>
-                  </div>
-                </div>
-                <div class="portfolio-info">
-                  <h2><a href="{{ detail.link }}">{{ detail.title }}</a></h2>
-                </div>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
 
-			<div class="col-sm-3">
-				{% include side.html %}
-			</div>
+                    <div id="product">
+                        {% include subwk-product.html %}
+                    </div>
+                </div>
+            </div>
 		</div>
 	</div>
 </section>
+
+
+
+
+
+
+
+
+
+<!-- <section class="main-tiles-wrapper">
+	<div class="container">
+		<div class="row">		
+            <div class="col-sm-12">
+                <ul class="nav sub-nav">
+                    <li class="active">
+                        <a href="#code" data-toggle="tab">Coding</a>
+                    </li><span class="separator"> | </span>
+                    <li>
+                        <a href="#branding" data-toggle="tab">Branding</a>
+                    </li><span class="separator"> | </span>
+                    <li>
+                        <a href="#product" data-toggle="tab">Product & Packaging Design</a>
+                    </li>
+                </ul>
+        
+                <div class="tab-content clearfix">
+                    <div class="tab-pane active" id="code">
+                    {% for detail in site.data.work-code.code %}
+                    <div class="col-md-3 col-sm-6">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                <div class="tile-view">
+                                    <a href="{{ detail.link }}">
+                                    <img src="{{ detail.image_thumb }}" class="img-responsive" alt="{{ detail.title }}" />
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <a class="portfolio-name" href="{{ detail.link }}">{{ detail.name }}</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    </div>
+
+                    <div class="tab-pane" id="branding">
+                        {% for detail in site.data.work-design.design %}
+                        <div class="col-md-3 col-sm-6">
+                            <div class="portfolio-wrapper">
+                                <div class="portfolio-single">
+                                    <div class="portfolio-thumb">
+                                    <div class="tile-view">
+                                        <a href="{{ detail.link }}">
+                                        <img src="{{ detail.image_thumb }}" class="img-responsive" alt="{{ detail.title }}" />
+                                        </a>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <a class="portfolio-name" href="{{ detail.link }}">{{ detail.name }}</a>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="tab-pane" id="product">
+                        {% for detail in site.data.work-product.product %}
+                        <div class="col-md-3 col-sm-6">
+                            <div class="portfolio-wrapper">
+                                <div class="portfolio-single">
+                                    <div class="portfolio-thumb">
+                                    <div class="tile-view">
+                                        <a href="{{ detail.link }}">
+                                        <img src="{{ detail.image_thumb }}" class="img-responsive" alt="{{ detail.title }}" />
+                                        </a>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-info">
+                                    <a class="portfolio-name" href="{{ detail.link }}">{{ detail.name }}</a>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</section> -->

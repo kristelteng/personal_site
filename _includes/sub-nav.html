@@ -1,0 +1,7 @@
+<ul class="nav sub-nav">
+    {% for menu in site.data.submenu-nav %}
+    <li class="nav-item">
+        <a href="{{ menu.url }}">{{ menu.name }}</a>
+    </li>
+    {% endfor %}
+</ul>

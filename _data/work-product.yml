@@ -1,0 +1,50 @@
+product:
+  - title: elasticball
+    name: Elastic Ball
+    image_thumb: /assets/images/portfolio-details/product/elasticball/elasticball-1.jpg
+    link: /work/product/elastic-ball
+    tag: product
+    intro: The lollipop concept was inspired from the name Eyecandy. I packaged the elastic ball as a lollipop candy. The customers went crazy over the "cute" item as they grabbed it. 
+    clients: Walgreens, Shopko, Fields, Bed Bath and Beyond
+    images:
+      - location: /assets/images/portfolio-details/product/elasticball/elasticball-1.jpg
+        title: Kristel | Product - Elastic Ball
+      - location: /assets/images/portfolio-details/product/elasticball/elasticball-2.jpg
+        title: Kristel | Product - Elastic Ball
+
+  - title: giftset
+    name: Gift set
+    image_thumb: /assets/images/portfolio-details/product/giftset/thumbnail.jpg
+    link: /work/product/giftset
+    tag: product
+    intro: The gift sets were a new product line that I incepted and designed. I designed the whole line for a proposal to add up to our line. The artwork was then presented to some potential customers. 
+    clients: Walgreens, Shoppers Drug Mart, Shopko, Fields, Winners
+    images:
+      - location: /assets/images/portfolio-details/product/giftset/giftset-1.jpg
+        title: Kristel | Product - Giftset
+
+  - title: elasticToGo
+    name: Elastic To Go
+    image_thumb: /assets/images/portfolio-details/product/elastic-to-go/elastic-to-go.jpg
+    link: /work/product/elastic-to-go
+    tag: product
+    intro: Elastic To Go was inspired by gum packaging. A new product line that I designed at Eyecandy. It was an easy way to carry elastics around in your purse, to avoid losing them. 
+    images:
+      - location: /assets/images/portfolio-details/product/elastic-to-go/elastic-to-go.jpg
+        title: Kristel | Product - Elastic to go 
+
+  - title: dressup
+    name: Dress up 
+    image_thumb: /assets/images/portfolio-details/product/dressup/thumbnail.jpg
+    link: /work/product/dressup
+    tag: product
+    intro: Elastic To Go was inspired by gum packaging. A new product line that I designed at Eyecandy. It was an easy way to carry elastics around in your purse, to avoid losing them. 
+    images:
+      - location: /assets/images/portfolio-details/product/dressup/dressup-1.jpg
+        title: Kristel | Product - dress up 
+      - location: /assets/images/portfolio-details/product/dressup/dressup-2.jpg
+        title: Kristel | Product - dress up
+      - location: /assets/images/portfolio-details/product/dressup/dressup-3.jpg
+        title: Kristel | Product - dress up
+      - location: /assets/images/portfolio-details/product/dressup/dressup-4.jpg
+        title: Kristel | Product - dress up

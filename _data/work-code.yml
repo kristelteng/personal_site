@@ -1,14 +1,165 @@
 code:
+  - title: userTags
+    name: User Tag Manager
+    image_thumb: /assets/images/portfolio-details/code/user-tagging/thumbnail.png
+    link: /work/code/user-tagging
+    tag: code
+    intro: Allow users to tag multiple Instagram accounts efficiently instead of manually tagging 1 account at a time on every Instagram Post. And avoid any overlap of accounts on the image when tagging.
+    detail: 
+      - info: Built the Frontend UI in Backbone.js and Symfony. Allowed users to practice the CRUD operations. Implemented a collision algorithm to avoid any users' names to overlap with one another.
+    tools_used: 
+      left:
+        - name: Symfony
+        - name: Marionette.js
+        - name: Backbone.js
+        - name: MySQL
+      right:
+        - name: Node.js
+        - name: Javascript
+        - name: HTML5
+        - name: CSS3
+        - name: PHP
+    images:
+      - location: /assets/images/portfolio-details/code/user-tagging/user-tagging.gif
+        title: User Tagging Gif Walkthrough
+    feedback:
+      - location: /assets/images/portfolio-details/code/user-tagging/feedback.png
+        title: Feedback from IG Users for User Tagging
+    buttons:
+    - label: Live Preview
+      link: 
+    - label: View Source
+      link: 
+
+  - title: fbtw
+    name: Facebook & Twitter Customization
+    image_thumb: /assets/images/portfolio-details/code/fbtw/thumbnail.png
+    link: /work/code/fbtw-customization
+    tag: code
+    intro: Allow users to customize their content on different social media platforms instead of seeing the same content created for Instagram on all platforms. At first we were only supporting IG platform, as the company grew the demand to expand to other media platform was now a must. 
+    detail: 
+      - info: ReFactoroed the legacy frontend to support customized media on different platforms. Allowing Users to swap images, create different captions, adding and removing hashtags on demand. Along with a detailed user experience when a Facebook and Twitter Post has been customized.
+    tools_used: 
+      left:
+        - name: Symfony
+        - name: Marionette.js
+        - name: Backbone.js
+        - name: MySQL
+      right:
+        - name: Node.js
+        - name: Javascript
+        - name: HTML5
+        - name: CSS3
+        - name: PHP
+    images:
+      - location: /assets/images/portfolio-details/code/fbtw/fbtw.gif
+        title: Facebook and Twitter Gif Walkthrough
+    feedback:
+      - location: /assets/images/portfolio-details/code/fbtw/feedback.png
+        title: Feedback from IG Users for Facebook & Twitter Customization
+    buttons:
+    - label: Live Preview
+      link: 
+    - label: View Source
+      link: 
+
+  - title: coupon
+    name: Sellit Coupon
+    image_thumb: /assets/images/portfolio-details/code/sellit-coupon/thumbnail.png
+    link: /work/code/sellit-coupon
+    tag: code
+    intro: to create promo codes that you can create, manage, and track in sellit. They help you offer discounts to your customers.
+    tools_used: 
+      left:
+        - name: Stencil.js
+        - name: Node.js
+        - name: GraphQL
+        - name: DynamoDB
+      right:
+        - name: Javascript
+        - name: HTML5
+        - name: CSS3
+    images:
+      - location: /assets/images/portfolio-details/code/sellit-coupon/sellit-coupon.gif
+        title: Sellit Coupon Gif Walkthrough
+    feedback:
+      - location: 
+        title: 
+    buttons:
+    - label: Live Preview
+      link: 
+    - label: View Source
+      link: 
+
+  - title: extension
+    name: Planoly Uploader
+    image_thumb: /assets/images/portfolio-details/code/pin-planner/thumbnail.png
+    link: /work/code/pin-extension
+    tag: code
+    intro: Implemented the core "Plan It" feature. Giving users the ability to upload one or multiple images while browsing online and scheduling them to their pinterest account. 
+    tools_used: 
+      left:
+        - name: Javascript
+        - name: HTML5
+      right:
+        - name: Stencil.js
+        - name: redux
+    images:
+      - location: /assets/images/portfolio-details/code/pin-planner/pin-planner.gif
+        title: Planoly Uploader, Uploading 1 image
+      - location: /assets/images/portfolio-details/code/pin-planner/pin-planner-multi.gif
+        title: Planoly Uploader, Uploading multiple images
+    feedback:
+      - location: 
+        title: 
+    buttons:
+    - label: Live Preview
+      link: 
+    - label: View Source
+      link: 
+
+  - title: calendar
+    name: Calendar Notes
+    image_thumb: /assets/images/portfolio-details/code/calendar-note/thumbnail.png
+    link: /work/code/calendar-note
+    tag: code
+    intro: Allow users to create calendar notes for yourself or a team member about potential idea for that day. 
+    detail: 
+      - info: Implemented the Calendar Notes system that allow users ????
+    tools_used: 
+      left:
+        - name: Symfony
+        - name: Marionette.js
+        - name: Backbone.js
+        - name: MySQL
+      right:
+        - name: Node.js
+        - name: Javascript
+        - name: HTML5
+        - name: CSS3
+        - name: PHP
+    images:
+      - location: /assets/images/portfolio-details/code/calendar-note/calendar-create.gif
+        title: Creating Planoly Calendar Note
+      - location: /assets/images/portfolio-details/code/calendar-note/calendar-update.gif
+        title: Updating Planoly Calendar Note
+      - location: /assets/images/portfolio-details/code/calendar-note/calendar-delete.gif
+        title: Deleting Planoly Calendar Note
+    feedback:
+      - location: /assets/images/portfolio-details/code/calendar-note/feedback.png
+        title: Feedback from IG Users about Planoly Calendar Notes
+    buttons:
+    - label: Live Preview
+      link: 
+    - label: View Source
+      link: 
+
   - title: ask
-    image_thumb: /assets/images/portfolio-details/ask/thumbnail.png
-    link: /work/ask
+    name: Ask
+    image_thumb: /assets/images/portfolio-details/code/ask/thumbnail.png
+    link: /work/code/ask
     tag: code
     intro: Built a Ruby on Rails application that allows users to view questions and answers. A user needs to be registered to ask questions, post an answer or add any comments. The application is using MySql to store its data, and is deployed on Heroku.
-    buttons:
-      - label: Live Preview
-        link: https://desolate-sands-6873.herokuapp.com/
-      - label: View Source
-        link: https://github.com/kristelteng/askme
     tools_used: 
       left:
         - name: Ruby
@@ -21,84 +172,25 @@ code:
         - name: Javascript
         - name: Adobe Suite
     images:
-      - location: /assets/images/portfolio-details/ask/ask_01.png
+      - location: /assets/images/portfolio-details/code/ask/ask-1.png
         title: Ask
-      - location: /assets/images/portfolio-details/ask/ask_02.png
+      - location: /assets/images/portfolio-details/code/ask/ask-2.png
         title: Ask
-    
-  - title: medley
-    image_thumb: /assets/images/portfolio-details/medley/thumbnail.png
-    link: /work/medley
-    tag: code
-    intro: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations. Built Medley's site using a static site generator - Jekyll
     buttons:
       - label: Live Preview
-        link: http://www.medleycuisine.com/
+        link: https://desolate-sands-6873.herokuapp.com/
       - label: View Source
-        link: https://github.com/kristelteng/medleycuisine
-    tools_used:
-      left:
-        - name: Jekyll
-        - name: Ruby
-        - name: Javascript
-        - name: HTML5
-      right:
-        - name: CSS3
-        - name: Google Analytics
-        - name: Adobe Suite
-    images:
-      - location: /assets/images/portfolio-details/medley/medley_01.jpg
-        title: Medley Cuisine
-      - location: /assets/images/portfolio-details/medley/medley_02.png
-        title: Medley Cuisine
-      - location: /assets/images/portfolio-details/medley/medley_03.png
-        title: Medley Cuisine
-      - location: /assets/images/portfolio-details/medley/medley_04.jpg
-        title: Medley Cuisine
-
-  - title: delibake
-    image_thumb: /assets/images/portfolio-details/delibake/thumbnail.png
-    link: /work/delibake
-    tag: code
-    intro: Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
-    detail: Built Delibake site using Django.  Some of the features include a photo gallery of Delibake's products, user registration and career page functionality. The site is currently in the making. Below is a sneak peek of the career page I am working on.
-    buttons:
-      - label: Live Preview
-        link: http://www.medleycuisine.com/
-      - label: View Source
-        link: https://github.com/kristelteng/medleycuisine
-    tools_used:
-      left:
-        - name: Django
-        - name: Python
-        - name: HTML5
-      right:
-        - name: CSS3
-        - name: Javascript
-        - name: Adobe Suite
-    images:
-      - location: /assets/images/portfolio-details/delibake/delibake_01.jpg
-        title: Delibake
-      - location: /assets/images/portfolio-details/delibake/delibake_02.jpg
-        title: Delibake
-      - location: /assets/images/portfolio-details/delibake/delibake_03.jpg
-        title: Delibake
-      - location: /assets/images/portfolio-details/delibake/delibake_04.jpg
-        title: Delibake
+        link: https://github.com/kristelteng/askme
 
   - title: privacyshell
-    image_thumb: /assets/images/portfolio-details/privacyshell/thumbnail.png
-    link: /work/privacyshell
+    name: PrivacyShell
+    image_thumb: /assets/images/portfolio-details/code/privacyshell/thumbnail.png
+    link: /work/code/privacyshell
     tag: code
     intro: Privacy Shell is a platform that raises awareness about online privacy. Users learn about privacy news, connect with privacy experts and install the privacy products that best suit their needs to protect their online privacy.
     detail: 
       - info: Worked closely with the CEO to architect Privacy Shell's site, which was then built in Wordpress for third-party users to easily update the content.
       - info: As lead UI/X designer, my role was to communicate the design ideas through wireframes, user flows and share the research findings to team members before implementing the site. Implemented analytics tracking and SEO techniques on the site. Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site.
-    buttons:
-      - label: Live Preview
-        link: 
-      - label: View Source
-        link: 
     tools_used:
       left:
         - name: HTML5
@@ -110,22 +202,22 @@ code:
         - name: Optimizely
         - name: Adobe Suite
     images:
-      - location: /assets/images/portfolio-details/privacyshell/pshell_01.png
-        title: PrivacyShell
-      - location: /assets/images/portfolio-details/privacyshell/pshell_02.png
-        title: PrivacyShell
-      - location: /assets/images/portfolio-details/privacyshell/pshell_03.png
-        title: PrivacyShell
-      - location: /assets/images/portfolio-details/privacyshell/pshell_04.png
-        title: PrivacyShell
-      - location: /assets/images/portfolio-details/privacyshell/pshell_04.png
-        title: PrivacyShell
-      - location: /assets/images/portfolio-details/privacyshell/pshell_05.png
-        title: PrivacyShell
+      - location: /assets/images/portfolio-details/code/privacyshell/pshell-1.png
+        title: Kristel | PrivacyShell Website
+      - location: /assets/images/portfolio-details/code/privacyshell/pshell-2.png
+        title: Kristel | PrivacyShell Style Guide
+      - location: /assets/images/portfolio-details/code/privacyshell/pshell-3.png
+        title: Kristel | PrivacyShell Wireframes
+    buttons:
+      - label: Live Preview
+        link: 
+      - label: View Source
+        link: 
 
   - title: privacysnapper
-    image_thumb: /assets/images/portfolio-details/psnapper/thumbnail.png
-    link: /work/psnapper
+    name: Privacy Snapper
+    image_thumb: /assets/images/portfolio-details/code/psnapper/thumbnail.png
+    link: /work/code/psnapper
     tag: code
     intro: Privacy Snapper is a browser extension that collects privacy policies of the sites users visit. The data is displayed on a dashboard for users to review any updates. It is one of Privacy Shell's multiple products.
     detail: 
@@ -137,9 +229,6 @@ code:
         title: Design
       - info: Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site and the product.
         title: Design
-    buttons:
-      - label: Live Preview
-        link: http://app.privacysnapper.com/auth/login
     tools_used:
       left:
         - name: PHP
@@ -153,22 +242,24 @@ code:
         - name: Adobe Suite
         - name: Google Analytics
     images:
-      - location: /assets/images/portfolio-details/psnapper/psnapper_01.png
+      - location: /assets/images/portfolio-details/code/psnapper/psnapper-1.png
         title: Privacy Snapper
-      - location: /assets/images/portfolio-details/psnapper/psnapper_02.png
+      - location: /assets/images/portfolio-details/code/psnapper/psnapper-2.png
         title: Privacy Snapper
-      - location: /assets/images/portfolio-details/psnapper/psnapper_03.png
+      - location: /assets/images/portfolio-details/code/psnapper/psnapper-3.png
         title: Privacy Snapper
-      - location: /assets/images/portfolio-details/psnapper/psnapper_04.png
+      - location: /assets/images/portfolio-details/code/psnapper/psnapper-4.png
         title: Privacy Snapper
-      - location: /assets/images/portfolio-details/psnapper/psnapper_04.png
+      - location: /assets/images/portfolio-details/code/psnapper/psnapper-5.png
         title: Privacy Snapper
-      - location: /assets/images/portfolio-details/psnapper/psnapper_05.png
-        title: Privacy Snapper
+    buttons:
+      - label: Live Preview
+        link: http://app.privacysnapper.com/auth/login
   
   - title: topsecret
-    image_thumb: /assets/images/portfolio-details/topsecret/thumbnail.png
-    link: /work/topsecret
+    name: TopSecret
+    image_thumb: /assets/images/portfolio-details/code/topsecret/thumbnail.png
+    link: /work/code/topsecret
     tag: code
     intro: Topsecret is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop. Topsecret is one of Privacy Shell's multiple products.
     detail: 
@@ -187,26 +278,22 @@ code:
         - name: Optimizely
         - name: Adobe Suite
     images:
-      - location: /assets/images/portfolio-details/topsecret/topsecret_01.png
+      - location: /assets/images/portfolio-details/code/topsecret/topsecret-1.png
         title: Topsecret
-      - location: /assets/images/portfolio-details/topsecret/topsecret_02.png
+      - location: /assets/images/portfolio-details/code/topsecret/topsecret-2.png
         title: Topsecret
-      - location: /assets/images/portfolio-details/topsecret/topsecret_03.png
+      - location: /assets/images/portfolio-details/code/topsecret/topsecret-3.png
         title: Topsecret
 
   - title: taskcluster
-    image_thumb: /assets/images/portfolio-details/taskcluster-tool/thumbnail.png
-    link: /work/taskcluster
+    name: TaskCluster Tool
+    image_thumb: /assets/images/portfolio-details/code/taskcluster-tool/thumbnail.png
+    link: /work/code/taskcluster
     tag: code
     intro: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.
     detail: 
       - info: Redesigned a UI feature for the Taskcluster tool allowing developers to easily access, sort and filter through their most recent tasks. Used localStorage as primary data store for tasks
         title: code
-    buttons:
-      - label: Live Preview
-        link: https://tools.taskcluster.net/task-inspector/
-      - label: View Source
-        link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
     tools_used:
       left:
         - name: Javascript
@@ -216,14 +303,20 @@ code:
         - name: localStorage
         - name: CSS
     images:
-      - location: /assets/images/portfolio-details/taskcluster-tool/taskcluster_01.png
+      - location: /assets/images/portfolio-details/code/taskcluster-tool/taskcluster-1.png
         title: Mozilla, Taskcluster Tool
-      - location: /assets/images/portfolio-details/taskcluster-tool/taskcluster_02.png
+      - location: /assets/images/portfolio-details/code/taskcluster-tool/taskcluster-2.png
         title: Mozilla, Taskcluster Tool
+    buttons:
+      - label: Live Preview
+        link: https://tools.taskcluster.net/task-inspector/
+      - label: View Source
+        link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
 
   - title: taskclusterdocs
-    image_thumb: /assets/images/portfolio-details/taskclusterdocs/thumbnail.png
-    link: /work/taskclusterdocs
+    name: TaskCluster Docs
+    image_thumb: /assets/images/portfolio-details/code/taskclusterdocs/thumbnail.png
+    link: /work/code/taskclusterdocs
     tag: code
     intro: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.
     detail: 
@@ -231,11 +324,6 @@ code:
         title: code
       - info: It allows all developers on Taskcluster to have an automatic way to publish documentation when deploying new features.
         title: code
-    buttons:
-      - label: Live Preview
-        link: https://tools.taskcluster.net/task-inspector/
-      - label: View Source
-        link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
     tools_used:
       left:
         - name: Node.js
@@ -244,3 +332,8 @@ code:
       right:
         - name: Gulp
         - name: S3
+    buttons:
+      - label: Live Preview
+        link: https://tools.taskcluster.net/task-inspector/
+      - label: View Source
+        link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300

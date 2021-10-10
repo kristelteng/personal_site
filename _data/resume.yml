@@ -1,98 +1,210 @@
 - section: Experience
   company: 
-    - name: Medley Cuisine
-      timeline: September 2016 - <br>Present
-      title: Contract Web Developer &amp; UX Designer
+    - name: Planoly
+      timeline: Dec 2021 - Present
+      title: Senior Front End Developer
+
+      project:  
+        - name: User Tag Manager
+          link: /work/code/user-tagging
+          work-detail:
+            - list: Implemented a user tag management system that gives users the ability to create groups of user tags to quickly tag Instagram accounts to your scheduled posts on Planoly. Instead of tagging each user individually.
+          tools-used: Javascript, Node.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5, PHP, MySQL
+
+        - name: Twitter & Facebook Customization
+          link: /work/code/fbtw-customization
+          work-detail:
+            - list: Re-Architected the front end, allowing users to customize and share their Twitter & Facebook posts when auto posting.
+          tools-used: Javascript, Node.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5, PHP, MySQL
+          
+    - name: Planoly
+      timeline: Aug 2017 - Dec 2021
+      title: Front End Developer
 
       project:
-        - name: Medley Cuisine
-          description: is a supplier for a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels.
-          link: /work/medley
+        - name: Sellit Coupon
+          link: /work/code/sellit-coupon
           work-detail:
-            - list: Developed the company's informational website in Jekyll using CSS3, HTML5 and JS 
-            - list: Designed the overall visual design for Medley Cuisine and its multiple brands (Delibake &amp; Mbake), including shop interiors and packaging that are placed in 15 grocery stores
-          tools-used: Jekyll, Ruby, Javascript, CSS3, HTML5, Google Analytics, Adobe Suite, SEO
+            - list: Allowing users to offer discounts to their customers on Sellit ecommerce site. 
+          tools-used: Javascript, Node.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5, PHP, MySQL, GraphQL, DynamoDB
 
-        - name: Delibake
-          description: is a bakery shop that carries Medley Cuisine's finest bakeries and pastries.
-          link: /work/delibake
+        - name: Calendar Notes
+          description: 
+          link: /work/code/calendar-note
           work-detail:
-            - list: Built Delibake's e-commerce site using Django. Features include ordering products, a photo gallery for inventory goods, user registration and career page functionality
-            - list: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for 3 branded retail location
-          tools-used: Django, Python, Javascript, CSS3, HTML5, Google Analytics, Adobe Suite
+            - list: Custom messages, users can add to their Planoly Calendar. Allow users to create reminders or share ideas with their team members
+          tools-used: Javascript, Node.js, Stencil.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5, GraphQL, DynamoDB
+        
+        # - name: Pinterest Best Time to Post
+        #   description: 
+        #   link: 
+        #   work-detail:
+        #     - list: 
+        
+        # - name: Pinterest Shuffle Post
+        #   link: 
+        #   work-detail:
+        #     - list: 
+        
+        - name: Planoly Uploader
+          link: /work/code/pin-extension
+          work-detail:
+            - list: A chrome Extension that provides an easy way to upload bulk images to Pinterest or the ability to quickly Pin Content you discover while browsing online.
+          tools-used: Javascript, Node.js, Stencil.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5
 
     - name: Mozilla Corporation
-      timeline: April 2016 - <br>September 2016
+      timeline: Apr 2016 - Sept 2016
       title: Software Developer Intern
 
       project:
         - name: Taskcluster Tool
           description: is the build system that powers Mozilla's automated builds and tests. It consists of many small services like Taskcluster Tool.
-          link: /work/taskcluster
+          link: /work/code/taskcluster
           work-detail:
             - list: Redesigned a UI feature for the Taskcluster tool, allowing developers to easily access, sort and filter through their most recent tasks. Used localStorage as primary data store for tasks
-          tools-used: React.js, Javascript, JSX, CSS3, localStorage
+          tools-used: Javascript, Node.js, React.js, Redux
         
         - name: Taskcluster Documentation
           description: is the documentation resource for all Taskcluster sub-systems. 
-          link: /work/taskclusterdocs
+          link: /work/code/taskclusterdocs
           work-detail:
             - list: Implemented an automated doc generation system, where each Taskcluster component updates triggers a new version of the static site to be generated. It allows all developers on Taskcluster to have an automatic way to publish documentation when deploying new features
-          tools-used: Node.js, ES6 Javascript, Babel, Gulp, S3, CSS3, React
+          tools-used: Javascript, Node.js, React.js, Redux
 
     - name: Privacy Shell Inc.
-      timeline: April 2015 - <br>March 2016
+      timeline: Apr 2015 - Mar 2016
       title: Web Developer &amp; Lead UX Designer
 
       project:
         - name: Privacy Shell
           description: a platform that raises awareness about online privacy to users.
-          link: /work/privacyshell
+          link: /work/code/privacyshell
           work-detail:
             - list: Collaborated with the CEO to architect the website. Implemented Privacy Shell using Wordpress. Worked closely with other developers to maintain the website
             - list: Tracked analysis with Google Analytics to measure the impact of design changes on users and implemented SEO techniques. Responsible in monitoring and reporting on website traffic and performance to the internal team
             - list: Designed the visual elements including logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the website
-          tools-used: Wordpress, CSS3, HTML5, Optimizely, Google Analytics, Adobe Suite
+          tools-used: Javascript, Laravel.js, PHP, CSS3, HTML5, Invision, Adobe Suite, Google Analytics, Wordpress
         
         - name: Privacy Snapper
           description: is a browser extension that collects privacy policies of the site that users visit.
-          link: 
+          link: /work/code/privacysnapper
           work-detail:
             - list: Redesigned and improved the user dashboard with responsive front-end design and a powerful UI to sort and filter data. Built the user interface for the user registration, profile and subscription page in Laravel. Developed a web scraping backend for legal documents using Scrapy
             - list: Conducted user surveys, user research and organized multiple usability tests. Tracked analysis with Google Analytics to measure the impact of design changes on users and implemented SEO techniques. Responsible for monitoring and reporting on website traffic and performance to the internal team
             - list: Designed the visual elements including graphic elements, logo, marketing materials and all branding.  Created design specification to ensure brand consistency throughout the site and the product
-          tools-used: Python, Scrapy, PHP, Laravel, Wordpress, Javascript, CSS3, HTML5, Optimizely, Google Analytics, Adobe Suite
+          tools-used: Javascript, Laravel.js, PHP, CSS3, HTML5, Invision, Adobe Suite, Google Analytics, Wordpress
 
         - name: Topsecret
           description: is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop.
-          link: 
+          link: /work/code/topsecret
           work-detail:
             - list: Implemented the landing pages for Topsecret in Wordpress, tracked analysis with Google Analytics and conducted A/B testing in Optimizely
             - list: Designed the user flows and layouts for the chat system. Created the visual elements including graphic elements, marketing materials and all branding
-          tools-used: Wordpress, Javascript, CSS3, HTML5, Optimizely, Google Analytics, Adobe Suite
+          tools-used: Javascript, Wordpress, CSS3, HTML5, PHP, Invision, Adobe Suite, Google Analytics
+    
+    - name: Medley Cuisine
+      timeline: Sept 2016 - Present
+      title: Contract Web Developer &amp; UX Designer
+
+      project:
+        - name: Medley Cuisine
+          description: is a supplier for a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels.
+          link: /work/design/medley
+          work-detail:
+            - list: Developed the company's informational website in Jekyll using CSS3, HTML5 and JS 
+            - list: Designed the overall visual design for Medley Cuisine and its multiple brands (Delibake &amp; Mbake), including shop interiors and packaging that are placed in 15 grocery stores
+          tools-used: Javascript, Jekyll, CSS3, HTML5
+
+        - name: Delibake
+          description: is a bakery shop that carries Medley Cuisine's finest bakeries and pastries.
+          link: /work/design/delibake
+          work-detail:
+            - list: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for 3 branded retail location
+          tools-used: Wordpress, Adobe Suite
+
+        - name: Mbake
+          description: is a bakery chain.
+          link: /work/design/mbake
+          work-detail:
+            - list: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging.
+          tools-used: Wordpress, Adobe Suite
+
+        - name: FoodMarket
+          description: is a mini version of the food court
+          link: /work/design/foodmarket
+          work-detail:
+            - list: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for the branded retail location
+          tools-used: Adobe Suite
+
+    - name: Eyecandy Accessories Inc.
+      timeline: Apr 2015 - Mar 2016
+      title: Product &amp; Packaging Designer
+
+      project:
+        - name: Elastic ball
+          description: was inspired by a customer's comment how our packaging reminded of candy. 
+          link: /work/product/elastic-ball
+          work-detail:
+            - list: Designed the concept of what 
+          tools-used: Adobe Suite
+        
+        - name: Elastic To Go
+          description: is a browser extension that collects privacy policies of the site that users visit.
+          link: /work/product/elastic-to-go
+          work-detail:
+            - list: Redesigned and improved the user dashboard with responsive front-end design and a powerful UI to sort and filter data. Built the user interface for the user registration, profile and subscription page in Laravel. Developed a web scraping backend for legal documents using Scrapy
+            - list: Conducted user surveys, user research and organized multiple usability tests. Tracked analysis with Google Analytics to measure the impact of design changes on users and implemented SEO techniques. Responsible for monitoring and reporting on website traffic and performance to the internal team
+            - list: Designed the visual elements including graphic elements, logo, marketing materials and all branding.  Created design specification to ensure brand consistency throughout the site and the product
+          tools-used: Adobe Suite
+
+        - name: Gift Set
+          description: is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop.
+          link: /work/product/giftset
+          work-detail:
+            - list: Implemented the landing pages for Topsecret in Wordpress, tracked analysis with Google Analytics and conducted A/B testing in Optimizely
+            - list: Designed the user flows and layouts for the chat system. Created the visual elements including graphic elements, marketing materials and all branding
+          tools-used: Adobe Suite
+        
+        - name: Dress Up
+          description: is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop.
+          link: /work/product/dressup
+          work-detail:
+            - list: Implemented the landing pages for Topsecret in Wordpress, tracked analysis with Google Analytics and conducted A/B testing in Optimizely
+            - list: Designed the user flows and layouts for the chat system. Created the visual elements including graphic elements, marketing materials and all branding
+          tools-used: Adobe Suite
+
+    - name: Gertex Hosiery
+      timeline: Apr 2015 - Mar 2016
+      title: Product &amp; Packaging Designer
+
+      project:
+        - name: Hosiery
+          description: is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop.
+          link: /work/product/headwear
+          work-detail:
+            - list: Implemented the landing pages for Topsecret in Wordpress, tracked analysis with Google Analytics and conducted A/B testing in Optimizely
+            - list: Designed the user flows and layouts for the chat system. Created the visual elements including graphic elements, marketing materials and all branding
+          tools-used: Adobe Suite
 
 - section: Education 
   company: 
     - name: Bitmaker Labs 
-      timeline: October 2014 – <br>December 2014
+      timeline: Oct 2014 – Dec 2014
       title: Web Development
 
       project:
-        - name:
-          description: Completed Bitmaker Lab’s 9-week intensive web development program. The goal is to launch full-stack development careers using Ruby and Rails
+        - description: Completed Bitmaker Lab’s 9-week intensive web development program. The goal is to launch full-stack development careers using Ruby and Rails
 
     - name: Bitmaker Labs 
-      timeline: January 2015 – <br>May 2015
+      timeline: Jan 2015 – May 2015
       title: UX Design
 
       project:
-        - name:
-          description: Completed Bitmaker Lab’s User Experience Design program on UX design principles to web and mobile designs
+        - description: Completed Bitmaker Lab’s User Experience Design program on UX design principles to web and mobile designs
     
     - name: Ontario College of Art &amp; Design
       timeline: September 2003 – <br>July 2007
       title: Bachelor of Design
 
       project:
-        - name:
-          description: Completed Bitmaker Lab’s User Experience Design program on UX design principles to web and mobile designs
+        - description: Completed Graphic Design 

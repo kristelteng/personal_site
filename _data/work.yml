@@ -1,25 +1,12 @@
-- category: code
-  project:
-    - title: Ask
-      image_thumb: /assets/images/thumbnail/work/work_02.png
-      link: /work/ask.html
+code:
+  - title: Ask1
+    image_thumb: /assets/images/thumbnail/work/work_02.png
+    link: /work/ask.html
 
-    - title: Ask
-      image_thumb: /assets/images/thumbnail/work/work_02.png
-      link: /work/ask.html
+  - title: Ask2
+    image_thumb: /assets/images/thumbnail/work/work_02.png
+    link: /work/ask.html
 
-    - title: Ask
-      image_thumb: /assets/images/thumbnail/work/work_02.png
-      link: /work/ask.html
-
-- category: branding
-  project:
-    - title: Delibake
-      image_thumb: /assets/images/thumbnail/popular/popular_01.png
-      link: /work/delibake.html
-
-- category: ux-design
-  project:
-    - title: Delibake
-      image_thumb: /assets/images/thumbnail/popular/popular_01.png
-      link: /work/delibake.html
+  - title: Ask3
+    image_thumb: /assets/images/thumbnail/work/work_02.png
+    link: /work/ask.html

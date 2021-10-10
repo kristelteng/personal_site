@@ -1,0 +1,172 @@
+design:
+  - title: medley
+    name: Medley Cuisine
+    image_thumb: /assets/images/portfolio-details/design/medley/thumbnail.png
+    link: /work/design/medley
+    tag: design
+    intro: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations.
+    content: Designed the logo, website and posters
+    buttons:
+      - label: Live Preview
+        link: http://www.medleycuisine.com/
+      - label: View Source
+        link: https://github.com/kristelteng/medleycuisine
+    tools_used:
+      left:
+        - name: Wordpress
+      right:
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/design/medley/medley-1.jpg
+        title: Kristel | Medley Cuisine Website
+      - location: /assets/images/portfolio-details/design/medley/medley-2.png
+        title: Kristel | Medley Cuisine Logo Iteration
+      - location: /assets/images/portfolio-details/design/medley/medley-3.png
+        title: Kristel | Medley Cuisine Style Guide
+
+  - title: delibake
+    name: Delibake
+    image_thumb: /assets/images/portfolio-details/design/delibake/thumbnail.png
+    link: /work/design/delibake
+    tag: design
+    intro: Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
+    buttons:
+      - label: Live Preview
+        link: http://www.medleycuisine.com/
+      - label: View Source
+        link: https://github.com/kristelteng/medleycuisine
+    tools_used:
+      left:
+        - name: Jekyll
+        - name: Ruby
+        - name: Javascript
+        - name: HTML5
+      right:
+        - name: CSS3
+        - name: Google Analytics
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/design/delibake/delibake-1.jpg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/delibake/delibake-2.jpg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/delibake/delibake-3.jpg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/delibake/delibake-4.jpg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/delibake/delibake-5.png
+        title: Medley Cuisine
+  
+  - title: foodmarket
+    name: FoodMarket
+    image_thumb: /assets/images/portfolio-details/design/foodmarket/thumbnail.png
+    link: /work/design/medley
+    tag: design
+    intro: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations. Built Medley's site using a static site generator - Jekyll
+    buttons:
+      - label: Live Preview
+        link: http://www.medleycuisine.com/
+      - label: View Source
+        link: https://github.com/kristelteng/medleycuisine
+    tools_used:
+      left:
+        - name: Jekyll
+        - name: Ruby
+        - name: Javascript
+        - name: HTML5
+      right:
+        - name: CSS3
+        - name: Google Analytics
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/design/foodmarket/foodmarket-1.jpeg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/foodmarket/foodmarket-2.jpeg
+        title: Medley Cuisine
+  
+  - title: mbake
+    name: Mbake
+    image_thumb: /assets/images/portfolio-details/design/mbake/thumbnail.png
+    link: /work/design/mbake
+    tag: design
+    intro: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations. Built Medley's site using a static site generator - Jekyll
+    buttons:
+      - label: Live Preview
+        link: http://www.medleycuisine.com/
+      - label: View Source
+        link: https://github.com/kristelteng/medleycuisine
+    tools_used:
+      left:
+        - name: Jekyll
+        - name: Ruby
+        - name: Javascript
+        - name: HTML5
+      right:
+        - name: CSS3
+        - name: Google Analytics
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/design/mbake/medley-4.jpg
+        title: Medley Cuisine
+
+  - title: easybake
+    name: EasyBake
+    image_thumb: /assets/images/portfolio-details/design/medley/thumbnail.png
+    link: /work/design/medley
+    tag: design
+    intro: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations. Built Medley's site using a static site generator - Jekyll
+    buttons:
+      - label: Live Preview
+        link: http://www.medleycuisine.com/
+      - label: View Source
+        link: https://github.com/kristelteng/medleycuisine
+    tools_used:
+      left:
+        - name: Jekyll
+        - name: Ruby
+        - name: Javascript
+        - name: HTML5
+      right:
+        - name: CSS3
+        - name: Google Analytics
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/design/medley/medley-1.jpg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/medley/medley-2.png
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/medley/medley-3.png
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/medley/medley-4.jpg
+        title: Medley Cuisine
+
+  - title: aanari
+    name: Aanari Hotel & Spa
+    image_thumb: /assets/images/portfolio-details/design/aanari/thumbnail.png
+    link: /work/design/medley
+    tag: design
+    intro: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations. Built Medley's site using a static site generator - Jekyll
+    buttons:
+      - label: Live Preview
+        link: http://www.medleycuisine.com/
+      - label: View Source
+        link: https://github.com/kristelteng/medleycuisine
+    tools_used:
+      left:
+        - name: Jekyll
+        - name: Ruby
+        - name: Javascript
+        - name: HTML5
+      right:
+        - name: CSS3
+        - name: Google Analytics
+        - name: Adobe Suite
+    images:
+      - location: /assets/images/portfolio-details/design/aanari/aanari-1.jpg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/aanari/aanari-2.jpg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/aanari/aanari-5.jpg
+        title: Medley Cuisine
+      - location: /assets/images/portfolio-details/design/aanari/aanari-6.jpg
+        title: Medley Cuisine

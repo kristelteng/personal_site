@@ -1,0 +1,18 @@
+{% for detail in site.data.work-product.product %}
+<div class="col-md-3 col-sm-6">
+    <div class="portfolio-wrapper">
+        <div class="portfolio-single">
+            <div class="portfolio-thumb">
+            <div class="tile-view">
+                <a href="{{ detail.link }}">
+                <img src="{{ detail.image_thumb }}" class="img-responsive" alt="{{ detail.title }}" />
+                </a>
+            </div>
+            </div>
+        </div>
+        <div class="portfolio-info">
+            <a class="portfolio-name" href="{{ detail.link }}">{{ detail.name }}</a>
+        </div>
+    </div>
+</div>
+{% endfor %}

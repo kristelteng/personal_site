@@ -86,6 +86,26 @@ def upload_to_s3(bucket_name, file_paths, force=False):
         k.name = key_name
         k.set_contents_from_filename(dir_path, headers=headers)
         k.set_acl("public-read")
+        print "generated: {}".format(k.generate_url(expires_in=0,query_auth=False))
+
+        if key_name.endswith(".html") and key_name.find("/") == -1:
+            print "uploading index objects"
+            # also create the 'subdir' objects
+            key_name_without_html = key_name.split(".html")[0]
+
+            k = Key(bucket)
+            k.name = key_name_without_html
+            k.set_contents_from_filename(dir_path, headers=headers)
+            k.set_acl("public-read")
+            print "generated: {}".format(k.generate_url(expires_in=0,query_auth=False))
+
+            k = Key(bucket)
+            k.name = "{}/".format(key_name_without_html)
+            k.set_contents_from_filename(dir_path, headers=headers)
+            k.set_acl("public-read")
+            print "generated: {}".format(k.generate_url(expires_in=0,query_auth=False))
+
+            upload_count += 2
         upload_count += 1
 
     return {"skipped": skip_count, "uploaded": upload_count}
