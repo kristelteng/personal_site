@@ -20,11 +20,13 @@ title: Aanari Hotel & Spa
     </ul>
   </div>
   <div class="col-md-6 col-xs-6">
+    {% if project.tools_used.right %}
     <ul class="elements">
     {% for tool in project.tools_used.right %}
     <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
     {% endfor %}
     </ul>
+    {% endif %}
   </div>
 
   <div class="portfolio-detail-wrapper">

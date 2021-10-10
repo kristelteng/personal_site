@@ -4,42 +4,7 @@ title: Gift sets
 ---
 
 {% for project in site.data.work-product.product %}
-{% if project.title == 'giftset' %}
-<div class="project-name overflow">
-  <h2 class="bold">{{ page.title }}</h2>
-
-  {% for i in project.detail %}
-    <p class="project-description"><i class="fa fa-angle-right"></i> {{ i.info }}</p>
-  {% endfor %}
-
-  {% if project.clients %}
-  <h3 class="project-title">clients: </h3>
-  <p class="project-description">{{ project.clients }}</p>
+  {% if project.title == 'giftset' %}
+    {% include work-detail-product.html %}
   {% endif %}
-
-  <div class="col-md-6 col-xs-6">
-    <ul class="elements">
-    {% for tool in project.tools_used.left %}
-    <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
-    {% endfor %}
-    </ul>
-  </div>
-  <div class="col-md-6 col-xs-6">
-    <ul class="elements">
-    {% for tool in project.tools_used.right %}
-    <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
-    {% endfor %}
-    </ul>
-  </div>
-
-  <div class="portfolio-detail-wrapper">
-    {% for image in project.images %}
-    <div class="portfolio-single image-section">
-      <img src="{{ image.location }}" class="img-responsive" alt="{{ image.title }}" />
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
-{% endif %}
 {% endfor %}

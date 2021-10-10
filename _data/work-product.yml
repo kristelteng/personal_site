@@ -8,6 +8,9 @@ product:
       - info: The ball is made by tying elastics into a knot and then wrapping more elastics around it. It eas of the fashion item that we carried at Eyecandy Accessories Inc. 
       - info: This particular item increased the sales enormously at Eyecandy. It helped place the brand in stores like Bed Bath and Beyond. The moment it was manufactured in China, it was already sold out in Canada.
     clients: Walgreens, Shopko, Fields, Bed Bath and Beyond
+    tools_used:
+      left:
+        - name: Adobe Suite
     images:
       - location: /assets/images/portfolio-details/product/elasticball/elasticball-1.jpg
         title: Kristel | Product - Elastic Ball
@@ -19,6 +22,9 @@ product:
     tag: product
     detail: 
       - info: A new concept for carrying elastics that I designed at Eyecandy. It was an easy way to carry elastics around and not ending up losing them. It was designed in a gum packaging concept. 
+    tools_used:
+      left:
+        - name: Adobe Suite
     images:
       - location: /assets/images/portfolio-details/product/elastic-to-go/elastic-to-go.jpg
         title: Kristel | Product - Elastic to go 
@@ -31,6 +37,9 @@ product:
     detail: 
       - info: The gift sets were a new product line that I incepted and designed. I designed the whole line as a new addition to our product line.
     clients: Walgreens, Shoppers Drug Mart, Shopko, Fields, Winners
+    tools_used:
+      left:
+        - name: Adobe Suite
     images:
       - location: /assets/images/portfolio-details/product/giftset/giftset-1.jpg
         title: Kristel | Product - Giftset
@@ -42,6 +51,9 @@ product:
     tag: product
     detail: 
       - info: Designed a dress-up line for kids.
+    tools_used:
+      left:
+        - name: Adobe Suite
     images:
       - location: /assets/images/portfolio-details/product/dressup/dressup-1.jpg
         title: Kristel | Product - dress up 
@@ -59,6 +71,9 @@ product:
     tag: product
     detail: 
       - info: Designed licensed products from known brands such as Mattel, Nickolodeon.
+    tools_used:
+      left:
+        - name: Adobe Suite
     images:
       - location: /assets/images/portfolio-details/product/headwear/headwear-1.jpg
         title: Kristel | Product - headwear

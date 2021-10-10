@@ -4,7 +4,8 @@ design:
     image_thumb: /assets/images/portfolio-details/design/medley/thumbnail.png
     link: /work/design/medley
     tag: design
-    intro: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations.
+    detail: 
+      - info: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations.
     content: Designed the logo, website and posters
     tools_used:
       left:
