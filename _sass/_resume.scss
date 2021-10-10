@@ -1,53 +1,55 @@
 .resume_section {
     padding: 12px 0;
-}
-  
-.resume_title {
-    font-weight: 500;
-    margin-top: 0;
-    font-size: 16px;
-    color: $dark-grey-color;
-    font-family: $franklin-gothic-medium;
-}
 
-.project-description {
-    a {
-        color: $link-color;
-        text-decoration: none;
+    .resume_title {
+        font-weight: 500;
+        margin-top: 0;
+        font-size: 16px;
+        color: $dark-grey-color;
+        font-family: $franklin-gothic-medium;
     }
-
-    ul {
-        padding-left: 15px;
+    
+    .project-description {
+        margin-bottom: 0;
+        a {
+            color: $link-color;
+            text-decoration: none;
+        }
+    
+        ul {
+            padding-left: 15px;
+        }
     }
+      
+    .company-name {
+        margin-top: -3px;
+        font-size: 16px;
+        padding-right: 5px;
+        margin-bottom: 0;
+        font-weight: 500;
+        color: $dark-grey-color;
+    }
+    
+    .timeline {
+        font-size: 12px;
+        font-family: $franklin-gothic-medium;
+        font-style: italic;
+    }
+      
+    .work-detail {
+        padding: 3px 0;
+        list-style-type: circle;
+    }
+      
+    .resume-tools {
+        font-size: 15px;
+        font-family: $franklin-gothic-book;
+        font-style: italic;
+        margin-top: 10px;
+    }
+    
+    .tools-title {
+        font-family: $franklin-gothic-medium;
+        font-style: italic;
+    }    
 }
-  
-.company-name {
-    margin-top: -3px;
-    font-size: 16px;
-    padding-right: 5px;
-    margin-bottom: 6px;
-    font-weight: 500;
-    color: $dark-grey-color;
-}
-
-.timeline {
-    font-size: 16px;
-}
-  
-.work-detail {
-    padding: 3px 0;
-    list-style-type: circle;
-}
-  
-.resume-tools {
-    font-size: 15px;
-    font-family: $franklin-gothic-book;
-    font-style: italic;
-    margin-top: 10px;
-}
-
-.tools-title {
-    font-family: $franklin-gothic-medium;
-    font-style: italic;
-}
-  
