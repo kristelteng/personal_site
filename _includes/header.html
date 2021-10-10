@@ -15,14 +15,14 @@
         </div>
 
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="main-nav nav navbar-nav navbar-right">
             {% for menu in site.data.main-nav %}
             {% assign url = page.url %}
             <li>
               <a {% if url == menu.url %} 
-									class="current nav-links"
+									class="current nav-link"
 								{% else %}
-									class="nav-links"
+									class="nav-link"
 								{% endif %} href="{{ menu.url }}">{{ menu.title }}</a>
             </li>
             {% endfor %}
