@@ -3,47 +3,8 @@ layout: work_details
 title: Privacy Snapper
 ---
 
-{% for project in site.data.work-code.code %}
-{% if project.title == 'privacysnapper' %}
-<div class="project-name overflow">
-  <h2 class="bold">{{ page.title }}</h2>
-  <p class="project-description">{{ project.intro }}</p>
-
-  {% for i in project.detail %}
-  <p class="project-description">{{ i.info }}</p>
-  {% endfor %}
-
-  <h3 class="project-title">Tools used</h3>
-  <div class="col-md-6 col-xs-6">
-    <ul class="elements">
-    {% for tool in project.tools_used.left %}
-    <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
-    {% endfor %}
-    </ul>
-  </div>
-  <div class="col-md-6 col-xs-6">
-    <ul class="elements">
-    {% for tool in project.tools_used.right %}
-    <li><i class="fa fa-angle-right"></i> {{ tool.name }}</li>
-    {% endfor %}
-    </ul>
-  </div>
-
-  <div class="portfolio-detail-wrapper">
-    {% for image in project.images %}
-    <div class="portfolio-single image-section">
-      <img src="{{ image.location }}" class="img-responsive" alt="{{ image.title }}" />
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
-<div class="col-sm-12 text-center padding-bottom">
-  <div class="live-preview">
-    {% for btn in project.buttons %}
-    <a href="{{ btn.link }}" class="btn btn-common" target="_blank">{{ btn.label }}</a>
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
+{% for project in site.data.wk-code.code %}
+  {% if project.title == 'privacysnapper' %}
+    {% include wk-detail-code.html %}
+  {% endif %}
 {% endfor %}
