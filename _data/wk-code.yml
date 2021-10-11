@@ -291,11 +291,6 @@ code:
         title: Mozilla, Taskcluster Tool
       - location: /assets/images/portfolio-details/code/taskcluster-tool/taskcluster-2.gif
         title: Mozilla, Taskcluster Tool
-    # buttons:
-    #   - label: Live Preview
-    #     link: https://tools.taskcluster.net/task-inspector/
-    #   - label: View Source
-    #     link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300
 
   - title: taskclusterdocs
     name: TaskCluster Docs
@@ -316,8 +311,3 @@ code:
       right:
         - name: Gulp
         - name: S3
-    # buttons:
-    #   - label: Live Preview
-    #     link: https://tools.taskcluster.net/task-inspector/
-    #   - label: View Source
-    #     link: https://github.com/kristelteng/taskcluster-tools/commit/d0c6baf1fb073ee5d50e11ede7cd6afebae66300

@@ -35,17 +35,6 @@
             - list: Custom messages that social media managers can add to their Planoly Calendar. Allow team members to collaborate more effectively by creating reminders or sharing ideas with each other.
           tools-used: Javascript, Node.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5, PHP, MySQL, GraphQL, DynamoDB, Figma
         
-        # - name: Pinterest Best Time to Post
-        #   description: 
-        #   link: 
-        #   work-detail:
-        #     - list: 
-        
-        # - name: Pinterest Shuffle Post
-        #   link: 
-        #   work-detail:
-        #     - list: 
-        
         - name: Planoly Uploader
           link: /work/code/pin-extension.html
           work-detail:
