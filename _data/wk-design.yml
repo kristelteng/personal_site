@@ -2,7 +2,7 @@ design:
   - title: medley
     name: Medley Cuisine
     image_thumb: /assets/images/portfolio-details/design/medley/thumbnail.png
-    link: /work/design/medley
+    link: /work/design/medley.html
     tag: design
     detail: 
       - info: Launched in 2016, Medley Cuisine specializes in manufacturing and distributing a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels and operates branded retail locations.
@@ -26,10 +26,11 @@ design:
   - title: delibake
     name: Delibake
     image_thumb: /assets/images/portfolio-details/design/delibake/thumbnail.png
-    link: /work/design/delibake
+    link: /work/design/delibake.html
     tag: design
     detail: 
       - info: Launched in 2016, Delibake is a premium bakery and pastry shop in Mauritius. They carry Medley Cuisine's finest products.
+      - info: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for 3 branded retail location.
     tools_used:
       left:
         - name: Wordpress
@@ -50,7 +51,7 @@ design:
   - title: mbake
     name: Mbake
     image_thumb: /assets/images/portfolio-details/design/mbake/thumbnail.png
-    link: /work/design/mbake
+    link: /work/design/mbake.html
     tag: design
     detail: 
       - info: Designed the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for a retail bakery chain. 
@@ -66,7 +67,7 @@ design:
   - title: foodmarket
     name: FoodMarket
     image_thumb: /assets/images/portfolio-details/design/foodmarket/thumbnail.png
-    link: /work/design/foodmarket
+    link: /work/design/foodmarket.html
     tag: design
     detail: 
       - info: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for a food court style restaurant
@@ -82,7 +83,7 @@ design:
   - title: aanari
     name: Aanari Hotel & Spa
     image_thumb: /assets/images/portfolio-details/design/aanari/thumbnail.png
-    link: /work/design/aanari
+    link: /work/design/aanari.html
     tag: design
     detail:
       - info: Created the hotel brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging. 

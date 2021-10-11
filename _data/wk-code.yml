@@ -2,7 +2,7 @@ code:
   - title: userTags
     name: User Tag Manager
     image_thumb: /assets/images/portfolio-details/code/user-tagging/thumbnail.png
-    link: /work/code/user-tagging
+    link: /work/code/user-tagging.html
     tag: code
     detail: 
       - info: Allow users to tag multiple Instagram accounts in bulk instead of manually tagging 1 account at a time on every Instagram Post. And avoid any overlap of accounts on the image when tagging.
@@ -30,7 +30,7 @@ code:
   - title: fbtw
     name: Facebook & Twitter Customization
     image_thumb: /assets/images/portfolio-details/code/fbtw/thumbnail.png
-    link: /work/code/fbtw-customization
+    link: /work/code/fbtw-customization.html
     tag: code
     detail: 
       - info: Allow users to post different content on each social media platform. This evolved the posting user experience from being Instagram focused to being cross-platform.
@@ -58,7 +58,7 @@ code:
   - title: coupon
     name: Sellit Coupon
     image_thumb: /assets/images/portfolio-details/code/sellit-coupon/thumbnail.png
-    link: /work/code/sellit-coupon
+    link: /work/code/sellit-coupon.html
     tag: code
     detail: 
       - info: To create promo codes that a social media manager can create, manage, and track in sellit. The feature creates the ability to offer discounts to their customers.
@@ -87,7 +87,7 @@ code:
   - title: calendar
     name: Calendar Notes
     image_thumb: /assets/images/portfolio-details/code/calendar-note/thumbnail.png
-    link: /work/code/calendar-note
+    link: /work/code/calendar-note.html
     tag: code
     detail: 
       - info: Allow users to create notes for themselves or a team member about potential ideas as a calendar entry. The notes can be one-offs or on a repeating schedule. 
@@ -120,7 +120,7 @@ code:
   - title: extension
     name: Planoly Uploader
     image_thumb: /assets/images/portfolio-details/code/pin-planner/thumbnail.png
-    link: /work/code/pin-extension
+    link: /work/code/pin-extension.html
     tag: code
     detail: 
       - info: Implemented the core "Plan It" feature. Giving users the ability to upload one or multiple images while browsing online and scheduling them to their pinterest account. 
@@ -150,7 +150,7 @@ code:
   - title: ask
     name: Ask
     image_thumb: /assets/images/portfolio-details/code/ask/thumbnail.png
-    link: /work/code/ask
+    link: /work/code/ask.html
     tag: code
     detail: 
       - info: Built a Ruby on Rails application that allows users to view questions and answers. A user needs to be registered to ask questions, post an answer or add any comments. The application is using MySql to store its data, and is deployed on Heroku.
@@ -177,7 +177,7 @@ code:
   - title: privacyshell
     name: PrivacyShell
     image_thumb: /assets/images/portfolio-details/code/privacyshell/thumbnail.png
-    link: /work/code/privacyshell
+    link: /work/code/privacyshell.html
     tag: code
     detail: 
       - info: Privacy Shell is a platform that raises awareness about online privacy. Users learn about privacy news, connect with privacy experts and install the privacy products that best suit their needs to protect their online privacy.
@@ -204,7 +204,7 @@ code:
   - title: privacysnapper
     name: Privacy Snapper
     image_thumb: /assets/images/portfolio-details/code/psnapper/thumbnail.png
-    link: /work/code/psnapper
+    link: /work/code/psnapper.html
     tag: code
     detail: 
       - info: Privacy Snapper is a browser extension that collects privacy policies of the sites users visit. The data is displayed on a dashboard for users to review any updates. It is one of Privacy Shell's multiple products.
@@ -243,7 +243,7 @@ code:
   - title: topsecret
     name: TopSecret
     image_thumb: /assets/images/portfolio-details/code/topsecret/thumbnail.png
-    link: /work/code/topsecret
+    link: /work/code/topsecret.html
     tag: code
     detail: 
       - info: Topsecret is a peer to peer Multilayered Encryption Video Chat for Mobile and Desktop. Topsecret is one of Privacy Shell's multiple products.
@@ -272,7 +272,7 @@ code:
   - title: taskcluster
     name: TaskCluster Tool
     image_thumb: /assets/images/portfolio-details/code/taskcluster-tool/thumbnail.png
-    link: /work/code/taskcluster
+    link: /work/code/taskcluster.html
     tag: code
     detail: 
       - info: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.
@@ -300,7 +300,7 @@ code:
   - title: taskclusterdocs
     name: TaskCluster Docs
     image_thumb: /assets/images/portfolio-details/code/taskclusterdocs/thumbnail.png
-    link: /work/code/taskclusterdocs
+    link: /work/code/taskclusterdocs.html
     tag: code
     detail: 
       - info: Taskcluster is the build system that powers Mozilla's automated builds and tests. It consists of many small services.

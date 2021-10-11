@@ -2,10 +2,10 @@ product:
   - title: elasticball
     name: Elastic Ball
     image_thumb: /assets/images/portfolio-details/product/elasticball/elasticball-1.jpg
-    link: /work/product/elastic-ball
+    link: /work/product/elastic-ball.html
     tag: product
     detail:
-      - info: The ball is made by tying elastics into a knot and then wrapping more elastics around it. It eas of the fashion item that we carried at Eyecandy Accessories Inc. 
+      - info: The ball is made by tying elastics into a knot and then wrapping more elastics around it. It was one of the fashion item that we carried at Eyecandy Accessories Inc. 
       - info: This particular item increased the sales enormously at Eyecandy. It helped place the brand in stores like Bed Bath and Beyond. The moment it was manufactured in China, it was already sold out in Canada.
     clients: Walgreens, Shopko, Fields, Bed Bath and Beyond
     tools_used:
@@ -18,7 +18,7 @@ product:
   - title: elasticToGo
     name: Elastic To Go
     image_thumb: /assets/images/portfolio-details/product/elastic-to-go/elastic-to-go.jpg
-    link: /work/product/elastic-to-go
+    link: /work/product/elastic-to-go.html
     tag: product
     detail: 
       - info: A new concept for carrying elastics that I designed at Eyecandy. It was an easy way to carry elastics around and not ending up losing them. It was designed in a gum packaging concept. 
@@ -32,7 +32,7 @@ product:
   - title: giftset
     name: Gift set
     image_thumb: /assets/images/portfolio-details/product/giftset/thumbnail.jpg
-    link: /work/product/giftset
+    link: /work/product/giftset.html
     tag: product
     detail: 
       - info: The gift sets were a new product line that I incepted and designed. I designed the whole line as a new addition to our product line.
@@ -49,7 +49,7 @@ product:
   - title: dressup
     name: Dress up 
     image_thumb: /assets/images/portfolio-details/product/dressup/thumbnail.jpg
-    link: /work/product/dressup
+    link: /work/product/dressup.html
     tag: product
     detail: 
       - info: Designed a dress-up line for kids.
@@ -69,7 +69,7 @@ product:
   - title: accessories
     name: Hair Accessories
     image_thumb: /assets/images/portfolio-details/product/accessories/thumbnail.png
-    link: /work/product/accessories
+    link: /work/product/accessories.html
     tag: product
     detail: 
       - info: Designed licensed products and packaging from known brands such as Mattel, Nickolodeon.
@@ -86,7 +86,7 @@ product:
   - title: hosiery
     name: Hosiery
     image_thumb: /assets/images/portfolio-details/product/headwear/thumbnail.jpg
-    link: /work/product/hosiery
+    link: /work/product/hosiery.html
     tag: product
     detail: 
       - info: Designed licensed products from known brands such as Mattel, Nickolodeon, Hasbro.

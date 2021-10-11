@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Kristel Teng | Resume
-permalink: /resume
+title: Kristel Teng | Timeline
+permalink: /timeline
 ---
 
 <section id="introduction" class="padding-top padding-bottom">
@@ -33,11 +33,9 @@ permalink: /resume
                 <li class="work-detail">{{ detail.list}}</li>
                 {% endfor %}
               </ul>
-              {% if work.tool-used.length > 0 %}
               <p class="resume-tools">
                 <span class="tools-title">Tools used:</span> {{ work.tools-used }}
               </p>
-              {% endif %}
               {% endfor %}
             </div>
           </div>

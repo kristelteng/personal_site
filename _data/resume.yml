@@ -6,13 +6,13 @@
 
       project:  
         - name: User Tag Manager
-          link: /work/code/user-tagging
+          link: /work/code/user-tagging.html
           work-detail:
             - list: Implemented a user tag management system for Instagram posts that gives users the ability to create groups of user tags and to apply the groups to posts instead of doing so individually.
           tools-used: Javascript, Node.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5, PHP, MySQL, Figma
 
         - name: Twitter & Facebook Customization
-          link: /work/code/fbtw-customization
+          link: /work/code/fbtw-customization.html
           work-detail:
             - list: Re-Architected the front end, allowing users to customize and share their Twitter & Facebook posts when auto-posting.
           tools-used: Javascript, Node.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5, PHP, MySQL, Figma
@@ -23,14 +23,14 @@
 
       project:
         - name: Sellit Coupon
-          link: /work/code/sellit-coupon
+          link: /work/code/sellit-coupon.html
           work-detail:
             - list: Allowing social media managers to offer discounts to their customers on the Sellit ecommerce site. 
           tools-used: Javascript, Node.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5, PHP, MySQL, GraphQL, DynamoDB, Figma
 
         - name: Calendar Notes
           description: 
-          link: /work/code/calendar-note
+          link: /work/code/calendar-note.html
           work-detail:
             - list: Custom messages that social media managers can add to their Planoly Calendar. Allow team members to collaborate more effectively by creating reminders or sharing ideas with each other.
           tools-used: Javascript, Node.js, Backbone.js, Marionette.js, Symfony, CSS3, HTML5, PHP, MySQL, GraphQL, DynamoDB, Figma
@@ -47,7 +47,7 @@
         #     - list: 
         
         - name: Planoly Uploader
-          link: /work/code/pin-extension
+          link: /work/code/pin-extension.html
           work-detail:
             - list: A chrome Extension that provides an easy way to upload images in bulk to Pinterest or the ability to quickly Pin Content users discover while browsing online.
           tools-used: Javascript, CSS3, HTML5, Node.js, MySQL, DynamoDB, GraphQL, Stencil.js
@@ -58,7 +58,7 @@
 
       project:
         - name: Taskcluster Tool
-          link: /work/code/taskcluster
+          link: /work/code/taskcluster.html
           tools-used: Javascript, Node.js, React.js, Redux
           work-detail:
             - list: A build system that powers Mozilla's automated builds and tests. It consists of many small services like Taskcluster Tool.
@@ -69,7 +69,7 @@
             - list: A documentation resource for all Taskcluster sub-systems. 
             
             - list: Implemented an automated doc generation system, where each Taskcluster component updates triggers a new version of the static site to be generated. It allows all developers on Taskcluster to have an automatic way to publish documentation when deploying new features.
-          link: /work/code/taskclusterdocs
+          link: /work/code/taskclusterdocs.html
           tools-used: Javascript, Node.js, React.js, Redux
 
     - name: Privacy Shell Inc.
@@ -83,7 +83,7 @@
             - list: Collaborated with the CEO to architect the website. Implemented Privacy Shell using Wordpress. Worked closely with other developers to maintain the website.
             - list: Tracked analysis with Google Analytics to measure the impact of design changes on users and implemented SEO techniques. Responsible in monitoring and reporting on website traffic and performance to the internal team.
             - list: Designed the visual elements including logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the website.
-          link: /work/code/privacyshell
+          link: /work/code/privacyshell.html
           
           tools-used: Javascript, CSS3, HTML5, Invision, Adobe Suite, Google Analytics, Wordpress
         
@@ -95,7 +95,7 @@
             - list: Conducted user surveys, user research and organized multiple usability tests. Tracked analysis with Google Analytics to measure the impact of design changes on users and implemented SEO techniques. Responsible for monitoring and reporting on website traffic and performance to the internal team.
             - list: Designed the visual elements including graphic elements, logo, marketing materials and all branding. Created design specification to ensure brand consistency throughout the site and the product.
 
-          link: /work/code/privacysnapper
+          link: /work/code/privacysnapper.html
           tools-used: Javascript, Laravel.js, PHP, CSS3, HTML5, Invision, Adobe Suite, Google Analytics, Wordpress, Optimizely
 
         - name: Topsecret
@@ -104,7 +104,7 @@
             - list: Implemented the landing pages for Topsecret in Wordpress, tracked analysis with Google Analytics and conducted A/B testing in Optimizely.
             - list: Designed the user flows and layouts for the chat system. Created the visual elements including graphic elements, marketing materials and all branding.
 
-          link: /work/code/topsecret
+          link: /work/code/topsecret.html
           tools-used: Javascript, Wordpress, CSS3, HTML5, PHP, Invision, Adobe Suite, Google Analytics, Optimizely
     
     - name: Medley Cuisine
@@ -113,28 +113,26 @@
 
       project:
         - name: Medley Cuisine
-          link: /work/design/medley
+          link: /work/design/medley.html
           work-detail:
-            - list: A supplier for a wide range of bakery and pastry goods. Medley caters to grocery store chains, restaurants and hotels.
             - list: Developed the company's informational website in Jekyll using CSS3, HTML5 and JS 
             - list: Designed the overall visual design for Medley Cuisine and its multiple brands (Delibake &amp; Mbake), including shop interiors and packaging that are placed in 15 grocery stores.
           tools-used: Javascript, Jekyll, CSS3, HTML5, Adobe Suite
 
         - name: Delibake
-          link: /work/design/delibake
+          link: /work/design/delibake.html
           work-detail:
-            - list: A bakery shop that carries Medley Cuisine's finest bakeries and pastries.
             - list: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for 3 branded retail location.
           tools-used: Wordpress, Adobe Suite
 
         - name: Mbake
-          link: /work/design/mbake
+          link: /work/design/mbake.html
           work-detail:
             - list: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for a  retail bakery chain.
           tools-used: Wordpress, Adobe Suite
 
         - name: FoodMarket
-          link: /work/design/foodmarket
+          link: /work/design/foodmarket.html
           work-detail:
             - list: Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging for a food court style restaurant.
           tools-used: Adobe Suite
@@ -147,7 +145,7 @@
         - name: Aanari Hotel &amp; Spa
           work-detail: 
             - list: Built in 2009, Aanari Hotel & Spa is a sweet boutique-like hotel. Created the brand and visual elements including logo, menu, marketing materials, signage, shop interiors and packaging.
-          link: /work/design/aanari
+          link: /work/design/aanari.html
           tools-used: Javascript, Jekyll, CSS3, HTML5, Adobe Suite
 
     - name: Eyecandy Accessories Inc.
@@ -158,33 +156,31 @@
         - name: Elastic ball
           work-detail:
             - list: The lollipop concept was inspired from the name Eyecandy. I packaged the elastic ball as a lollipop candy. It was popular with customers because of the "cuteness" of the items. 
-          link: /work/product/elastic-ball
-          work-detail:
-            - list: Designed the product and the packaging.
+          link: /work/product/elastic-ball.html
           tools-used: Adobe Suite
         
         - name: Elastic To Go
           work-detail:
             - list: Elastic To Go was inspired by gum packaging, a new product line that I designed at Eyecandy. It made carrying elastics around more practical. 
-          link: /work/product/elastic-to-go
+          link: /work/product/elastic-to-go.html
           tools-used: Adobe Suite
 
         - name: Gift Set
           work-detail: 
             - list: The gift sets were a new product line that I incepted and designed. I designed the whole line as a new addition to our product line.
-          link: /work/product/giftset
+          link: /work/product/giftset.html
           tools-used: Adobe Suite
         
         - name: Dress Up
           work-detail: 
             - list: Designed a dress-up line for kids.
-          link: /work/product/dressup
+          link: /work/product/dressup.html
           tools-used: Adobe Suite
         
         - name: Hair accessories
           work-detail: 
-            - list: Designed licensed products from known brands such as Mattel, Nickelodeon.
-          link: /work/product/accessories
+            - list: Designed licensed products and packaging from known brands such as Mattel, Nickelodeon.
+          link: /work/product/accessories.html
           tools-used: Adobe Suite
 
     - name: Gertex Hosiery
@@ -194,7 +190,7 @@
         - name: Hosiery
           work-detail: 
             - list: Designed licensed products from known brands such as Hasbro Mattel, Nickelodeon.
-          link: /work/product/hosiery
+          link: /work/product/hosiery.html
           tools-used: Adobe Suite
 
 - section: Education 
